@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>鲜品小店</title>
+
+  <!-- PWA Meta -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="鲜品小店">
+  <meta name="theme-color" content="#007AFF">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <link rel="manifest" href="manifest.json">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-container">
+    <!-- 顶部标题栏 -->
+    <header class="app-header" id="appHeader">
+      <button class="role-toggle" id="roleToggle" onclick="toggleRole()">🏪</button>
+      <h1 id="headerTitle">🥩 鲜品小店</h1>
+      <span class="header-badge" id="cartBadge" style="display:none" onclick="switchTab('cart')">🛒<span id="cartCount">0</span></span>
+    </header>
+
+    <!-- 主内容区 -->
+    <main class="app-main" id="appMain">
+
+      <!-- ========== 1. 店铺 ========== -->
+      <section class="tab-page active" id="page-shop">
+        <div class="shop-search">
+          <input type="text" id="shopSearch" placeholder="🔍 搜索商品..." oninput="renderShop()">
+        </div>
+        <div class="category-tabs" id="categoryTabs"></div>
+        <div class="product-grid" id="productGrid"></div>
+      </section>
+
+      <!-- ========== 2. 购物车 ========== -->
+      <section class="tab-page" id="page-cart">
+        <div class="cart-list" id="cartList"></div>
+        <div class="cart-empty" id="cartEmpty" style="display:none">
+          <div class="empty-icon">🛒</div>
+          <p>购物车是空的</p>
+          <button class="btn btn-primary" onclick="switchTab('shop')">去逛逛</button>
+        </div>
+        <div class="cart-footer" id="cartFooter" style="display:none">
+          <div class="cart-total">
+            <span>合计：</span>
+            <span class="total-price" id="cartTotal">¥0.00</span>
+          </div>
+          <button class="btn btn-primary btn-block" onclick="showCheckoutModal()">去下单</button>
+        </div>
+      </section>
+
+      <!-- ========== 3. 订单 ========== -->
+      <section class="tab-page" id="page-orders">
+        <div class="order-search">
+          <input type="tel" id="orderSearchPhone" placeholder="输入手机号查订单" oninput="renderOrders()">
+        </div>
+        <div class="order-tabs">
+          <button class="order-tab active" data-status="全部" onclick="filterOrders('全部', this)">全部</button>
+          <button class="order-tab" data-status="待支付" onclick="filterOrders('待支付', this)">待支付</button>
+          <button class="order-tab" data-status="已支付" onclick="filterOrders('已支付', this)">已支付</button>
+          <button class="order-tab" data-status="已完成" onclick="filterOrders('已完成', this)">已完成</button>
+        </div>
+        <div class="order-list" id="orderList"></div>
+      </section>
+
+      <!-- ========== 4. 积分中心 ========== -->
+      <section class="tab-page" id="page-points">
+        <div class="points-login" id="pointsLogin">
+          <div class="form-group">
+            <label>手机号</label>
+            <input type="tel" id="pointsPhone" placeholder="请输入手机号" value="16866886688">
+          </div>
+          <button class="btn btn-primary btn-block" onclick="loginPoints()">进入积分中心</button>
+        </div>
+        <div class="points-main" id="pointsMain" style="display:none">
+          <div class="points-card">
+            <div class="points-balance-label">当前积分</div>
+            <div class="points-balance-value" id="pointsBalance">0</div>
+            <div class="points-balance-unit">积分</div>
+          </div>
+          <div class="points-actions">
+            <button class="points-btn checkin" id="checkinBtn" onclick="dailyCheckin()">
+              <span class="points-btn-icon">📅</span>
+              <span>每日打卡</span>
+              <span class="points-btn-reward">+10积分</span>
+            </button>
+            <button class="points-btn share" onclick="shareShop()">
+              <span class="points-btn-icon">📤</span>
+              <span>分享店铺</span>
+              <span class="points-btn-reward">+5积分</span>
+            </button>
+          </div>
+          <div class="points-rules">
+            <h4>📋 积分规则</h4>
+            <ul>
+              <li>每日打卡：+10积分（每天限1次）</li>
+              <li>分享店铺：+5积分（每天限3次）</li>
+              <li>有人通过你的分享关注：+3积分/人</li>
+              <li>有人通过你的分享注册：+5积分/人</li>
+              <li>有人通过你的分享下单：+10积分/单</li>
+              <li>下单消费：每消费¥1 = +1积分</li>
+            </ul>
+          </div>
+          <div class="referral-stats" id="referralStats">
+            <h4>📤 我的裂变数据</h4>
+            <div class="referral-grid" id="referralGrid"></div>
+          </div>
+          <div class="points-history" id="pointsHistory">
+            <h4>📜 积分记录</h4>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== 商家端：商品管理 ========== -->
+      <section class="tab-page" id="page-merchant-products">
+        <div style="display:flex;gap:8px;margin-bottom:10px;">
+          <input type="text" id="merchantProductSearch" placeholder="🔍 搜索商品..." oninput="renderMerchantProducts()" style="flex:1;padding:10px;border:1px solid var(--border);border-radius:8px;font-size:14px;outline:none;">
+          <button class="btn btn-secondary btn-sm" onclick="openModal('categoryModal');renderCategoryList();">📂 分类</button>
+        </div>
+        <button class="btn btn-primary btn-block" onclick="showProductModal()">+ 添加商品</button>
+        <div class="admin-product-list" id="adminProductList"></div>
+      </section>
+
+      <!-- ========== 商家端：订单管理 ========== -->
+      <section class="tab-page" id="page-merchant-orders">
+        <div style="margin-bottom:10px;">
+          <input type="text" id="merchantOrderSearch" placeholder="🔍 搜索手机号或姓名..." oninput="renderMerchantOrders()" style="width:100%;padding:10px;border:1px solid var(--border);border-radius:8px;font-size:14px;outline:none;">
+        </div>
+        <div class="order-tabs">
+          <button class="order-tab active" data-status="全部" onclick="filterMerchantOrders('全部', this)">全部</button>
+          <button class="order-tab" data-status="待支付" onclick="filterMerchantOrders('待支付', this)">待支付</button>
+          <button class="order-tab" data-status="已支付" onclick="filterMerchantOrders('已支付', this)">已支付</button>
+          <button class="order-tab" data-status="已完成" onclick="filterMerchantOrders('已完成', this)">已完成</button>
+        </div>
+        <div class="order-list" id="merchantOrderList"></div>
+      </section>
+
+      <!-- ========== 商家端：用户管理 ========== -->
+      <section class="tab-page" id="page-merchant-users">
+        <div style="margin-bottom:10px;">
+          <input type="text" id="merchantUserSearch" placeholder="🔍 搜索手机号或姓名..." oninput="renderMerchantUsers()" style="width:100%;padding:10px;border:1px solid var(--border);border-radius:8px;font-size:14px;outline:none;">
+        </div>
+        <div class="user-list" id="userList"></div>
+      </section>
+
+      <!-- ========== 商家端：积分管理 ========== -->
+      <section class="tab-page" id="page-merchant-points">
+        <div style="margin-bottom:10px;">
+          <input type="text" id="merchantPointsSearch" placeholder="🔍 搜索手机号..." oninput="renderMerchantPoints()" style="width:100%;padding:10px;border:1px solid var(--border);border-radius:8px;font-size:14px;outline:none;">
+        </div>
+        <div class="points-mgmt-header">
+          <span class="points-mgmt-title">所有用户积分</span>
+        </div>
+        <div class="points-mgmt-list" id="pointsMgmtList"></div>
+      </section>
+
+    </main>
+
+    <!-- 底部导航：顾客端 -->
+    <nav class="bottom-nav" id="navCustomer">
+      <button class="nav-btn active" data-tab="shop" onclick="switchTab('shop')">
+        <span class="nav-btn-icon">🏪</span>
+        <span class="nav-btn-label">店铺</span>
+      </button>
+      <button class="nav-btn" data-tab="cart" onclick="switchTab('cart')">
+        <span class="nav-btn-icon">🛒</span>
+        <span class="nav-btn-label">购物车</span>
+      </button>
+      <button class="nav-btn" data-tab="orders" onclick="switchTab('orders')">
+        <span class="nav-btn-icon">📋</span>
+        <span class="nav-btn-label">订单</span>
+      </button>
+      <button class="nav-btn" data-tab="points" onclick="switchTab('points')">
+        <span class="nav-btn-icon">🎁</span>
+        <span class="nav-btn-label">积分</span>
+      </button>
+    </nav>
+
+    <!-- 底部导航：商家端 -->
+    <nav class="bottom-nav" id="navMerchant" style="display:none">
+      <button class="nav-btn active" data-tab="merchant-products" onclick="switchTab('merchant-products')">
+        <span class="nav-btn-icon">📦</span>
+        <span class="nav-btn-label">商品</span>
+      </button>
+      <button class="nav-btn" data-tab="merchant-orders" onclick="switchTab('merchant-orders')">
+        <span class="nav-btn-icon">📋</span>
+        <span class="nav-btn-label">订单</span>
+      </button>
+      <button class="nav-btn" data-tab="merchant-users" onclick="switchTab('merchant-users')">
+        <span class="nav-btn-icon">👥</span>
+        <span class="nav-btn-label">用户</span>
+      </button>
+      <button class="nav-btn" data-tab="merchant-points" onclick="switchTab('merchant-points')">
+        <span class="nav-btn-icon">⭐</span>
+        <span class="nav-btn-label">积分</span>
+      </button>
+    </nav>
+  </div>
+
+  <!-- 下单弹窗 -->
+  <div class="modal-overlay" id="checkoutModal">
+    <div class="modal modal-bottom">
+      <div class="modal-header">
+        <h3>确认下单</h3>
+        <button class="modal-close" onclick="closeModal('checkoutModal')">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <label>姓名 *</label>
+          <input type="text" id="checkoutName" placeholder="请输入您的姓名">
+        </div>
+        <div class="form-group">
+          <label>手机号 *</label>
+          <input type="tel" id="checkoutPhone" placeholder="请输入手机号（用于自提核验）">
+        </div>
+        <div class="checkout-summary" id="checkoutSummary"></div>
+        <div class="form-group">
+          <label>备注</label>
+          <input type="text" id="checkoutNote" placeholder="有什么要跟老板说的？">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" onclick="closeModal('checkoutModal')">取消</button>
+        <button class="btn btn-primary" onclick="submitOrder()">确认下单</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 商品编辑弹窗（管理端） -->
+  <div class="modal-overlay" id="productModal">
+    <div class="modal modal-bottom">
+      <div class="modal-header">
+        <h3 id="productModalTitle">添加商品</h3>
+        <button class="modal-close" onclick="closeModal('productModal')">&times;</button>
+      </div>
+      <div class="modal-body">
+        <input type="hidden" id="productEditId">
+        <div class="form-group">
+          <label>商品名称 *</label>
+          <input type="text" id="productName" placeholder="如：酱牛肉">
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>分类</label>
+            <select id="productCategory">
+            </select>
+          </div>
+          <div class="form-group">
+            <label>单位</label>
+            <select id="productUnit">
+              <option value="斤">斤</option>
+              <option value="份">份</option>
+              <option value="只">只</option>
+              <option value="个">个</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>单价 (¥)</label>
+            <input type="number" id="productPrice" placeholder="0.00" step="0.01" min="0">
+          </div>
+          <div class="form-group">
+            <label>库存</label>
+            <input type="number" id="productStock" placeholder="0" min="0">
+          </div>
+        </div>
+        <div class="form-group">
+          <label>商品图片</label>
+          <div class="image-upload-area" onclick="document.getElementById('productImageFile').click()">
+            <span id="imageUploadPlaceholder">📷 点击上传商品图片</span>
+            <img id="imageUploadPreview" style="display:none;max-width:100%;max-height:150px;border-radius:8px;">
+          </div>
+          <input type="file" id="productImageFile" accept="image/*" style="display:none" onchange="handleImageUpload(event)">
+          <input type="hidden" id="productImageData">
+        </div>
+        <div class="form-group">
+          <label>图标 (emoji兜底)</label>
+          <input type="text" id="productImage" placeholder="不上传图片时显示此图标，如：🥩">
+        </div>
+        <div class="form-group">
+          <label>描述</label>
+          <textarea id="productDesc" rows="2" placeholder="商品描述（可选）"></textarea>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" onclick="closeModal('productModal')">取消</button>
+        <button class="btn btn-primary" onclick="saveProduct()">保存</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 支付模拟弹窗 -->
+  <div class="modal-overlay" id="payModal">
+    <div class="modal modal-bottom">
+      <div class="modal-header">
+        <h3>确认支付</h3>
+        <button class="modal-close" onclick="closeModal('payModal')">&times;</button>
+      </div>
+      <div class="modal-body" style="text-align:center;padding:30px;">
+        <div style="font-size:60px;margin-bottom:12px;">💳</div>
+        <p style="font-size:16px;font-weight:700;" id="payAmount"></p>
+        <p style="color:var(--text-secondary);font-size:13px;margin-top:8px;">模拟支付，点击确认即完成付款</p>
+        <input type="hidden" id="payOrderId">
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" onclick="closeModal('payModal')">取消</button>
+        <button class="btn btn-primary" onclick="confirmPay()">确认付款</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 积分详情弹窗（商家端） -->
+  <div class="modal-overlay" id="pointsDetailModal">
+    <div class="modal modal-bottom">
+      <div class="modal-header">
+        <h3 id="pointsDetailTitle">积分详情</h3>
+        <button class="modal-close" onclick="closeModal('pointsDetailModal')">&times;</button>
+      </div>
+      <div class="modal-body" id="pointsDetailBody"></div>
+    </div>
+  </div>
+
+  <!-- 分类管理弹窗（商家端） -->
+  <div class="modal-overlay" id="categoryModal">
+    <div class="modal modal-bottom">
+      <div class="modal-header">
+        <h3>分类管理</h3>
+        <button class="modal-close" onclick="closeModal('categoryModal')">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <label>新增分类</label>
+          <div style="display:flex;gap:8px;">
+            <input type="text" id="newCategoryName" placeholder="分类名称，如：凉菜" style="flex:1;">
+            <button class="btn btn-primary" onclick="addCategory()" style="flex-shrink:0;padding:10px 24px;">添加</button>
+          </div>
+        </div>
+        <div id="categoryList"></div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary btn-block" onclick="closeModal('categoryModal')">完成</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast 提示 -->
+  <div class="toast" id="toast"></div>
+
+  <script src="app.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js');
+    }
+  </script>
+</body>
+</html>

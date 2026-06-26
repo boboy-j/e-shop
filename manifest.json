@@ -1,0 +1,23 @@
+{
+  "name": "鲜品小店",
+  "short_name": "鲜品小店",
+  "description": "牛羊肉、卤货、鸭货商品售卖",
+  "start_url": "/e-shop/",
+  "scope": "/e-shop/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#007AFF",
+  "background_color": "#F2F2F7",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
