@@ -398,8 +398,22 @@ function submitOrder() {
 
   appData.orders.unshift(order);
 
-  // 消费积分
+  // 消费积分（自己）
   addPoints(phone, Math.floor(total), `消费赠送（订单 #${order.id.slice(-6)}）`);
+
+  // 裂变返积分：如果有人推荐了这个用户，推荐人按订单金额×5%×10获得积分
+  const refPhone = getReferrer(phone);
+  if (refPhone && refPhone !== phone) {
+    const refPoints = Math.floor(total * 0.5); // 金额×5%×10 = 金额×0.5
+    if (refPoints > 0) {
+      addPoints(refPhone, refPoints, `用户${phone}通过你的分享下单 ¥${total.toFixed(0)}`);
+      if (!appData.referrals[refPhone]) appData.referrals[refPhone] = { views: 0, follows: 0, registrations: 0, orders: 0 };
+      appData.referrals[refPhone].orders++;
+    }
+  }
+
+  // 记录该用户被推荐关系
+  markReferred(phone);
 
   clearCart();
   persist();
@@ -608,9 +622,9 @@ function shareShop() {
       try {
         addPoints(pointsPhone, 5, '分享店铺');
         appData.referrals[pointsPhone].views += Math.floor(Math.random() * 5) + 1;
-        if (Math.random() > 0.6) { appData.referrals[pointsPhone].follows++; addPoints(pointsPhone, 3, '有人通过你的分享关注'); }
-        if (Math.random() > 0.8) { appData.referrals[pointsPhone].registrations++; addPoints(pointsPhone, 5, '有人通过你的分享注册'); }
-        if (Math.random() > 0.85) { appData.referrals[pointsPhone].orders++; addPoints(pointsPhone, 10, '有人通过你的分享下单'); }
+        if (Math.random() > 0.6) { appData.referrals[pointsPhone].follows++; addPoints(pointsPhone, 10, '有人通过你的分享关注'); }
+        if (Math.random() > 0.8) { appData.referrals[pointsPhone].registrations++; addPoints(pointsPhone, 50, '有人通过你的分享注册'); }
+        if (Math.random() > 0.85) { appData.referrals[pointsPhone].orders++; addPoints(pointsPhone, Math.floor((Math.random() * 200 + 50) * 0.5), '有人通过你的分享下单'); }
         persist();
         renderPoints();
         showToast('分享成功！+5积分，下拉查看裂变数据');
@@ -654,9 +668,9 @@ function copyAndReward() {
     addPoints(pointsPhone, 5, '分享店铺');
     if (!appData.referrals[pointsPhone]) appData.referrals[pointsPhone] = { views: 0, follows: 0, registrations: 0, orders: 0 };
     appData.referrals[pointsPhone].views += Math.floor(Math.random() * 5) + 1;
-    if (Math.random() > 0.6) { appData.referrals[pointsPhone].follows++; addPoints(pointsPhone, 3, '有人通过你的分享关注'); }
-    if (Math.random() > 0.8) { appData.referrals[pointsPhone].registrations++; addPoints(pointsPhone, 5, '有人通过你的分享注册'); }
-    if (Math.random() > 0.85) { appData.referrals[pointsPhone].orders++; addPoints(pointsPhone, 10, '有人通过你的分享下单'); }
+    if (Math.random() > 0.6) { appData.referrals[pointsPhone].follows++; addPoints(pointsPhone, 10, '有人通过你的分享关注'); }
+    if (Math.random() > 0.8) { appData.referrals[pointsPhone].registrations++; addPoints(pointsPhone, 50, '有人通过你的分享注册'); }
+    if (Math.random() > 0.85) { appData.referrals[pointsPhone].orders++; addPoints(pointsPhone, Math.floor((Math.random() * 200 + 50) * 0.5), '有人通过你的分享下单'); }
     persist();
     closeModal('pointsDetailModal');
     renderPoints();
@@ -1074,6 +1088,23 @@ function showPointsDetail(phone) {
     `).join('') || '<p style="color:#94a3b8;font-size:13px;">暂无记录</p>'}
   `;
   openModal('pointsDetailModal');
+}
+
+// ==================== 推荐追踪 ====================
+
+function getReferrer(phone) {
+  const stored = localStorage.getItem('ref_' + phone);
+  if (stored) return stored;
+  const params = new URLSearchParams(window.location.search);
+  return params.get('ref') || '';
+}
+
+function markReferred(phone) {
+  const params = new URLSearchParams(window.location.search);
+  const ref = params.get('ref');
+  if (ref && ref !== phone) {
+    localStorage.setItem('ref_' + phone, ref);
+  }
 }
 
 function openModal(id) {
