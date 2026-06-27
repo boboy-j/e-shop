@@ -60,12 +60,22 @@ body {
   background: rgba(242, 242, 247, 0.85);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  padding: 0 16px;
-  height: var(--header-height);
+  padding: env(safe-area-inset-top) 16px 0;
+  height: calc(var(--header-height) + env(safe-area-inset-top));
   display: flex;
   align-items: center;
   justify-content: center;
   border-bottom: 0.5px solid var(--separator);
+}
+
+.app-header::before {
+  content: '';
+  position: absolute;
+  top: calc(-1 * env(safe-area-inset-top));
+  left: 0;
+  right: 0;
+  height: env(safe-area-inset-top);
+  background: rgba(242, 242, 247, 0.85);
 }
 
 .app-header h1 {
@@ -823,7 +833,34 @@ input:focus { background: rgba(118, 118, 128, 0.16); }
   padding: 12px 16px 16px;
 }
 
-/* ========== 表单 - iOS 风格 ========== */
+/* ========== 支付方式 ========== */
+.pay-methods {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.pay-method {
+  padding: 12px 10px;
+  border-radius: 10px;
+  border: 1.5px solid var(--gray5);
+  background: var(--card-bg);
+  font-size: 13px;
+  font-weight: 500;
+  font-family: var(--font);
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.15s;
+}
+
+.pay-method.active {
+  border-color: var(--blue);
+  background: rgba(0, 122, 255, 0.08);
+  color: var(--blue);
+  font-weight: 600;
+}
+
+.pay-method:active { background: rgba(0, 122, 255, 0.04); }
 .form-group { margin-bottom: 14px; }
 
 .form-group label {

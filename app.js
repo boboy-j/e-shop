@@ -449,22 +449,86 @@ function renderOrders() {
     `).join('');
 }
 
+let currentPayMethod = '微信余额';
+
 function showPayModal(orderId, amount) {
+  currentPayMethod = '微信余额';
   document.getElementById('payOrderId').value = orderId;
   document.getElementById('payAmount').textContent = `支付金额：${fmtMoney(amount)}`;
+  document.getElementById('redeemPoints').value = '';
+  document.getElementById('redeemInfo').style.display = 'none';
+
+  // 重置支付方式按钮
+  document.querySelectorAll('.pay-method').forEach(b => b.classList.remove('active'));
+  const defaultBtn = document.querySelector('.pay-method[data-method="微信余额"]');
+  if (defaultBtn) defaultBtn.classList.add('active');
+
+  // 积分抵扣
+  const phone = appData.orders.find(o => o.id === orderId)?.customerPhone || '';
+  const pt = appData.points[phone] || { balance: 0 };
+  const maxPoints = Math.min(pt.balance, Math.floor(amount * 10));
+  if (pt.balance >= 10) {
+    document.getElementById('pointsRedeemGroup').style.display = 'block';
+    document.getElementById('availablePoints').textContent = pt.balance;
+    document.getElementById('maxRedeem').textContent = fmtMoney(maxPoints / 10);
+    document.getElementById('redeemPoints').max = maxPoints;
+    document.getElementById('redeemPoints').value = '';
+    document.getElementById('redeemInfo').style.display = 'none';
+  } else {
+    document.getElementById('pointsRedeemGroup').style.display = 'none';
+  }
+
   openModal('payModal');
+}
+
+function selectPayMethod(method, btn) {
+  currentPayMethod = method;
+  document.querySelectorAll('.pay-method').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+}
+
+function updateRedeemAmount() {
+  const orderId = document.getElementById('payOrderId').value;
+  const order = appData.orders.find(o => o.id === orderId);
+  if (!order) return;
+  const redeemPts = parseInt(document.getElementById('redeemPoints').value) || 0;
+  const maxRedeem = parseInt(document.getElementById('redeemPoints').max) || 0;
+  const actualRedeem = Math.min(redeemPts - (redeemPts % 10), maxRedeem);
+  document.getElementById('redeemPoints').value = actualRedeem || '';
+  const discount = actualRedeem / 10;
+  document.getElementById('payAmount').textContent = `支付金额：${fmtMoney(order.total - discount)}`;
+  if (actualRedeem > 0) {
+    document.getElementById('redeemInfo').style.display = 'block';
+    document.getElementById('redeemInfo').textContent = `积分抵扣：-¥${discount.toFixed(2)}（消耗${actualRedeem}积分）`;
+  } else {
+    document.getElementById('redeemInfo').style.display = 'none';
+  }
 }
 
 function confirmPay() {
   const orderId = document.getElementById('payOrderId').value;
   const order = appData.orders.find(o => o.id === orderId);
   if (!order) return;
+
+  const redeemPts = parseInt(document.getElementById('redeemPoints').value) || 0;
   order.status = '已支付';
+  order.payMethod = currentPayMethod;
+
+  // 消耗积分
+  if (redeemPts > 0 && appData.points[order.customerPhone]) {
+    appData.points[order.customerPhone].balance -= redeemPts;
+    appData.points[order.customerPhone].history.push({
+      type: `积分抵扣（订单）`, points: -redeemPts, date: now()
+    });
+    order.redeemPoints = redeemPts;
+    order.actualPay = order.total - redeemPts / 10;
+  }
+
   persist();
   closeModal('payModal');
   renderOrders();
   if (currentRole === 'merchant') renderMerchantOrders();
-  showToast('支付成功！');
+  showToast(`支付成功！${redeemPts > 0 ? ' 已抵扣' + redeemPts + '积分' : ''}`);
 }
 
 function confirmPickup(orderId) {
