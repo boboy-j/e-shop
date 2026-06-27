@@ -151,6 +151,22 @@ if (appData.orders.length === 0 && appData.products.length > 0) {
   persist();
 }
 
+// 补救：已有用户积分不足时自动补充（兼容旧数据）
+let pointsFixed = false;
+appData.orders.forEach(o => {
+  const pt = appData.points[o.customerPhone];
+  if (pt && pt.balance <= 0) {
+    pt.balance = o.customerPhone === '16866886688' ? 156 : 80;
+    pt.history = pt.history || [];
+    if (pt.history.length === 0) {
+      pt.history.push({ type: '每日打卡', points: 20, date: now() });
+      pt.history.push({ type: '消费赠送（订单）', points: pt.balance - 20, date: now() });
+    }
+    pointsFixed = true;
+  }
+});
+if (pointsFixed) persist();
+
 // 模拟积分/裂变数据（检测缺失时自动补入）
 if (!appData.points['16866886688'] || !appData.points['16866886688'].history.some(h => h.points < 0)) {
   const pt = appData.points['16866886688'] || { balance: 0, history: [] };
