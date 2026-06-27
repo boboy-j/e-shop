@@ -741,9 +741,9 @@ function renderPoints() {
 
   document.getElementById('pointsHistory').innerHTML = `
     <h4>📜 积分记录</h4>
-    <div class="order-tabs" style="margin-bottom:8px;">
-      <button class="order-tab ${filterIncome ? 'active' : ''}" onclick="switchPointsHistory('income')">📥 积分收入 (${incomeCount})</button>
-      <button class="order-tab ${!filterIncome ? 'active' : ''}" onclick="switchPointsHistory('consume')">📤 积分消耗 (${consumeCount})</button>
+    <div class="points-filter-tabs">
+      <button class="points-filter-btn ${filterIncome ? 'active' : ''}" onclick="switchPointsHistory('income')">📥 积分收入 (${incomeCount})</button>
+      <button class="points-filter-btn ${!filterIncome ? 'active' : ''}" onclick="switchPointsHistory('consume')">📤 积分消耗 (${consumeCount})</button>
     </div>
     ${history.length === 0 ? '<p style="color:#94a3b8;font-size:13px;padding:10px 0;">暂无记录</p>' : ''}
     ${history.map(h => `
