@@ -136,7 +136,13 @@ if (appData.orders.length === 0 && appData.products.length > 0) {
       pickupCode: genPickupCode(), createdAt: now()
     });
     if (!appData.points[so.customerPhone]) {
-      appData.points[so.customerPhone] = { balance: 0, history: [] };
+      // 给模拟用户初始积分，让积分抵扣可见
+      const initBalance = so.customerPhone === '16866886688' ? 156 : 80;
+      appData.points[so.customerPhone] = { balance: initBalance, history: [
+        { type: '每日打卡', points: 20, date: now() },
+        { type: '分享店铺', points: 15, date: now() },
+        { type: '消费赠送（订单）', points: initBalance - 35, date: now() },
+      ] };
     }
     if (!appData.users[so.customerPhone]) {
       appData.users[so.customerPhone] = { name: so.customerName, wechatName: so.customerName, registeredAt: now() };
