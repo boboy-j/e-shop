@@ -80,7 +80,7 @@
           <div class="points-card">
             <div class="points-balance-label">当前积分</div>
             <div class="points-balance-value" id="pointsBalance">0</div>
-            <div class="points-balance-unit">积分</div>
+            <div class="points-balance-unit">积分 · 可抵扣 <span id="pointsRedeemValue">¥0.00</span></div>
           </div>
           <div class="points-actions">
             <button class="points-btn checkin" id="checkinBtn" onclick="dailyCheckin()">
@@ -103,6 +103,7 @@
               <li>有人通过你的分享注册：+5积分/人</li>
               <li>有人通过你的分享下单：+10积分/单</li>
               <li>下单消费：每消费¥1 = +1积分</li>
+              <li>10积分 = ¥1，支付时可直接抵扣</li>
             </ul>
           </div>
           <div class="referral-stats" id="referralStats">

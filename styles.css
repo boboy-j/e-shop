@@ -476,6 +476,8 @@ input:focus { background: rgba(118, 118, 128, 0.16); }
 .points-balance-value { font-size: 56px; font-weight: 700; margin: 2px 0; letter-spacing: -2px; }
 .points-balance-unit { font-size: 13px; opacity: 0.85; }
 
+#pointsRedeemValue { font-weight: 700; opacity: 1; }
+
 .points-actions {
   display: grid;
   grid-template-columns: 1fr 1fr;

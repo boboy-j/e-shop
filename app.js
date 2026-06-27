@@ -675,6 +675,7 @@ function renderPoints() {
 
   const pt = getPointsData();
   document.getElementById('pointsBalance').textContent = pt.balance;
+  document.getElementById('pointsRedeemValue').textContent = fmtMoney(pt.balance / 10);
 
   // 打卡按钮状态
   const checkinBtn = document.getElementById('checkinBtn');
