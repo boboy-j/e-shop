@@ -316,7 +316,7 @@
           <label>积分抵扣（10积分 = ¥1）</label>
           <div style="display:flex;align-items:center;gap:10px;">
             <span style="font-size:13px;color:var(--text-secondary);">可用 <b id="availablePoints" style="color:var(--blue);">0</b> 积分，最多抵 <b id="maxRedeem" style="color:var(--red);">¥0</b></span>
-            <input type="number" id="redeemPoints" placeholder="0" min="0" step="10" style="width:90px;text-align:center;" oninput="updateRedeemAmount()">
+            <input type="number" id="redeemPoints" placeholder="0" min="0" style="width:90px;text-align:center;" oninput="updateRedeemAmount()" inputmode="numeric">
             <span style="font-size:13px;">分</span>
           </div>
         </div>

@@ -527,18 +527,21 @@ function updateRedeemAmount() {
   const orderId = document.getElementById('payOrderId').value;
   const order = appData.orders.find(o => o.id === orderId);
   if (!order) return;
-  const redeemPts = parseInt(document.getElementById('redeemPoints').value) || 0;
-  const maxRedeem = parseInt(document.getElementById('redeemPoints').max) || 0;
-  const actualRedeem = Math.min(redeemPts - (redeemPts % 10), maxRedeem);
-  document.getElementById('redeemPoints').value = actualRedeem || '';
-  const discount = actualRedeem / 10;
+  const inputEl = document.getElementById('redeemPoints');
+  let redeemPts = parseInt(inputEl.value) || 0;
+  const maxRedeem = parseInt(inputEl.max) || 0;
+  // 不强制覆盖输入值，只在展示信息时做取整
+  const validPts = Math.min(redeemPts - (redeemPts % 10), maxRedeem);
+  const discount = validPts / 10;
   document.getElementById('payAmount').textContent = `支付金额：${fmtMoney(order.total - discount)}`;
-  if (actualRedeem > 0) {
+  if (validPts > 0) {
     document.getElementById('redeemInfo').style.display = 'block';
-    document.getElementById('redeemInfo').textContent = `积分抵扣：-¥${discount.toFixed(2)}（消耗${actualRedeem}积分）`;
+    document.getElementById('redeemInfo').textContent = `积分抵扣：-¥${discount.toFixed(2)}（消耗${validPts}积分）`;
   } else {
     document.getElementById('redeemInfo').style.display = 'none';
   }
+  // 光标位置保持不变
+  inputEl.dataset.lastValidPts = validPts;
 }
 
 function confirmPay() {
@@ -546,7 +549,10 @@ function confirmPay() {
   const order = appData.orders.find(o => o.id === orderId);
   if (!order) return;
 
-  const redeemPts = parseInt(document.getElementById('redeemPoints').value) || 0;
+  // 取整处理积分
+  let redeemPts = parseInt(document.getElementById('redeemPoints').value) || 0;
+  const maxRedeem = parseInt(document.getElementById('redeemPoints').max) || 0;
+  redeemPts = Math.min(redeemPts - (redeemPts % 10), maxRedeem);
   order.status = '已支付';
   order.payMethod = currentPayMethod;
 
