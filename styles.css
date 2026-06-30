@@ -651,6 +651,11 @@ input:focus { background: rgba(118, 118, 128, 0.16); }
   padding: 16px;
   margin-bottom: 12px;
   box-shadow: var(--shadow-sm);
+  display: none;
+}
+
+.analysis-card.visible {
+  display: block;
 }
 
 .analysis-card-title {
@@ -1380,22 +1385,64 @@ input:focus { background: rgba(118, 118, 128, 0.16); }
 .salary-card-actions { margin-top: 10px; display: flex; gap: 8px; }
 
 .analysis-summary {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
   gap: 10px;
+  margin-top: 20px;
   margin-bottom: 16px;
 }
 
 .analysis-item {
   background: var(--card-bg);
   border-radius: 14px;
-  padding: 14px;
+  padding: 14px 16px;
   box-shadow: var(--shadow-sm);
   text-align: center;
+  flex: 0 0 auto;
+  white-space: nowrap;
 }
 
 .analysis-item-label { font-size: 11px; color: var(--text-secondary); margin-bottom: 4px; }
 .analysis-item-value { font-size: 20px; font-weight: 700; letter-spacing: -0.3px; }
+
+/* 经营数据分析标签 */
+.analysis-section-label {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 4px 0 12px;
+  padding-top: 8px;
+}
+
+/* 6个banner网格 */
+.analysis-banner-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.analysis-banner {
+  background: var(--card-bg);
+  border-radius: 12px;
+  padding: 14px 8px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-primary);
+  box-shadow: var(--shadow-sm);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.analysis-banner:active {
+  transform: scale(0.96);
+}
+
+.analysis-banner.active {
+  background: var(--blue);
+  color: #fff;
+  box-shadow: 0 3px 10px rgba(0,122,255,0.3);
+}
 
 /* ========== 响应式 ========== */
 @media (min-width: 431px) {

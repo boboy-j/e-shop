@@ -143,41 +143,19 @@
           </div>
         </div>
 
-        <!-- 图表卡片：订单趋势 -->
-        <div class="analysis-card">
-          <div class="analysis-card-title">📊 订单状态分布</div>
-          <div class="analysis-chart" id="analysisOrderChart"></div>
+        <!-- 经营数据分析标签 + 6个Banner -->
+        <div class="analysis-section-label">经营数据分析</div>
+        <div class="analysis-banner-grid">
+          <div class="analysis-banner active" data-analysis="product" onclick="switchAnalysisTab('product', this)">商品销售</div>
+          <div class="analysis-banner" data-analysis="order-status" onclick="switchAnalysisTab('order-status', this)">订单状态</div>
+          <div class="analysis-banner" data-analysis="order-trend" onclick="switchAnalysisTab('order-trend', this)">订单趋势</div>
+          <div class="analysis-banner" data-analysis="payment" onclick="switchAnalysisTab('payment', this)">支付方式</div>
+          <div class="analysis-banner" data-analysis="referral" onclick="switchAnalysisTab('referral', this)">裂变分析</div>
+          <div class="analysis-banner" data-analysis="points-rank" onclick="switchAnalysisTab('points-rank', this)">用户积分</div>
         </div>
 
-        <!-- 图表卡片：支付方式分布 -->
-        <div class="analysis-card">
-          <div class="analysis-card-title">💳 支付方式分布</div>
-          <div class="analysis-chart" id="analysisPayChart"></div>
-        </div>
-
-        <!-- 图表卡片：每日订单趋势 -->
-        <div class="analysis-card">
-          <div class="analysis-card-title">📈 每日订单趋势（近7天）</div>
-          <div class="analysis-chart" id="analysisTrendChart"></div>
-        </div>
-
-        <!-- 图表卡片：裂变数据 -->
-        <div class="analysis-card">
-          <div class="analysis-card-title">📤 裂变数据总览</div>
-          <div class="analysis-chart" id="analysisReferralChart"></div>
-        </div>
-
-        <!-- 图表卡片：商品销售排行 -->
-        <div class="analysis-card">
-          <div class="analysis-card-title">🏆 商品销售排行 Top 10</div>
-          <div class="analysis-chart" id="analysisProductRanking"></div>
-        </div>
-
-        <!-- 图表卡片：用户积分排行 -->
-        <div class="analysis-card">
-          <div class="analysis-card-title">⭐ 用户积分排行 Top 10</div>
-          <div class="analysis-chart" id="analysisPointsRanking"></div>
-        </div>
+        <!-- 详情容器：根据上方banner切换展示内容 -->
+        <div id="analysisDetailContainer"></div>
       </section>
 
       <!-- ========== 商家端：商品管理 ========== -->
