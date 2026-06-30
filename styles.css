@@ -1385,7 +1385,8 @@ input:focus { background: rgba(118, 118, 128, 0.16); }
 .salary-card-actions { margin-top: 10px; display: flex; gap: 8px; }
 
 .analysis-summary {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 10px;
   margin-top: 20px;
   margin-bottom: 16px;
@@ -1397,8 +1398,6 @@ input:focus { background: rgba(118, 118, 128, 0.16); }
   padding: 14px 16px;
   box-shadow: var(--shadow-sm);
   text-align: center;
-  flex: 0 0 auto;
-  white-space: nowrap;
 }
 
 .analysis-item-label { font-size: 11px; color: var(--text-secondary); margin-bottom: 4px; }
