@@ -7,10 +7,12 @@
 
   <!-- PWA Meta -->
   <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="apple-mobile-web-app-title" content="鲜品小店">
   <meta name="theme-color" content="#007AFF">
   <link rel="apple-touch-icon" href="icon-192.png">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🥩</text></svg>">
   <link rel="manifest" href="manifest.json">
 
   <link rel="stylesheet" href="styles.css">
@@ -116,6 +118,68 @@
         </div>
       </section>
 
+      <!-- ========== 商家端：分析 ========== -->
+      <section class="tab-page" id="page-merchant-analysis">
+        <div class="analysis-date-range">
+          <span class="analysis-range-label">数据概览</span>
+        </div>
+        <!-- 顶部核心指标 -->
+        <div class="analysis-summary" id="analysisSummary">
+          <div class="analysis-item">
+            <div class="analysis-item-label">用户总数</div>
+            <div class="analysis-item-value" id="analysisUserCount">0</div>
+          </div>
+          <div class="analysis-item">
+            <div class="analysis-item-label">总订单</div>
+            <div class="analysis-item-value" id="analysisOrderCount">0</div>
+          </div>
+          <div class="analysis-item">
+            <div class="analysis-item-label">总收入</div>
+            <div class="analysis-item-value" id="analysisRevenue" style="color:var(--green);">¥0</div>
+          </div>
+          <div class="analysis-item">
+            <div class="analysis-item-label">平均客单价</div>
+            <div class="analysis-item-value" id="analysisAvgOrder">¥0</div>
+          </div>
+        </div>
+
+        <!-- 图表卡片：订单趋势 -->
+        <div class="analysis-card">
+          <div class="analysis-card-title">📊 订单状态分布</div>
+          <div class="analysis-chart" id="analysisOrderChart"></div>
+        </div>
+
+        <!-- 图表卡片：支付方式分布 -->
+        <div class="analysis-card">
+          <div class="analysis-card-title">💳 支付方式分布</div>
+          <div class="analysis-chart" id="analysisPayChart"></div>
+        </div>
+
+        <!-- 图表卡片：每日订单趋势 -->
+        <div class="analysis-card">
+          <div class="analysis-card-title">📈 每日订单趋势（近7天）</div>
+          <div class="analysis-chart" id="analysisTrendChart"></div>
+        </div>
+
+        <!-- 图表卡片：裂变数据 -->
+        <div class="analysis-card">
+          <div class="analysis-card-title">📤 裂变数据总览</div>
+          <div class="analysis-chart" id="analysisReferralChart"></div>
+        </div>
+
+        <!-- 图表卡片：商品销售排行 -->
+        <div class="analysis-card">
+          <div class="analysis-card-title">🏆 商品销售排行 Top 10</div>
+          <div class="analysis-chart" id="analysisProductRanking"></div>
+        </div>
+
+        <!-- 图表卡片：用户积分排行 -->
+        <div class="analysis-card">
+          <div class="analysis-card-title">⭐ 用户积分排行 Top 10</div>
+          <div class="analysis-chart" id="analysisPointsRanking"></div>
+        </div>
+      </section>
+
       <!-- ========== 商家端：商品管理 ========== -->
       <section class="tab-page" id="page-merchant-products">
         <div style="display:flex;gap:8px;margin-bottom:10px;">
@@ -183,7 +247,11 @@
 
     <!-- 底部导航：商家端 -->
     <nav class="bottom-nav" id="navMerchant" style="display:none">
-      <button class="nav-btn active" data-tab="merchant-products" onclick="switchTab('merchant-products')">
+      <button class="nav-btn active" data-tab="merchant-analysis" onclick="switchTab('merchant-analysis')">
+        <span class="nav-btn-icon">📊</span>
+        <span class="nav-btn-label">分析</span>
+      </button>
+      <button class="nav-btn" data-tab="merchant-products" onclick="switchTab('merchant-products')">
         <span class="nav-btn-icon">📦</span>
         <span class="nav-btn-label">商品</span>
       </button>

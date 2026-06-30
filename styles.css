@@ -634,7 +634,101 @@ input:focus { background: rgba(118, 118, 128, 0.16); }
   margin-top: 2px;
 }
 
-/* ========== 用户管理 ========== */
+/* ========== 分析卡片 ========== */
+.analysis-date-range {
+  margin-bottom: 12px;
+}
+
+.analysis-range-label {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: -0.2px;
+}
+
+.analysis-card {
+  background: var(--card-bg);
+  border-radius: 14px;
+  padding: 16px;
+  margin-bottom: 12px;
+  box-shadow: var(--shadow-sm);
+}
+
+.analysis-card-title {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  letter-spacing: -0.2px;
+}
+
+.analysis-chart {
+  min-height: 40px;
+}
+
+/* 柱状图 */
+.bar-chart {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.bar-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+}
+
+.bar-rank {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 11px;
+  font-weight: 700;
+  color: #fff;
+  flex-shrink: 0;
+}
+
+.rank-1 { background: #FF3B30; }
+.rank-2 { background: #FF9500; }
+.rank-3 { background: #007AFF; }
+.rank-4 { background: #8E8E93; }
+
+.bar-label {
+  min-width: 52px;
+  color: var(--text-secondary);
+  flex-shrink: 0;
+  font-weight: 500;
+}
+
+.bar-track {
+  flex: 1;
+  height: 20px;
+  background: rgba(118, 118, 128, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  min-width: 40px;
+}
+
+.bar-fill {
+  height: 100%;
+  border-radius: 10px;
+  transition: width 0.5s ease;
+  min-width: 4px;
+}
+
+.bar-fill.status-待支付 { background: #FF9500; }
+.bar-fill.status-已支付 { background: #007AFF; }
+.bar-fill.status-已完成 { background: #34C759; }
+
+.bar-value {
+  min-width: 52px;
+  text-align: right;
+  font-weight: 600;
+  color: var(--text);
+  flex-shrink: 0;
+}
 .user-list { display: flex; flex-direction: column; gap: 8px; }
 
 .user-card {

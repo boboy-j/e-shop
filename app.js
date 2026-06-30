@@ -265,7 +265,7 @@ function toggleRole() {
   if (currentRole === 'customer') {
     switchTab('shop');
   } else {
-    switchTab('merchant-products');
+    switchTab('merchant-analysis');
   }
 }
 
@@ -284,6 +284,7 @@ function switchTab(tab) {
   // 标题
   const titles = {
     shop: '🥩 鲜品小店', cart: '🛒 购物车', orders: '📋 我的订单', points: '🎁 积分中心',
+    'merchant-analysis': '📊 平台分析',
     'merchant-products': '📦 商品管理', 'merchant-orders': '📋 订单管理',
     'merchant-users': '👥 用户管理', 'merchant-points': '⭐ 积分管理'
   };
@@ -298,6 +299,7 @@ function switchTab(tab) {
     case 'cart': renderCart(); break;
     case 'orders': renderOrders(); break;
     case 'points': renderPoints(); break;
+    case 'merchant-analysis': renderMerchantAnalysis(); break;
     case 'merchant-products': renderMerchantProducts(); break;
     case 'merchant-orders': renderMerchantOrders(); break;
     case 'merchant-users': renderMerchantUsers(); break;
@@ -1118,7 +1120,204 @@ function showPointsDetail(phone) {
   openModal('pointsDetailModal');
 }
 
-// ==================== 推荐追踪 ====================
+// ==================== 分析功能 ====================
+
+function renderMerchantAnalysis() {
+  const orders = appData.orders || [];
+  const usersMap = collectAllUsers();
+  const totalUsers = Object.keys(usersMap).length;
+  const totalOrders = orders.length;
+  const paidOrders = orders.filter(o => o.status === '已支付' || o.status === '已完成');
+  const completedOrders = orders.filter(o => o.status === '已完成');
+  const revenue = paidOrders.reduce((s, o) => s + (o.actualPay || o.total || 0), 0);
+  const avgOrder = paidOrders.length > 0 ? revenue / paidOrders.length : 0;
+
+  // 核心指标
+  document.getElementById('analysisUserCount').textContent = totalUsers;
+  document.getElementById('analysisOrderCount').textContent = totalOrders;
+  document.getElementById('analysisRevenue').textContent = fmtMoney(revenue);
+  document.getElementById('analysisAvgOrder').textContent = fmtMoney(avgOrder);
+
+  // 订单状态分布
+  const statusCounts = { '待支付': 0, '已支付': 0, '已完成': 0 };
+  orders.forEach(o => { if (statusCounts[o.status] !== undefined) statusCounts[o.status]++; });
+  const maxStatus = Math.max(...Object.values(statusCounts), 1);
+  document.getElementById('analysisOrderChart').innerHTML = `
+    <div class="bar-chart">
+      ${Object.entries(statusCounts).map(([status, count]) => `
+        <div class="bar-item">
+          <div class="bar-label">${status}</div>
+          <div class="bar-track">
+            <div class="bar-fill status-${status}" style="width:${(count / maxStatus * 100).toFixed(1)}%"></div>
+          </div>
+          <div class="bar-value">${count}单</div>
+        </div>
+      `).join('')}
+    </div>
+  `;
+
+  // 支付方式分布
+  const payMethods = {};
+  paidOrders.forEach(o => {
+    const method = o.payMethod || '未记录';
+    payMethods[method] = (payMethods[method] || 0) + 1;
+  });
+  const maxPay = Math.max(...Object.values(payMethods), 1);
+  const payColors = { '微信余额': '#34C759', '银行卡': '#007AFF', '支付宝': '#1677FF', '现金': '#FF9500' };
+  document.getElementById('analysisPayChart').innerHTML = Object.keys(payMethods).length === 0
+    ? '<div style="text-align:center;padding:20px;color:var(--text-secondary);font-size:13px;">暂无支付数据</div>'
+    : `<div class="bar-chart">
+        ${Object.entries(payMethods).map(([method, count]) => `
+          <div class="bar-item">
+            <div class="bar-label">${method}</div>
+            <div class="bar-track">
+              <div class="bar-fill" style="width:${(count / maxPay * 100).toFixed(1)}%;background:${payColors[method] || '#8E8E93'}"></div>
+            </div>
+            <div class="bar-value">${count}笔</div>
+          </div>
+        `).join('')}
+      </div>`;
+
+  // 每日订单趋势（近7天）
+  const days = [];
+  for (let i = 6; i >= 0; i--) {
+    const d = new Date();
+    d.setDate(d.getDate() - i);
+    const dayStr = `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+    const dayLabel = `${d.getMonth()+1}/${d.getDate()}`;
+    const dayOrders = orders.filter(o => o.createdAt && o.createdAt.startsWith(dayStr));
+    const dayRevenue = dayOrders.filter(o => o.status === '已支付' || o.status === '已完成').reduce((s, o) => s + (o.actualPay || o.total || 0), 0);
+    days.push({ label: dayLabel, count: dayOrders.length, revenue: dayRevenue });
+  }
+  const maxDayCount = Math.max(...days.map(d => d.count), 1);
+  const maxDayRevenue = Math.max(...days.map(d => d.revenue), 1);
+  document.getElementById('analysisTrendChart').innerHTML = `
+    <div style="font-size:13px;color:var(--text-secondary);margin-bottom:8px;">📦 订单数</div>
+    <div class="bar-chart bar-chart-horizontal">
+      ${days.map(d => `
+        <div class="bar-item">
+          <div class="bar-label" style="min-width:44px;">${d.label}</div>
+          <div class="bar-track">
+            <div class="bar-fill" style="width:${(d.count / maxDayCount * 100).toFixed(1)}%;background:var(--blue);"></div>
+          </div>
+          <div class="bar-value">${d.count}单</div>
+        </div>
+      `).join('')}
+    </div>
+    <div style="font-size:13px;color:var(--text-secondary);margin:12px 0 8px;">💰 收入</div>
+    <div class="bar-chart bar-chart-horizontal">
+      ${days.map(d => `
+        <div class="bar-item">
+          <div class="bar-label" style="min-width:44px;">${d.label}</div>
+          <div class="bar-track">
+            <div class="bar-fill" style="width:${(d.revenue / maxDayRevenue * 100).toFixed(1)}%;background:var(--green);"></div>
+          </div>
+          <div class="bar-value">${fmtMoney(d.revenue)}</div>
+        </div>
+      `).join('')}
+    </div>
+  `;
+
+  // 裂变数据总览
+  const refTotal = { views: 0, follows: 0, registrations: 0, orders: 0 };
+  Object.values(appData.referrals || {}).forEach(r => {
+    refTotal.views += r.views || 0;
+    refTotal.follows += r.follows || 0;
+    refTotal.registrations += r.registrations || 0;
+    refTotal.orders += r.orders || 0;
+  });
+  const maxRef = Math.max(...Object.values(refTotal), 1);
+  document.getElementById('analysisReferralChart').innerHTML = Object.values(refTotal).every(v => v === 0)
+    ? '<div style="text-align:center;padding:20px;color:var(--text-secondary);font-size:13px;">暂无裂变数据</div>'
+    : `<div class="bar-chart">
+        <div class="bar-item">
+          <div class="bar-label">👁️ 浏览量</div>
+          <div class="bar-track"><div class="bar-fill" style="width:${(refTotal.views / maxRef * 100).toFixed(1)}%;background:#8B5CF6;"></div></div>
+          <div class="bar-value">${refTotal.views}</div>
+        </div>
+        <div class="bar-item">
+          <div class="bar-label">⭐ 关注数</div>
+          <div class="bar-track"><div class="bar-fill" style="width:${(refTotal.follows / maxRef * 100).toFixed(1)}%;background:#8B5CF6;"></div></div>
+          <div class="bar-value">${refTotal.follows}</div>
+        </div>
+        <div class="bar-item">
+          <div class="bar-label">📝 注册数</div>
+          <div class="bar-track"><div class="bar-fill" style="width:${(refTotal.registrations / maxRef * 100).toFixed(1)}%;background:#8B5CF6;"></div></div>
+          <div class="bar-value">${refTotal.registrations}</div>
+        </div>
+        <div class="bar-item">
+          <div class="bar-label">🛒 下单数</div>
+          <div class="bar-track"><div class="bar-fill" style="width:${(refTotal.orders / maxRef * 100).toFixed(1)}%;background:#8B5CF6;"></div></div>
+          <div class="bar-value">${refTotal.orders}</div>
+        </div>
+      </div>`;
+
+  // 商品销售排行 Top 10
+  const productSales = {};
+  orders.forEach(o => {
+    (o.items || []).forEach(item => {
+      const key = item.productId || item.name;
+      if (!productSales[key]) productSales[key] = { name: item.name, quantity: 0, revenue: 0 };
+      productSales[key].quantity += item.quantity || 0;
+      productSales[key].revenue += (item.price || 0) * (item.quantity || 0);
+    });
+  });
+  const sortedProducts = Object.values(productSales).sort((a, b) => b.quantity - a.quantity).slice(0, 10);
+  const maxQty = Math.max(...sortedProducts.map(p => p.quantity), 1);
+  document.getElementById('analysisProductRanking').innerHTML = sortedProducts.length === 0
+    ? '<div style="text-align:center;padding:20px;color:var(--text-secondary);font-size:13px;">暂无销售数据</div>'
+    : `<div class="bar-chart">
+        ${sortedProducts.map((p, i) => `
+          <div class="bar-item">
+            <div class="bar-rank rank-${Math.min(i + 1, 4)}">${i + 1}</div>
+            <div class="bar-label" style="flex:0.6;">${p.name}</div>
+            <div class="bar-track">
+              <div class="bar-fill" style="width:${(p.quantity / maxQty * 100).toFixed(1)}%;background:${i === 0 ? '#FF3B30' : i === 1 ? '#FF9500' : i === 2 ? '#007AFF' : '#8E8E93'};"></div>
+            </div>
+            <div class="bar-value">${p.quantity}份 / ${fmtMoney(p.revenue)}</div>
+          </div>
+        `).join('')}
+      </div>`;
+
+  // 用户积分排行 Top 10
+  const pointsRanking = Object.entries(appData.points || {})
+    .sort((a, b) => b[1].balance - a[1].balance)
+    .slice(0, 10);
+  const maxPoints = Math.max(...pointsRanking.map(([, p]) => p.balance), 1);
+  document.getElementById('analysisPointsRanking').innerHTML = pointsRanking.length === 0
+    ? '<div style="text-align:center;padding:20px;color:var(--text-secondary);font-size:13px;">暂无积分数据</div>'
+    : `<div class="bar-chart">
+        ${pointsRanking.map(([phone, pt], i) => {
+          const u = appData.users[phone] || {};
+          return `
+          <div class="bar-item">
+            <div class="bar-rank rank-${Math.min(i + 1, 4)}">${i + 1}</div>
+            <div class="bar-label" style="flex:0.6;">${u.name || phone.slice(0, 7)}</div>
+            <div class="bar-track">
+              <div class="bar-fill" style="width:${(pt.balance / maxPoints * 100).toFixed(1)}%;background:${i === 0 ? '#FF3B30' : i === 1 ? '#FF9500' : i === 2 ? '#007AFF' : '#5856D6'};"></div>
+            </div>
+            <div class="bar-value">${pt.balance}分</div>
+          </div>`;
+        }).join('')}
+      </div>`;
+}
+
+function collectAllUsers() {
+  const userMap = {};
+  appData.orders.forEach(o => {
+    if (!userMap[o.customerPhone]) {
+      const u = appData.users[o.customerPhone] || {};
+      userMap[o.customerPhone] = { phone: o.customerPhone, name: u.name || o.customerName };
+    }
+  });
+  Object.keys(appData.points || {}).forEach(phone => {
+    if (!userMap[phone]) {
+      const u = appData.users[phone] || {};
+      userMap[phone] = { phone, name: u.name || '未知' };
+    }
+  });
+  return userMap;
+}
 
 function getReferrer(phone) {
   const stored = localStorage.getItem('ref_' + phone);
