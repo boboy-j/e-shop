@@ -1206,23 +1206,80 @@ function renderAnalysisProduct(orders) {
 function renderAnalysisOrderStatus(orders) {
   const statusCounts = { '待支付': 0, '已支付': 0, '已完成': 0 };
   orders.forEach(o => { if (statusCounts[o.status] !== undefined) statusCounts[o.status]++; });
-  const maxStatus = Math.max(...Object.values(statusCounts), 1);
   const total = Object.values(statusCounts).reduce((s, v) => s + v, 0);
-  return `<div class="analysis-card visible">
+  if (total === 0) {
+    return '<div class="analysis-card visible"><div class="analysis-card-title">📊 订单状态分布</div><div style="text-align:center;padding:20px;color:var(--text-secondary);font-size:13px;">暂无订单数据</div></div>';
+  }
+
+  const colors = { '待支付': '#FF9500', '已支付': '#007AFF', '已完成': '#34C759' };
+  const labels = { '待支付': '待支付', '已支付': '已支付', '已完成': '已完成' };
+
+  // Generate pie chart via canvas
+  const canvasId = 'pieChartOrderStatus';
+  const pieHtml = `<canvas id="${canvasId}" width="200" height="200" style="display:block;margin:0 auto 12px;max-width:200px;"></canvas>`;
+
+  const legendHtml = Object.entries(statusCounts).map(([status, count]) => {
+    const pct = total > 0 ? (count / total * 100).toFixed(1) : 0;
+    return `<div style="display:flex;align-items:center;gap:6px;font-size:13px;padding:4px 0;">
+      <span style="width:12px;height:12px;border-radius:3px;background:${colors[status]};display:inline-block;"></span>
+      <span style="flex:1;">${labels[status]}</span>
+      <span style="font-weight:600;">${count}单</span>
+      <span style="color:var(--text-secondary);font-size:12px;">${pct}%</span>
+    </div>`;
+  }).join('');
+
+  const html = `<div class="analysis-card visible">
     <div class="analysis-card-title">📊 订单状态分布</div>
-    <div class="bar-chart">
-      ${Object.entries(statusCounts).map(([status, count]) => `
-        <div class="bar-item">
-          <div class="bar-label">${status}</div>
-          <div class="bar-track">
-            <div class="bar-fill status-${status}" style="width:${(count / maxStatus * 100).toFixed(1)}%"></div>
-          </div>
-          <div class="bar-value">${count}单</div>
-        </div>
-      `).join('')}
-    </div>
-    <div style="text-align:center;margin-top:10px;font-size:12px;color:var(--text-secondary);">总订单：${total} 单</div>
+    ${pieHtml}
+    <div style="padding:0 8px;">${legendHtml}</div>
+    <div style="text-align:center;margin-top:8px;font-size:12px;color:var(--text-secondary);">总订单：${total} 单</div>
   </div>`;
+
+  // Return HTML and schedule canvas drawing after DOM insertion
+  setTimeout(() => {
+    const canvas = document.getElementById(canvasId);
+    if (!canvas) return;
+    const ctx = canvas.getContext('2d');
+    const cx = 100, cy = 100, r = 85;
+    ctx.clearRect(0, 0, 200, 200);
+
+    let startAngle = -Math.PI / 2;
+    const entries = Object.entries(statusCounts).filter(([, c]) => c > 0);
+
+    // Draw slices
+    entries.forEach(([status, count]) => {
+      const sliceAngle = (count / total) * Math.PI * 2;
+      ctx.beginPath();
+      ctx.moveTo(cx, cy);
+      ctx.arc(cx, cy, r, startAngle, startAngle + sliceAngle);
+      ctx.closePath();
+      ctx.fillStyle = colors[status];
+      ctx.fill();
+      // Border
+      ctx.strokeStyle = '#fff';
+      ctx.lineWidth = 2;
+      ctx.stroke();
+      startAngle += sliceAngle;
+    });
+
+    // Center hole (donut style)
+    ctx.beginPath();
+    ctx.arc(cx, cy, 45, 0, Math.PI * 2);
+    ctx.fillStyle = '#fff';
+    ctx.fill();
+
+    // Center text
+    ctx.fillStyle = '#000';
+    ctx.font = 'bold 22px -apple-system, "PingFang SC", sans-serif';
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    ctx.fillText(total, cx, cy - 6);
+    ctx.font = '11px -apple-system, "PingFang SC", sans-serif';
+    ctx.fillStyle = '#8E8E93';
+    ctx.fillText('总订单', cx, cy + 16);
+  }, 50);
+
+  return html;
 }
 
 /* ===== 订单趋势 ===== */
@@ -1276,25 +1333,71 @@ function renderAnalysisPayment(orders) {
     const method = o.payMethod || '未记录';
     payMethods[method] = (payMethods[method] || 0) + 1;
   });
-  const maxPay = Math.max(...Object.values(payMethods), 1);
-  const payColors = { '微信余额': '#34C759', '银行卡': '#007AFF', '支付宝': '#1677FF', '现金': '#FF9500' };
-  if (Object.keys(payMethods).length === 0) {
+  const total = Object.values(payMethods).reduce((s, v) => s + v, 0);
+  if (total === 0) {
     return '<div class="analysis-card visible"><div class="analysis-card-title">💳 支付方式分布</div><div style="text-align:center;padding:20px;color:var(--text-secondary);font-size:13px;">暂无支付数据</div></div>';
   }
-  return `<div class="analysis-card visible">
+
+  const payColors = { '微信支付': '#34C759', '支付宝': '#1677FF', '现金': '#FF9500', '银行卡': '#007AFF', '未记录': '#8E8E93' };
+  const canvasId = 'pieChartPayment';
+  const pieHtml = `<canvas id="${canvasId}" width="200" height="200" style="display:block;margin:0 auto 12px;max-width:200px;"></canvas>`;
+
+  const legendHtml = Object.entries(payMethods).map(([method, count]) => {
+    const pct = total > 0 ? (count / total * 100).toFixed(1) : 0;
+    return `<div style="display:flex;align-items:center;gap:6px;font-size:13px;padding:4px 0;">
+      <span style="width:12px;height:12px;border-radius:3px;background:${payColors[method] || '#8E8E93'};display:inline-block;"></span>
+      <span style="flex:1;">${method}</span>
+      <span style="font-weight:600;">${count}笔</span>
+      <span style="color:var(--text-secondary);font-size:12px;">${pct}%</span>
+    </div>`;
+  }).join('');
+
+  const html = `<div class="analysis-card visible">
     <div class="analysis-card-title">💳 支付方式分布</div>
-    <div class="bar-chart">
-      ${Object.entries(payMethods).map(([method, count]) => `
-        <div class="bar-item">
-          <div class="bar-label">${method}</div>
-          <div class="bar-track">
-            <div class="bar-fill" style="width:${(count / maxPay * 100).toFixed(1)}%;background:${payColors[method] || '#8E8E93'}"></div>
-          </div>
-          <div class="bar-value">${count}笔</div>
-        </div>
-      `).join('')}
-    </div>
+    ${pieHtml}
+    <div style="padding:0 8px;">${legendHtml}</div>
   </div>`;
+
+  setTimeout(() => {
+    const canvas = document.getElementById(canvasId);
+    if (!canvas) return;
+    const ctx = canvas.getContext('2d');
+    const cx = 100, cy = 100, r = 85;
+    ctx.clearRect(0, 0, 200, 200);
+
+    let startAngle = -Math.PI / 2;
+    const entries = Object.entries(payMethods).filter(([, c]) => c > 0);
+
+    entries.forEach(([method, count]) => {
+      const sliceAngle = (count / total) * Math.PI * 2;
+      ctx.beginPath();
+      ctx.moveTo(cx, cy);
+      ctx.arc(cx, cy, r, startAngle, startAngle + sliceAngle);
+      ctx.closePath();
+      ctx.fillStyle = payColors[method] || '#8E8E93';
+      ctx.fill();
+      ctx.strokeStyle = '#fff';
+      ctx.lineWidth = 2;
+      ctx.stroke();
+      startAngle += sliceAngle;
+    });
+
+    ctx.beginPath();
+    ctx.arc(cx, cy, 45, 0, Math.PI * 2);
+    ctx.fillStyle = '#fff';
+    ctx.fill();
+
+    ctx.fillStyle = '#000';
+    ctx.font = 'bold 22px -apple-system, "PingFang SC", sans-serif';
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    ctx.fillText(total, cx, cy - 6);
+    ctx.font = '11px -apple-system, "PingFang SC", sans-serif';
+    ctx.fillStyle = '#8E8E93';
+    ctx.fillText('总笔数', cx, cy + 16);
+  }, 50);
+
+  return html;
 }
 
 /* ===== 裂变分析 ===== */
