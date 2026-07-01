@@ -8609,10477 +8609,6278 @@
       "paidAt": ""
     }
   ],
-  "points": [
-    {
-      "userId": "U0001",
-      "balance": 204,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 48,
-          "reason": "分享奖励",
-          "date": "2026-04-02 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 25,
-          "reason": "签到奖励",
-          "date": "2026-04-21 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 7,
-          "reason": "新用户奖励",
-          "date": "2026-04-28 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 12,
-          "reason": "分享奖励",
-          "date": "2026-05-01 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 45,
-          "reason": "分享奖励",
-          "date": "2026-05-19 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 28,
-          "reason": "消费积分",
-          "date": "2026-04-06 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 38,
-          "reason": "积分兑换商品",
-          "date": "2026-05-11 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0002",
-      "balance": 117,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 5,
-          "reason": "签到奖励",
-          "date": "2026-04-11 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 22,
-          "reason": "新用户奖励",
-          "date": "2026-05-24 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 30,
-          "reason": "签到奖励",
-          "date": "2026-05-31 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 7,
-          "reason": "新用户奖励",
-          "date": "2026-04-11 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 49,
-          "reason": "活动赠送",
-          "date": "2026-04-17 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 105,
-          "reason": "积分兑换商品",
-          "date": "2026-05-24 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0003",
-      "balance": -3,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 10,
-          "reason": "新用户奖励",
-          "date": "2026-05-10 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 45,
-          "reason": "消费积分",
-          "date": "2026-05-28 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 27,
-          "reason": "签到奖励",
-          "date": "2026-04-17 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 39,
-          "reason": "消费积分",
-          "date": "2026-05-23 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 36,
-          "reason": "签到奖励",
-          "date": "2026-05-11 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 40,
-          "reason": "分享奖励",
-          "date": "2026-04-10 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 33,
-          "reason": "签到奖励",
-          "date": "2026-05-30 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 55,
-          "reason": "兑换优惠券",
-          "date": "2026-05-27 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 18,
-          "reason": "积分兑换商品",
-          "date": "2026-05-16 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 10,
-          "reason": "兑换优惠券",
-          "date": "2026-05-22 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0004",
-      "balance": 146,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 17,
-          "reason": "新用户奖励",
-          "date": "2026-05-20 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 39,
-          "reason": "分享奖励",
-          "date": "2026-05-11 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 34,
-          "reason": "分享奖励",
-          "date": "2026-04-06 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 43,
-          "reason": "新用户奖励",
-          "date": "2026-05-21 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 9,
-          "reason": "新用户奖励",
-          "date": "2026-05-22 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 33,
-          "reason": "分享奖励",
-          "date": "2026-04-09 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 21,
-          "reason": "新用户奖励",
-          "date": "2026-05-08 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 10,
-          "reason": "兑换优惠券",
-          "date": "2026-05-15 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 107,
-          "reason": "兑换优惠券",
-          "date": "2026-05-26 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 14,
-          "reason": "兑换优惠券",
-          "date": "2026-05-04 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0005",
-      "balance": 131,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 20,
-          "reason": "分享奖励",
-          "date": "2026-04-15 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 9,
-          "reason": "新用户奖励",
-          "date": "2026-04-09 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 29,
-          "reason": "签到奖励",
-          "date": "2026-04-28 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 48,
-          "reason": "活动赠送",
-          "date": "2026-04-12 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 40,
-          "reason": "签到奖励",
-          "date": "2026-04-22 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 23,
-          "reason": "分享奖励",
-          "date": "2026-05-05 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 46,
-          "reason": "分享奖励",
-          "date": "2026-05-24 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 11,
-          "reason": "新用户奖励",
-          "date": "2026-04-19 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 9,
-          "reason": "消费积分",
-          "date": "2026-04-08 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 55,
-          "reason": "积分兑换商品",
-          "date": "2026-05-25 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0006",
-      "balance": 54,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 17,
-          "reason": "消费积分",
-          "date": "2026-05-29 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 41,
-          "reason": "活动赠送",
-          "date": "2026-04-19 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 36,
-          "reason": "新用户奖励",
-          "date": "2026-04-22 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 49,
-          "reason": "新用户奖励",
-          "date": "2026-05-15 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 8,
-          "reason": "分享奖励",
-          "date": "2026-05-17 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 43,
-          "reason": "消费积分",
-          "date": "2026-05-31 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 18,
-          "reason": "活动赠送",
-          "date": "2026-04-02 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0007",
-      "balance": 87,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 8,
-          "reason": "分享奖励",
-          "date": "2026-04-26 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 31,
-          "reason": "分享奖励",
-          "date": "2026-04-11 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 50,
-          "reason": "消费积分",
-          "date": "2026-04-09 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 44,
-          "reason": "分享奖励",
-          "date": "2026-04-28 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 7,
-          "reason": "消费积分",
-          "date": "2026-04-08 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 24,
-          "reason": "消费积分",
-          "date": "2026-05-18 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 38,
-          "reason": "消费积分",
-          "date": "2026-05-25 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 19,
-          "reason": "新用户奖励",
-          "date": "2026-05-07 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 17,
-          "reason": "签到奖励",
-          "date": "2026-04-28 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 47,
-          "reason": "签到奖励",
-          "date": "2026-04-25 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 152,
-          "reason": "兑换优惠券",
-          "date": "2026-05-14 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0008",
-      "balance": 2,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 45,
-          "reason": "新用户奖励",
-          "date": "2026-05-09 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 189,
-          "reason": "兑换优惠券",
-          "date": "2026-05-18 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 11,
-          "reason": "积分兑换商品",
-          "date": "2026-05-06 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 10,
-          "reason": "兑换优惠券",
-          "date": "2026-05-19 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0009",
-      "balance": 14,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 47,
-          "reason": "签到奖励",
-          "date": "2026-04-27 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 43,
-          "reason": "活动赠送",
-          "date": "2026-04-02 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 27,
-          "reason": "分享奖励",
-          "date": "2026-04-26 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 25,
-          "reason": "分享奖励",
-          "date": "2026-05-05 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 45,
-          "reason": "活动赠送",
-          "date": "2026-04-09 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 165,
-          "reason": "积分兑换商品",
-          "date": "2026-05-13 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 79,
-          "reason": "积分兑换商品",
-          "date": "2026-05-19 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0010",
-      "balance": 358,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 21,
-          "reason": "分享奖励",
-          "date": "2026-05-03 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 33,
-          "reason": "活动赠送",
-          "date": "2026-05-31 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 7,
-          "reason": "分享奖励",
-          "date": "2026-04-23 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 6,
-          "reason": "新用户奖励",
-          "date": "2026-05-23 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 24,
-          "reason": "消费积分",
-          "date": "2026-05-12 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 19,
-          "reason": "签到奖励",
-          "date": "2026-04-07 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 25,
-          "reason": "消费积分",
-          "date": "2026-04-12 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 49,
-          "reason": "分享奖励",
-          "date": "2026-04-03 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 34,
-          "reason": "积分兑换商品",
-          "date": "2026-05-17 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0011",
+  "points": {
+    "1934729173": {
       "balance": 35,
       "history": [
         {
-          "type": "earn",
-          "amount": 13,
-          "reason": "分享奖励",
-          "date": "2026-05-08 00:00:00"
+          "type": "每日打卡",
+          "points": 22,
+          "date": "2026-06-15T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 42,
-          "reason": "签到奖励",
-          "date": "2026-05-17 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 86,
-          "reason": "积分兑换商品",
-          "date": "2026-05-13 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 61,
-          "reason": "兑换优惠券",
-          "date": "2026-05-02 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0012",
-      "balance": -7,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 25,
-          "reason": "活动赠送",
-          "date": "2026-05-20 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 98,
-          "reason": "兑换优惠券",
-          "date": "2026-05-13 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 10,
-          "reason": "兑换优惠券",
-          "date": "2026-05-11 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 10,
-          "reason": "积分兑换商品",
-          "date": "2026-05-08 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0013",
-      "balance": 364,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 29,
-          "reason": "消费积分",
-          "date": "2026-04-12 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 8,
-          "reason": "分享奖励",
-          "date": "2026-05-09 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 32,
-          "reason": "活动赠送",
-          "date": "2026-04-02 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 12,
-          "reason": "签到奖励",
-          "date": "2026-04-14 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 46,
-          "reason": "新用户奖励",
-          "date": "2026-04-02 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 5,
-          "reason": "活动赠送",
-          "date": "2026-05-28 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 24,
-          "reason": "新用户奖励",
-          "date": "2026-05-29 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 25,
-          "reason": "新用户奖励",
-          "date": "2026-04-25 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 14,
-          "reason": "分享奖励",
-          "date": "2026-04-29 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 49,
-          "reason": "积分兑换商品",
-          "date": "2026-05-10 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0014",
-      "balance": 116,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 33,
-          "reason": "新用户奖励",
-          "date": "2026-04-25 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 37,
-          "reason": "消费积分",
-          "date": "2026-05-17 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 32,
-          "reason": "分享奖励",
-          "date": "2026-04-11 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 30,
-          "reason": "签到奖励",
-          "date": "2026-05-23 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 26,
-          "reason": "消费积分",
-          "date": "2026-05-01 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 41,
-          "reason": "消费积分",
-          "date": "2026-04-26 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 77,
-          "reason": "积分兑换商品",
-          "date": "2026-05-19 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 138,
-          "reason": "积分抵现",
-          "date": "2026-05-07 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 43,
-          "reason": "积分兑换商品",
-          "date": "2026-05-16 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0015",
-      "balance": 258,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 36,
-          "reason": "活动赠送",
-          "date": "2026-04-20 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 41,
-          "reason": "签到奖励",
-          "date": "2026-04-26 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 44,
-          "reason": "新用户奖励",
-          "date": "2026-05-16 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 28,
-          "reason": "积分抵现",
-          "date": "2026-05-07 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0016",
-      "balance": 44,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 48,
-          "reason": "新用户奖励",
-          "date": "2026-05-26 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 12,
-          "reason": "活动赠送",
-          "date": "2026-05-04 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 28,
-          "reason": "分享奖励",
-          "date": "2026-05-19 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 25,
-          "reason": "分享奖励",
-          "date": "2026-04-23 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 46,
-          "reason": "消费积分",
-          "date": "2026-04-12 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 53,
-          "reason": "积分抵现",
-          "date": "2026-05-12 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 123,
-          "reason": "兑换优惠券",
-          "date": "2026-05-27 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0017",
-      "balance": 164,
-      "history": [
-        {
-          "type": "spend",
-          "amount": 61,
-          "reason": "兑换优惠券",
-          "date": "2026-05-20 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0018",
-      "balance": 33,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 12,
-          "reason": "消费积分",
-          "date": "2026-05-16 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 46,
-          "reason": "积分兑换商品",
-          "date": "2026-05-21 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0019",
-      "balance": 355,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 24,
-          "reason": "活动赠送",
-          "date": "2026-05-01 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0020",
-      "balance": 155,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 39,
-          "reason": "签到奖励",
-          "date": "2026-05-18 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 39,
-          "reason": "新用户奖励",
-          "date": "2026-04-13 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 21,
-          "reason": "新用户奖励",
-          "date": "2026-05-01 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 14,
-          "reason": "积分抵现",
-          "date": "2026-05-13 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0021",
-      "balance": 463,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 38,
-          "reason": "消费积分",
-          "date": "2026-05-15 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 15,
-          "reason": "消费积分",
-          "date": "2026-05-13 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 17,
-          "reason": "新用户奖励",
-          "date": "2026-05-14 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 8,
-          "reason": "活动赠送",
-          "date": "2026-04-20 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 5,
-          "reason": "消费积分",
-          "date": "2026-05-07 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 47,
-          "reason": "分享奖励",
-          "date": "2026-04-19 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 47,
-          "reason": "分享奖励",
-          "date": "2026-04-06 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 11,
-          "reason": "消费积分",
-          "date": "2026-05-13 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 46,
-          "reason": "活动赠送",
-          "date": "2026-05-17 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 29,
-          "reason": "新用户奖励",
-          "date": "2026-04-16 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0022",
-      "balance": 277,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 36,
-          "reason": "新用户奖励",
-          "date": "2026-04-27 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 10,
-          "reason": "签到奖励",
-          "date": "2026-05-19 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 37,
-          "reason": "活动赠送",
-          "date": "2026-04-26 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 50,
-          "reason": "消费积分",
-          "date": "2026-05-29 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 20,
-          "reason": "新用户奖励",
-          "date": "2026-05-12 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 135,
-          "reason": "积分抵现",
-          "date": "2026-05-08 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 50,
-          "reason": "积分兑换商品",
-          "date": "2026-05-20 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0023",
-      "balance": 208,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 27,
-          "reason": "分享奖励",
-          "date": "2026-05-16 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 37,
-          "reason": "分享奖励",
-          "date": "2026-04-10 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 8,
-          "reason": "分享奖励",
-          "date": "2026-04-05 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 29,
-          "reason": "消费积分",
-          "date": "2026-04-26 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 22,
-          "reason": "签到奖励",
-          "date": "2026-05-22 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 110,
-          "reason": "兑换优惠券",
-          "date": "2026-05-27 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 32,
-          "reason": "兑换优惠券",
-          "date": "2026-05-19 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0024",
-      "balance": 89,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 44,
-          "reason": "签到奖励",
-          "date": "2026-05-05 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 20,
-          "reason": "新用户奖励",
-          "date": "2026-05-22 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 32,
-          "reason": "分享奖励",
-          "date": "2026-04-03 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 43,
-          "reason": "分享奖励",
-          "date": "2026-05-03 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 39,
-          "reason": "签到奖励",
-          "date": "2026-05-18 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 46,
-          "reason": "签到奖励",
-          "date": "2026-04-24 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 39,
-          "reason": "签到奖励",
-          "date": "2026-04-06 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 13,
-          "reason": "分享奖励",
-          "date": "2026-04-17 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 50,
-          "reason": "新用户奖励",
-          "date": "2026-04-03 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 13,
-          "reason": "活动赠送",
-          "date": "2026-04-03 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 177,
-          "reason": "兑换优惠券",
-          "date": "2026-05-02 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0025",
-      "balance": 33,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 9,
-          "reason": "新用户奖励",
-          "date": "2026-04-27 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 12,
-          "reason": "签到奖励",
-          "date": "2026-05-11 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 14,
-          "reason": "消费积分",
-          "date": "2026-04-13 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 25,
-          "reason": "活动赠送",
-          "date": "2026-05-05 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 24,
-          "reason": "活动赠送",
-          "date": "2026-04-14 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 29,
-          "reason": "积分兑换商品",
-          "date": "2026-05-28 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 18,
-          "reason": "积分兑换商品",
-          "date": "2026-05-31 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0026",
-      "balance": 372,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 44,
-          "reason": "分享奖励",
-          "date": "2026-04-23 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 41,
-          "reason": "新用户奖励",
-          "date": "2026-05-17 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 43,
-          "reason": "签到奖励",
-          "date": "2026-05-17 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 48,
-          "reason": "消费积分",
-          "date": "2026-05-09 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 10,
-          "reason": "活动赠送",
-          "date": "2026-05-23 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 37,
-          "reason": "新用户奖励",
-          "date": "2026-05-01 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 50,
-          "reason": "分享奖励",
-          "date": "2026-05-20 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 29,
-          "reason": "活动赠送",
-          "date": "2026-05-01 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 13,
-          "reason": "签到奖励",
-          "date": "2026-05-19 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 18,
-          "reason": "积分抵现",
-          "date": "2026-05-07 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0027",
-      "balance": 200,
-      "history": [
-        {
-          "type": "spend",
-          "amount": 115,
-          "reason": "积分兑换商品",
-          "date": "2026-05-08 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 181,
-          "reason": "积分兑换商品",
-          "date": "2026-05-07 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0028",
-      "balance": -14,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 16,
-          "reason": "活动赠送",
-          "date": "2026-04-06 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 98,
-          "reason": "积分抵现",
-          "date": "2026-05-04 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 10,
-          "reason": "积分兑换商品",
-          "date": "2026-05-18 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 10,
-          "reason": "积分兑换商品",
-          "date": "2026-05-12 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0029",
-      "balance": 376,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 25,
-          "reason": "活动赠送",
-          "date": "2026-04-22 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 41,
-          "reason": "新用户奖励",
-          "date": "2026-04-27 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 38,
-          "reason": "消费积分",
-          "date": "2026-04-28 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 11,
-          "reason": "活动赠送",
-          "date": "2026-05-02 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 7,
-          "reason": "签到奖励",
-          "date": "2026-04-28 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 39,
-          "reason": "活动赠送",
-          "date": "2026-04-14 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0030",
-      "balance": 55,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 38,
-          "reason": "消费积分",
-          "date": "2026-05-19 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 23,
-          "reason": "活动赠送",
-          "date": "2026-05-06 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 24,
-          "reason": "分享奖励",
-          "date": "2026-05-02 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 15,
-          "reason": "活动赠送",
-          "date": "2026-05-13 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 44,
-          "reason": "消费积分",
-          "date": "2026-04-17 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 38,
-          "reason": "签到奖励",
-          "date": "2026-05-02 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 33,
-          "reason": "兑换优惠券",
-          "date": "2026-05-15 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 38,
-          "reason": "积分兑换商品",
-          "date": "2026-05-07 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 159,
-          "reason": "兑换优惠券",
-          "date": "2026-05-14 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0031",
-      "balance": -9,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 31,
-          "reason": "分享奖励",
-          "date": "2026-05-03 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 6,
-          "reason": "签到奖励",
-          "date": "2026-05-02 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 42,
-          "reason": "签到奖励",
-          "date": "2026-04-05 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 34,
-          "reason": "消费积分",
-          "date": "2026-05-15 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 25,
-          "reason": "签到奖励",
-          "date": "2026-04-16 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 12,
-          "reason": "消费积分",
-          "date": "2026-05-24 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 50,
-          "reason": "积分抵现",
-          "date": "2026-05-29 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 18,
-          "reason": "兑换优惠券",
-          "date": "2026-05-19 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 10,
-          "reason": "积分抵现",
-          "date": "2026-05-14 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0032",
-      "balance": 99,
-      "history": [
-        {
-          "type": "spend",
-          "amount": 95,
-          "reason": "兑换优惠券",
-          "date": "2026-05-04 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0033",
-      "balance": 124,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 15,
-          "reason": "签到奖励",
-          "date": "2026-05-20 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 50,
-          "reason": "消费积分",
-          "date": "2026-05-05 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 89,
-          "reason": "兑换优惠券",
-          "date": "2026-05-07 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 124,
-          "reason": "积分抵现",
-          "date": "2026-05-11 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0034",
-      "balance": 8,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 13,
-          "reason": "签到奖励",
-          "date": "2026-05-31 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 11,
-          "reason": "积分抵现",
-          "date": "2026-05-16 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 73,
-          "reason": "兑换优惠券",
-          "date": "2026-05-06 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0035",
-      "balance": 2,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 36,
-          "reason": "签到奖励",
-          "date": "2026-05-18 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 42,
-          "reason": "活动赠送",
-          "date": "2026-05-02 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 31,
-          "reason": "活动赠送",
-          "date": "2026-05-26 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 43,
-          "reason": "新用户奖励",
-          "date": "2026-05-31 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 20,
-          "reason": "新用户奖励",
-          "date": "2026-05-14 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 44,
-          "reason": "新用户奖励",
-          "date": "2026-04-09 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 18,
-          "reason": "消费积分",
-          "date": "2026-05-20 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 14,
-          "reason": "消费积分",
-          "date": "2026-04-20 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 27,
-          "reason": "消费积分",
-          "date": "2026-05-22 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0036",
-      "balance": 34,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 43,
-          "reason": "分享奖励",
-          "date": "2026-05-10 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 10,
-          "reason": "消费积分",
-          "date": "2026-05-25 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 31,
-          "reason": "签到奖励",
-          "date": "2026-05-21 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 48,
-          "reason": "分享奖励",
-          "date": "2026-04-22 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 47,
-          "reason": "新用户奖励",
-          "date": "2026-04-25 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 40,
-          "reason": "签到奖励",
-          "date": "2026-05-02 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 42,
-          "reason": "分享奖励",
-          "date": "2026-04-02 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 7,
-          "reason": "消费积分",
-          "date": "2026-04-12 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 24,
-          "reason": "分享奖励",
-          "date": "2026-05-08 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 27,
-          "reason": "积分抵现",
-          "date": "2026-05-05 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 150,
-          "reason": "积分兑换商品",
-          "date": "2026-05-22 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 130,
-          "reason": "积分兑换商品",
-          "date": "2026-05-28 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0037",
-      "balance": 355,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 26,
-          "reason": "新用户奖励",
-          "date": "2026-05-05 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 38,
-          "reason": "签到奖励",
-          "date": "2026-04-17 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 18,
-          "reason": "新用户奖励",
-          "date": "2026-05-28 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 11,
-          "reason": "新用户奖励",
-          "date": "2026-04-15 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0038",
-      "balance": 5,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 50,
-          "reason": "分享奖励",
-          "date": "2026-05-04 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 43,
-          "reason": "分享奖励",
-          "date": "2026-05-15 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 38,
-          "reason": "新用户奖励",
-          "date": "2026-04-22 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 27,
-          "reason": "签到奖励",
-          "date": "2026-04-22 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 41,
-          "reason": "活动赠送",
-          "date": "2026-04-28 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 45,
-          "reason": "活动赠送",
-          "date": "2026-04-30 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 16,
-          "reason": "新用户奖励",
-          "date": "2026-05-17 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 50,
-          "reason": "分享奖励",
-          "date": "2026-05-19 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 5,
-          "reason": "消费积分",
-          "date": "2026-05-30 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 170,
-          "reason": "积分兑换商品",
-          "date": "2026-05-08 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 36,
-          "reason": "兑换优惠券",
-          "date": "2026-05-18 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 36,
-          "reason": "积分兑换商品",
-          "date": "2026-05-21 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0039",
-      "balance": 120,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 45,
-          "reason": "签到奖励",
-          "date": "2026-05-31 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 45,
-          "reason": "签到奖励",
-          "date": "2026-04-17 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 23,
-          "reason": "分享奖励",
-          "date": "2026-04-11 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 9,
-          "reason": "分享奖励",
-          "date": "2026-05-12 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 37,
-          "reason": "新用户奖励",
-          "date": "2026-05-11 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 5,
-          "reason": "消费积分",
-          "date": "2026-04-18 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 26,
-          "reason": "分享奖励",
-          "date": "2026-05-06 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 41,
-          "reason": "新用户奖励",
-          "date": "2026-05-30 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 59,
-          "reason": "积分抵现",
-          "date": "2026-05-05 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0040",
-      "balance": 10,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 35,
-          "reason": "活动赠送",
-          "date": "2026-04-10 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 7,
-          "reason": "签到奖励",
-          "date": "2026-05-01 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 14,
-          "reason": "活动赠送",
-          "date": "2026-04-04 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 39,
-          "reason": "分享奖励",
-          "date": "2026-05-02 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 31,
-          "reason": "消费积分",
-          "date": "2026-04-08 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 38,
-          "reason": "分享奖励",
-          "date": "2026-04-25 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 48,
-          "reason": "分享奖励",
-          "date": "2026-04-26 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 39,
-          "reason": "消费积分",
-          "date": "2026-05-18 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 41,
-          "reason": "分享奖励",
-          "date": "2026-04-10 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 27,
-          "reason": "消费积分",
-          "date": "2026-05-22 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 17,
-          "reason": "积分抵现",
-          "date": "2026-05-19 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 146,
-          "reason": "积分兑换商品",
-          "date": "2026-05-13 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0041",
-      "balance": 237,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 16,
-          "reason": "新用户奖励",
-          "date": "2026-05-24 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 24,
-          "reason": "分享奖励",
-          "date": "2026-04-16 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 7,
-          "reason": "分享奖励",
-          "date": "2026-05-05 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 10,
-          "reason": "活动赠送",
-          "date": "2026-04-05 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 20,
-          "reason": "分享奖励",
-          "date": "2026-05-03 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 24,
-          "reason": "签到奖励",
-          "date": "2026-04-28 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 54,
-          "reason": "积分兑换商品",
-          "date": "2026-05-20 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 19,
-          "reason": "积分兑换商品",
-          "date": "2026-05-02 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0042",
-      "balance": 47,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 37,
-          "reason": "消费积分",
-          "date": "2026-04-10 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 35,
-          "reason": "新用户奖励",
-          "date": "2026-05-22 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 17,
-          "reason": "分享奖励",
-          "date": "2026-04-02 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 35,
-          "reason": "新用户奖励",
-          "date": "2026-05-12 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 25,
-          "reason": "签到奖励",
-          "date": "2026-04-12 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 11,
-          "reason": "新用户奖励",
-          "date": "2026-04-18 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 13,
-          "reason": "签到奖励",
-          "date": "2026-04-15 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0043",
-      "balance": 40,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 50,
-          "reason": "新用户奖励",
-          "date": "2026-05-24 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 5,
-          "reason": "分享奖励",
-          "date": "2026-04-02 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 7,
-          "reason": "新用户奖励",
-          "date": "2026-04-06 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 10,
-          "reason": "分享奖励",
-          "date": "2026-05-02 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 7,
-          "reason": "消费积分",
-          "date": "2026-04-28 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 47,
-          "reason": "分享奖励",
-          "date": "2026-05-30 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 173,
-          "reason": "积分兑换商品",
-          "date": "2026-05-21 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 22,
-          "reason": "积分兑换商品",
-          "date": "2026-05-22 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0044",
-      "balance": 88,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 25,
-          "reason": "活动赠送",
-          "date": "2026-04-19 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 12,
-          "reason": "分享奖励",
-          "date": "2026-05-22 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 15,
-          "reason": "分享奖励",
-          "date": "2026-05-24 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 5,
-          "reason": "新用户奖励",
-          "date": "2026-04-26 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 37,
-          "reason": "消费积分",
-          "date": "2026-05-18 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 39,
-          "reason": "分享奖励",
-          "date": "2026-04-26 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 25,
-          "reason": "分享奖励",
-          "date": "2026-05-22 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 50,
-          "reason": "分享奖励",
-          "date": "2026-04-25 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 53,
-          "reason": "积分兑换商品",
-          "date": "2026-05-22 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0045",
-      "balance": 7,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 39,
-          "reason": "活动赠送",
-          "date": "2026-05-28 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 13,
-          "reason": "消费积分",
-          "date": "2026-05-01 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 48,
-          "reason": "消费积分",
-          "date": "2026-05-25 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 29,
-          "reason": "消费积分",
-          "date": "2026-05-26 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 32,
-          "reason": "活动赠送",
-          "date": "2026-05-20 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 167,
-          "reason": "积分抵现",
-          "date": "2026-05-22 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 95,
-          "reason": "积分兑换商品",
-          "date": "2026-05-09 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 44,
-          "reason": "积分兑换商品",
-          "date": "2026-05-02 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0046",
-      "balance": 276,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 41,
-          "reason": "签到奖励",
-          "date": "2026-05-26 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 49,
-          "reason": "活动赠送",
-          "date": "2026-05-25 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 34,
-          "reason": "分享奖励",
-          "date": "2026-04-18 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 46,
-          "reason": "活动赠送",
-          "date": "2026-05-01 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 19,
-          "reason": "签到奖励",
-          "date": "2026-05-22 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 44,
-          "reason": "分享奖励",
-          "date": "2026-04-03 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 28,
-          "reason": "活动赠送",
-          "date": "2026-05-20 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 93,
-          "reason": "积分抵现",
-          "date": "2026-05-16 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 17,
-          "reason": "积分兑换商品",
-          "date": "2026-05-16 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0047",
-      "balance": 57,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 35,
-          "reason": "活动赠送",
-          "date": "2026-04-07 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 15,
-          "reason": "分享奖励",
-          "date": "2026-04-12 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 27,
-          "reason": "新用户奖励",
-          "date": "2026-04-25 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 13,
-          "reason": "新用户奖励",
-          "date": "2026-05-25 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 30,
-          "reason": "消费积分",
-          "date": "2026-05-11 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0048",
-      "balance": 405,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 39,
-          "reason": "活动赠送",
-          "date": "2026-05-06 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 42,
-          "reason": "活动赠送",
-          "date": "2026-05-16 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 44,
-          "reason": "签到奖励",
-          "date": "2026-04-26 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 15,
-          "reason": "活动赠送",
-          "date": "2026-05-07 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0049",
-      "balance": 120,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 49,
-          "reason": "新用户奖励",
-          "date": "2026-05-04 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 32,
-          "reason": "新用户奖励",
-          "date": "2026-04-11 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 26,
-          "reason": "新用户奖励",
-          "date": "2026-04-17 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 54,
-          "reason": "兑换优惠券",
-          "date": "2026-05-10 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0050",
-      "balance": 39,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 36,
-          "reason": "消费积分",
-          "date": "2026-04-24 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 43,
-          "reason": "活动赠送",
-          "date": "2026-05-11 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 40,
-          "reason": "消费积分",
-          "date": "2026-04-09 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 33,
-          "reason": "签到奖励",
-          "date": "2026-05-12 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 30,
-          "reason": "消费积分",
-          "date": "2026-04-23 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 11,
-          "reason": "新用户奖励",
-          "date": "2026-04-12 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 29,
-          "reason": "分享奖励",
-          "date": "2026-04-30 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 46,
-          "reason": "消费积分",
-          "date": "2026-05-26 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 18,
-          "reason": "签到奖励",
-          "date": "2026-04-05 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0051",
-      "balance": 53,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 47,
-          "reason": "签到奖励",
-          "date": "2026-05-03 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 39,
-          "reason": "分享奖励",
-          "date": "2026-05-07 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 60,
-          "reason": "积分兑换商品",
-          "date": "2026-05-10 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 91,
-          "reason": "积分抵现",
-          "date": "2026-05-13 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 183,
-          "reason": "积分抵现",
-          "date": "2026-05-02 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0052",
-      "balance": 427,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 50,
-          "reason": "分享奖励",
-          "date": "2026-05-26 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 42,
-          "reason": "消费积分",
-          "date": "2026-04-22 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 37,
-          "reason": "活动赠送",
-          "date": "2026-04-07 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 13,
-          "reason": "分享奖励",
-          "date": "2026-05-28 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 28,
-          "reason": "新用户奖励",
-          "date": "2026-05-28 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 5,
-          "reason": "新用户奖励",
-          "date": "2026-04-09 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 38,
-          "reason": "积分抵现",
-          "date": "2026-05-04 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 17,
-          "reason": "积分兑换商品",
-          "date": "2026-05-18 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0053",
-      "balance": 359,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 30,
-          "reason": "分享奖励",
-          "date": "2026-04-16 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 29,
-          "reason": "活动赠送",
-          "date": "2026-05-07 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 32,
-          "reason": "新用户奖励",
-          "date": "2026-05-18 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 47,
-          "reason": "签到奖励",
-          "date": "2026-05-01 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 13,
-          "reason": "签到奖励",
-          "date": "2026-04-26 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 29,
-          "reason": "分享奖励",
-          "date": "2026-04-08 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 31,
-          "reason": "签到奖励",
-          "date": "2026-05-13 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 47,
-          "reason": "签到奖励",
-          "date": "2026-05-23 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 5,
-          "reason": "消费积分",
-          "date": "2026-04-20 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0054",
-      "balance": 6,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 47,
-          "reason": "活动赠送",
-          "date": "2026-05-23 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 10,
-          "reason": "签到奖励",
-          "date": "2026-04-20 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 31,
-          "reason": "活动赠送",
-          "date": "2026-04-04 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 49,
-          "reason": "新用户奖励",
-          "date": "2026-04-02 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 32,
-          "reason": "新用户奖励",
-          "date": "2026-05-20 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 34,
-          "reason": "新用户奖励",
-          "date": "2026-05-04 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 40,
-          "reason": "活动赠送",
-          "date": "2026-05-07 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 38,
-          "reason": "积分兑换商品",
-          "date": "2026-05-18 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 29,
-          "reason": "积分兑换商品",
-          "date": "2026-05-13 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0055",
-      "balance": 7,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 50,
-          "reason": "新用户奖励",
-          "date": "2026-05-14 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 31,
-          "reason": "新用户奖励",
-          "date": "2026-04-25 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 28,
-          "reason": "消费积分",
-          "date": "2026-05-29 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 190,
-          "reason": "积分抵现",
-          "date": "2026-05-28 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 47,
-          "reason": "积分抵现",
-          "date": "2026-05-09 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 11,
-          "reason": "积分兑换商品",
-          "date": "2026-05-08 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0056",
-      "balance": 54,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 22,
-          "reason": "活动赠送",
-          "date": "2026-04-28 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 10,
-          "reason": "新用户奖励",
-          "date": "2026-04-05 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 44,
-          "reason": "消费积分",
-          "date": "2026-05-16 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 35,
-          "reason": "消费积分",
-          "date": "2026-04-18 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 45,
-          "reason": "新用户奖励",
-          "date": "2026-04-10 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 42,
-          "reason": "分享奖励",
-          "date": "2026-04-22 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 8,
-          "reason": "分享奖励",
-          "date": "2026-04-27 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 5,
-          "reason": "活动赠送",
-          "date": "2026-05-02 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 156,
-          "reason": "兑换优惠券",
-          "date": "2026-05-21 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 117,
-          "reason": "积分抵现",
-          "date": "2026-05-06 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 47,
-          "reason": "积分抵现",
-          "date": "2026-05-26 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0057",
-      "balance": -2,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 24,
-          "reason": "新用户奖励",
-          "date": "2026-05-15 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 8,
-          "reason": "活动赠送",
-          "date": "2026-04-24 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 15,
-          "reason": "新用户奖励",
-          "date": "2026-05-28 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 47,
-          "reason": "分享奖励",
-          "date": "2026-04-10 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 44,
-          "reason": "消费积分",
-          "date": "2026-05-13 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 36,
-          "reason": "消费积分",
-          "date": "2026-05-23 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 37,
-          "reason": "消费积分",
-          "date": "2026-04-07 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 22,
-          "reason": "分享奖励",
-          "date": "2026-05-23 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 44,
-          "reason": "分享奖励",
-          "date": "2026-05-14 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 10,
-          "reason": "兑换优惠券",
-          "date": "2026-05-28 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 10,
-          "reason": "兑换优惠券",
-          "date": "2026-05-08 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0058",
-      "balance": 3,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 33,
-          "reason": "分享奖励",
-          "date": "2026-04-10 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 16,
-          "reason": "分享奖励",
-          "date": "2026-04-11 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 49,
-          "reason": "签到奖励",
-          "date": "2026-04-30 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 16,
-          "reason": "新用户奖励",
-          "date": "2026-04-06 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 7,
-          "reason": "分享奖励",
-          "date": "2026-05-26 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 14,
-          "reason": "新用户奖励",
-          "date": "2026-04-02 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 14,
-          "reason": "活动赠送",
-          "date": "2026-04-13 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 31,
-          "reason": "活动赠送",
-          "date": "2026-05-16 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 47,
-          "reason": "活动赠送",
-          "date": "2026-04-15 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 45,
-          "reason": "签到奖励",
-          "date": "2026-05-18 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 16,
-          "reason": "兑换优惠券",
-          "date": "2026-05-23 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 58,
-          "reason": "积分兑换商品",
-          "date": "2026-05-30 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0059",
-      "balance": 85,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 30,
-          "reason": "活动赠送",
-          "date": "2026-05-12 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 35,
-          "reason": "新用户奖励",
-          "date": "2026-05-17 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 29,
-          "reason": "活动赠送",
-          "date": "2026-05-01 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 21,
-          "reason": "签到奖励",
-          "date": "2026-04-28 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 32,
-          "reason": "消费积分",
-          "date": "2026-05-13 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 33,
-          "reason": "活动赠送",
-          "date": "2026-04-18 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 25,
-          "reason": "新用户奖励",
-          "date": "2026-04-18 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0060",
-      "balance": 6,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 45,
-          "reason": "分享奖励",
-          "date": "2026-04-07 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 32,
-          "reason": "新用户奖励",
-          "date": "2026-04-03 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 46,
-          "reason": "分享奖励",
-          "date": "2026-05-10 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 22,
-          "reason": "分享奖励",
-          "date": "2026-04-10 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 11,
-          "reason": "分享奖励",
-          "date": "2026-04-20 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 42,
-          "reason": "活动赠送",
-          "date": "2026-05-02 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 48,
-          "reason": "签到奖励",
-          "date": "2026-04-15 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 48,
-          "reason": "新用户奖励",
-          "date": "2026-04-12 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 43,
-          "reason": "积分抵现",
-          "date": "2026-05-10 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0061",
-      "balance": 353,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 25,
-          "reason": "新用户奖励",
-          "date": "2026-05-31 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 48,
-          "reason": "消费积分",
-          "date": "2026-04-08 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0062",
-      "balance": 6,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 11,
-          "reason": "新用户奖励",
-          "date": "2026-05-25 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 48,
-          "reason": "活动赠送",
-          "date": "2026-05-09 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 19,
-          "reason": "分享奖励",
-          "date": "2026-05-15 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 17,
-          "reason": "消费积分",
-          "date": "2026-05-30 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 44,
-          "reason": "消费积分",
-          "date": "2026-05-28 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 43,
-          "reason": "签到奖励",
-          "date": "2026-04-23 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0063",
-      "balance": 94,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 10,
-          "reason": "新用户奖励",
-          "date": "2026-05-23 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 178,
-          "reason": "兑换优惠券",
-          "date": "2026-05-13 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 57,
-          "reason": "积分兑换商品",
-          "date": "2026-05-09 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 33,
-          "reason": "积分抵现",
-          "date": "2026-05-22 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0064",
-      "balance": 91,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 9,
-          "reason": "活动赠送",
-          "date": "2026-04-02 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 22,
-          "reason": "活动赠送",
-          "date": "2026-04-17 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 47,
-          "reason": "分享奖励",
-          "date": "2026-05-15 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 15,
-          "reason": "消费积分",
-          "date": "2026-05-14 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 8,
-          "reason": "活动赠送",
-          "date": "2026-05-07 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 26,
-          "reason": "消费积分",
-          "date": "2026-05-15 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 21,
-          "reason": "签到奖励",
-          "date": "2026-05-03 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 9,
-          "reason": "活动赠送",
-          "date": "2026-04-02 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 17,
-          "reason": "新用户奖励",
-          "date": "2026-05-06 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 16,
-          "reason": "活动赠送",
-          "date": "2026-05-25 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 148,
-          "reason": "积分抵现",
-          "date": "2026-05-25 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0065",
-      "balance": 164,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 11,
-          "reason": "活动赠送",
-          "date": "2026-04-16 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 21,
-          "reason": "消费积分",
-          "date": "2026-05-29 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 9,
-          "reason": "消费积分",
-          "date": "2026-04-25 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 21,
-          "reason": "活动赠送",
-          "date": "2026-05-30 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 36,
-          "reason": "签到奖励",
-          "date": "2026-04-20 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 45,
-          "reason": "消费积分",
-          "date": "2026-04-02 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 7,
-          "reason": "活动赠送",
-          "date": "2026-05-14 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 14,
-          "reason": "分享奖励",
-          "date": "2026-04-04 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 30,
-          "reason": "新用户奖励",
-          "date": "2026-05-31 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 37,
-          "reason": "活动赠送",
-          "date": "2026-05-01 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 113,
-          "reason": "兑换优惠券",
-          "date": "2026-05-07 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 27,
-          "reason": "兑换优惠券",
-          "date": "2026-05-24 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 10,
-          "reason": "积分抵现",
-          "date": "2026-05-09 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0066",
-      "balance": 418,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 12,
-          "reason": "新用户奖励",
-          "date": "2026-04-27 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 27,
-          "reason": "分享奖励",
-          "date": "2026-04-18 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 24,
-          "reason": "活动赠送",
-          "date": "2026-05-28 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 45,
-          "reason": "消费积分",
-          "date": "2026-05-08 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 39,
-          "reason": "分享奖励",
-          "date": "2026-05-26 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 34,
-          "reason": "分享奖励",
-          "date": "2026-04-20 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 17,
-          "reason": "签到奖励",
-          "date": "2026-04-26 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0067",
-      "balance": 360,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 47,
-          "reason": "签到奖励",
-          "date": "2026-05-12 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 49,
-          "reason": "活动赠送",
-          "date": "2026-04-04 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 11,
-          "reason": "分享奖励",
-          "date": "2026-04-30 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 10,
-          "reason": "活动赠送",
-          "date": "2026-04-14 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 17,
-          "reason": "签到奖励",
-          "date": "2026-05-29 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 17,
-          "reason": "消费积分",
-          "date": "2026-04-15 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 135,
-          "reason": "积分抵现",
-          "date": "2026-05-29 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0068",
-      "balance": 405,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 46,
-          "reason": "分享奖励",
-          "date": "2026-04-30 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 39,
-          "reason": "活动赠送",
-          "date": "2026-05-30 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 7,
-          "reason": "分享奖励",
-          "date": "2026-05-28 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 26,
-          "reason": "消费积分",
-          "date": "2026-05-06 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 12,
-          "reason": "签到奖励",
-          "date": "2026-04-10 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 46,
-          "reason": "新用户奖励",
-          "date": "2026-05-02 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 48,
-          "reason": "新用户奖励",
-          "date": "2026-05-22 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 42,
-          "reason": "签到奖励",
-          "date": "2026-04-02 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0069",
-      "balance": 8,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 36,
-          "reason": "消费积分",
-          "date": "2026-05-01 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 44,
-          "reason": "消费积分",
-          "date": "2026-05-16 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 10,
-          "reason": "积分兑换商品",
-          "date": "2026-05-11 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0070",
-      "balance": 25,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 11,
-          "reason": "活动赠送",
-          "date": "2026-04-22 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 15,
-          "reason": "新用户奖励",
-          "date": "2026-05-27 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 11,
-          "reason": "消费积分",
-          "date": "2026-04-30 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 43,
-          "reason": "新用户奖励",
-          "date": "2026-05-17 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0071",
-      "balance": 319,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 32,
-          "reason": "分享奖励",
-          "date": "2026-04-10 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 48,
-          "reason": "活动赠送",
-          "date": "2026-05-11 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 12,
-          "reason": "新用户奖励",
-          "date": "2026-04-27 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 92,
-          "reason": "积分兑换商品",
-          "date": "2026-05-07 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0072",
-      "balance": 23,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 16,
-          "reason": "分享奖励",
-          "date": "2026-05-27 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 12,
-          "reason": "分享奖励",
-          "date": "2026-05-22 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 31,
-          "reason": "签到奖励",
-          "date": "2026-04-17 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 28,
-          "reason": "新用户奖励",
-          "date": "2026-05-21 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 33,
-          "reason": "签到奖励",
-          "date": "2026-04-02 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 42,
-          "reason": "消费积分",
-          "date": "2026-05-23 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 11,
-          "reason": "新用户奖励",
-          "date": "2026-05-07 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 15,
-          "reason": "消费积分",
-          "date": "2026-04-05 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 36,
-          "reason": "消费积分",
-          "date": "2026-05-31 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0073",
-      "balance": 3,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 50,
-          "reason": "新用户奖励",
-          "date": "2026-04-05 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 63,
-          "reason": "兑换优惠券",
-          "date": "2026-05-06 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 25,
-          "reason": "兑换优惠券",
-          "date": "2026-05-27 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0074",
-      "balance": 17,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 45,
-          "reason": "分享奖励",
-          "date": "2026-04-28 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 33,
-          "reason": "活动赠送",
-          "date": "2026-05-16 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 88,
-          "reason": "兑换优惠券",
-          "date": "2026-05-30 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0075",
-      "balance": 201,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 50,
-          "reason": "活动赠送",
-          "date": "2026-04-22 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 10,
-          "reason": "分享奖励",
-          "date": "2026-05-09 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 11,
-          "reason": "兑换优惠券",
-          "date": "2026-05-24 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 59,
-          "reason": "积分兑换商品",
-          "date": "2026-05-15 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 34,
-          "reason": "兑换优惠券",
-          "date": "2026-05-20 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0076",
-      "balance": 347,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 37,
-          "reason": "签到奖励",
-          "date": "2026-05-02 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 45,
-          "reason": "签到奖励",
-          "date": "2026-05-14 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 8,
-          "reason": "签到奖励",
-          "date": "2026-05-24 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 14,
-          "reason": "活动赠送",
-          "date": "2026-04-30 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 16,
-          "reason": "签到奖励",
-          "date": "2026-04-19 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 7,
-          "reason": "消费积分",
-          "date": "2026-04-20 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 28,
-          "reason": "分享奖励",
-          "date": "2026-05-18 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 32,
-          "reason": "分享奖励",
-          "date": "2026-05-10 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 21,
-          "reason": "积分兑换商品",
-          "date": "2026-05-08 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 23,
-          "reason": "兑换优惠券",
-          "date": "2026-05-26 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 50,
-          "reason": "积分兑换商品",
-          "date": "2026-05-16 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0077",
-      "balance": 8,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 9,
-          "reason": "签到奖励",
-          "date": "2026-04-15 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 161,
-          "reason": "兑换优惠券",
-          "date": "2026-05-21 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 63,
-          "reason": "积分兑换商品",
-          "date": "2026-05-08 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 31,
-          "reason": "积分抵现",
-          "date": "2026-05-24 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0078",
-      "balance": 200,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 25,
-          "reason": "签到奖励",
-          "date": "2026-05-25 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 198,
-          "reason": "积分抵现",
-          "date": "2026-05-04 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0079",
-      "balance": 40,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 19,
-          "reason": "消费积分",
-          "date": "2026-05-01 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 42,
-          "reason": "活动赠送",
-          "date": "2026-05-28 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 32,
-          "reason": "签到奖励",
-          "date": "2026-05-18 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 44,
-          "reason": "活动赠送",
-          "date": "2026-05-20 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 29,
-          "reason": "分享奖励",
-          "date": "2026-05-23 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 34,
-          "reason": "签到奖励",
-          "date": "2026-04-21 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 44,
-          "reason": "积分兑换商品",
-          "date": "2026-05-21 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 18,
-          "reason": "积分兑换商品",
-          "date": "2026-05-09 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0080",
-      "balance": 118,
-      "history": [
-        {
-          "type": "spend",
-          "amount": 44,
-          "reason": "积分兑换商品",
-          "date": "2026-05-04 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 129,
-          "reason": "积分抵现",
-          "date": "2026-05-18 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0081",
-      "balance": 2,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 19,
-          "reason": "分享奖励",
-          "date": "2026-04-23 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 15,
-          "reason": "新用户奖励",
-          "date": "2026-04-04 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 15,
-          "reason": "新用户奖励",
-          "date": "2026-04-26 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 19,
-          "reason": "消费积分",
-          "date": "2026-05-05 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 38,
-          "reason": "活动赠送",
-          "date": "2026-04-06 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 85,
-          "reason": "积分抵现",
-          "date": "2026-05-05 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0082",
-      "balance": 236,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 5,
-          "reason": "活动赠送",
-          "date": "2026-04-14 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 20,
-          "reason": "签到奖励",
-          "date": "2026-05-11 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 32,
-          "reason": "新用户奖励",
-          "date": "2026-05-17 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 42,
-          "reason": "签到奖励",
-          "date": "2026-04-03 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0083",
-      "balance": 213,
-      "history": []
-    },
-    {
-      "userId": "U0084",
-      "balance": -6,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 7,
-          "reason": "活动赠送",
-          "date": "2026-04-28 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 30,
-          "reason": "活动赠送",
-          "date": "2026-04-10 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 49,
-          "reason": "消费积分",
-          "date": "2026-05-03 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 36,
-          "reason": "签到奖励",
-          "date": "2026-05-26 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 40,
-          "reason": "消费积分",
-          "date": "2026-04-17 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 31,
-          "reason": "签到奖励",
-          "date": "2026-05-23 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 27,
-          "reason": "分享奖励",
-          "date": "2026-05-16 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 46,
-          "reason": "消费积分",
-          "date": "2026-05-30 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 181,
-          "reason": "积分抵现",
-          "date": "2026-05-26 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 55,
-          "reason": "积分抵现",
-          "date": "2026-05-04 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 10,
-          "reason": "积分抵现",
-          "date": "2026-05-17 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0085",
-      "balance": 395,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 50,
-          "reason": "活动赠送",
-          "date": "2026-05-20 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 28,
-          "reason": "活动赠送",
-          "date": "2026-04-16 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0086",
-      "balance": 440,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 9,
-          "reason": "活动赠送",
-          "date": "2026-04-04 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 49,
-          "reason": "分享奖励",
-          "date": "2026-04-28 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 7,
-          "reason": "分享奖励",
-          "date": "2026-05-04 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 22,
-          "reason": "新用户奖励",
-          "date": "2026-04-27 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 41,
-          "reason": "签到奖励",
-          "date": "2026-04-11 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 48,
-          "reason": "消费积分",
-          "date": "2026-04-22 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 26,
-          "reason": "消费积分",
-          "date": "2026-04-29 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 48,
-          "reason": "分享奖励",
-          "date": "2026-04-05 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 8,
-          "reason": "消费积分",
-          "date": "2026-05-07 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 28,
-          "reason": "活动赠送",
-          "date": "2026-04-22 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0087",
-      "balance": 120,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 16,
-          "reason": "新用户奖励",
-          "date": "2026-04-16 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 9,
-          "reason": "新用户奖励",
-          "date": "2026-04-16 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 18,
-          "reason": "签到奖励",
-          "date": "2026-05-10 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 20,
-          "reason": "新用户奖励",
-          "date": "2026-05-24 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 46,
-          "reason": "活动赠送",
-          "date": "2026-04-14 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 67,
-          "reason": "积分抵现",
-          "date": "2026-05-20 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0088",
-      "balance": 459,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 37,
-          "reason": "活动赠送",
-          "date": "2026-05-14 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 8,
-          "reason": "消费积分",
-          "date": "2026-05-08 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 27,
-          "reason": "活动赠送",
-          "date": "2026-04-30 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 37,
-          "reason": "新用户奖励",
-          "date": "2026-04-08 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0089",
-      "balance": 97,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 48,
-          "reason": "新用户奖励",
-          "date": "2026-04-04 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 23,
-          "reason": "活动赠送",
-          "date": "2026-04-22 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 28,
-          "reason": "消费积分",
-          "date": "2026-05-19 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 34,
-          "reason": "消费积分",
-          "date": "2026-05-26 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 30,
-          "reason": "签到奖励",
-          "date": "2026-05-13 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 9,
-          "reason": "消费积分",
-          "date": "2026-05-21 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 22,
-          "reason": "消费积分",
-          "date": "2026-04-17 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 14,
-          "reason": "活动赠送",
-          "date": "2026-05-22 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 143,
-          "reason": "兑换优惠券",
-          "date": "2026-05-31 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0090",
-      "balance": 5,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 48,
-          "reason": "新用户奖励",
-          "date": "2026-04-02 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 13,
-          "reason": "活动赠送",
-          "date": "2026-05-09 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 31,
-          "reason": "活动赠送",
-          "date": "2026-04-14 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 46,
-          "reason": "消费积分",
-          "date": "2026-05-13 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 17,
-          "reason": "消费积分",
-          "date": "2026-05-30 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 19,
-          "reason": "新用户奖励",
-          "date": "2026-04-20 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 115,
-          "reason": "兑换优惠券",
-          "date": "2026-05-21 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 30,
-          "reason": "兑换优惠券",
-          "date": "2026-05-06 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0091",
-      "balance": 21,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 42,
-          "reason": "新用户奖励",
-          "date": "2026-04-08 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 40,
-          "reason": "活动赠送",
-          "date": "2026-05-02 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 24,
-          "reason": "新用户奖励",
-          "date": "2026-05-23 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 24,
-          "reason": "签到奖励",
-          "date": "2026-04-11 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 21,
-          "reason": "签到奖励",
-          "date": "2026-05-01 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 28,
-          "reason": "分享奖励",
-          "date": "2026-04-12 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 8,
-          "reason": "签到奖励",
-          "date": "2026-05-09 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 126,
-          "reason": "积分兑换商品",
-          "date": "2026-05-12 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 20,
-          "reason": "兑换优惠券",
-          "date": "2026-05-14 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0092",
-      "balance": 47,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 16,
-          "reason": "签到奖励",
-          "date": "2026-05-21 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 20,
-          "reason": "消费积分",
-          "date": "2026-05-29 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 42,
-          "reason": "积分抵现",
-          "date": "2026-05-23 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 57,
-          "reason": "积分兑换商品",
-          "date": "2026-05-25 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0093",
-      "balance": 65,
-      "history": [
-        {
-          "type": "spend",
-          "amount": 98,
-          "reason": "积分兑换商品",
-          "date": "2026-05-20 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 124,
-          "reason": "兑换优惠券",
-          "date": "2026-05-26 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0094",
-      "balance": 95,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 12,
-          "reason": "消费积分",
-          "date": "2026-05-06 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 36,
-          "reason": "签到奖励",
-          "date": "2026-05-02 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 25,
-          "reason": "签到奖励",
-          "date": "2026-05-31 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 39,
-          "reason": "新用户奖励",
-          "date": "2026-05-10 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 131,
-          "reason": "积分抵现",
-          "date": "2026-05-07 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 47,
-          "reason": "兑换优惠券",
-          "date": "2026-05-08 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0095",
-      "balance": 305,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 26,
-          "reason": "消费积分",
-          "date": "2026-04-15 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 35,
-          "reason": "消费积分",
-          "date": "2026-05-23 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 48,
-          "reason": "新用户奖励",
-          "date": "2026-05-24 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 24,
-          "reason": "消费积分",
-          "date": "2026-05-06 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 44,
-          "reason": "签到奖励",
-          "date": "2026-05-03 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 27,
-          "reason": "消费积分",
-          "date": "2026-05-11 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 8,
-          "reason": "新用户奖励",
-          "date": "2026-04-20 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 159,
-          "reason": "兑换优惠券",
-          "date": "2026-05-24 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0096",
-      "balance": 212,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 17,
-          "reason": "消费积分",
-          "date": "2026-05-26 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 39,
-          "reason": "活动赠送",
-          "date": "2026-04-18 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 47,
-          "reason": "消费积分",
-          "date": "2026-04-29 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 30,
-          "reason": "签到奖励",
-          "date": "2026-04-30 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 164,
-          "reason": "兑换优惠券",
-          "date": "2026-05-15 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 24,
-          "reason": "兑换优惠券",
-          "date": "2026-05-20 00:00:00"
+          "type": "分享店铺",
+          "points": 13,
+          "date": "2026-05-14T00:00:00"
         }
       ]
     },
-    {
-      "userId": "U0097",
-      "balance": 38,
+    "1768928287": {
+      "balance": 18,
       "history": [
-        {
-          "type": "earn",
-          "amount": 50,
-          "reason": "活动赠送",
-          "date": "2026-05-08 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 29,
-          "reason": "分享奖励",
-          "date": "2026-05-31 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 98,
-          "reason": "积分抵现",
-          "date": "2026-05-22 00:00:00"
-        },
         {
-          "type": "spend",
-          "amount": 67,
-          "reason": "兑换优惠券",
-          "date": "2026-05-29 00:00:00"
+          "type": "每日打卡",
+          "points": 18,
+          "date": "2026-06-16T00:00:00"
         }
       ]
     },
-    {
-      "userId": "U0098",
+    "1593992863": {
       "balance": 0,
       "history": [
         {
-          "type": "earn",
-          "amount": 31,
-          "reason": "活动赠送",
-          "date": "2026-05-13 00:00:00"
+          "type": "每日打卡",
+          "points": 15,
+          "date": "2026-05-17T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 15,
-          "reason": "活动赠送",
-          "date": "2026-04-15 00:00:00"
+          "type": "活动赠送",
+          "points": 26,
+          "date": "2026-06-13T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 31,
-          "reason": "签到奖励",
-          "date": "2026-04-08 00:00:00"
+          "type": "分享店铺",
+          "points": 18,
+          "date": "2026-05-13T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 42,
-          "reason": "新用户奖励",
-          "date": "2026-05-26 00:00:00"
+          "type": "消费赠送",
+          "points": 11,
+          "date": "2026-06-25T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 14,
-          "reason": "签到奖励",
-          "date": "2026-05-12 00:00:00"
+          "type": "活动赠送",
+          "points": 11,
+          "date": "2026-06-08T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 35,
-          "reason": "新用户奖励",
-          "date": "2026-05-10 00:00:00"
+          "type": "积分抵现",
+          "points": -164,
+          "date": "2026-06-05T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 9,
-          "reason": "新用户奖励",
-          "date": "2026-04-13 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 21,
-          "reason": "积分兑换商品",
-          "date": "2026-05-18 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 44,
-          "reason": "积分抵现",
-          "date": "2026-05-26 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 45,
-          "reason": "积分抵现",
-          "date": "2026-05-09 00:00:00"
+          "type": "兑换优惠券",
+          "points": -12,
+          "date": "2026-06-16T00:00:00"
         }
       ]
     },
-    {
-      "userId": "U0099",
-      "balance": 30,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 17,
-          "reason": "签到奖励",
-          "date": "2026-04-08 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 29,
-          "reason": "分享奖励",
-          "date": "2026-04-26 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 20,
-          "reason": "积分抵现",
-          "date": "2026-05-05 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 159,
-          "reason": "积分抵现",
-          "date": "2026-05-16 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 81,
-          "reason": "兑换优惠券",
-          "date": "2026-05-17 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0100",
-      "balance": 114,
-      "history": []
-    },
-    {
-      "userId": "U0101",
-      "balance": 78,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 24,
-          "reason": "活动赠送",
-          "date": "2026-05-24 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 46,
-          "reason": "分享奖励",
-          "date": "2026-05-05 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 16,
-          "reason": "活动赠送",
-          "date": "2026-04-03 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 49,
-          "reason": "签到奖励",
-          "date": "2026-05-30 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0102",
-      "balance": 391,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 36,
-          "reason": "消费积分",
-          "date": "2026-04-23 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 28,
-          "reason": "新用户奖励",
-          "date": "2026-05-01 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 41,
-          "reason": "活动赠送",
-          "date": "2026-04-06 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 21,
-          "reason": "活动赠送",
-          "date": "2026-04-17 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0103",
-      "balance": 191,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 41,
-          "reason": "消费积分",
-          "date": "2026-04-07 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 21,
-          "reason": "签到奖励",
-          "date": "2026-04-24 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 8,
-          "reason": "签到奖励",
-          "date": "2026-05-11 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 34,
-          "reason": "签到奖励",
-          "date": "2026-05-09 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 15,
-          "reason": "消费积分",
-          "date": "2026-05-14 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 28,
-          "reason": "活动赠送",
-          "date": "2026-04-21 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 27,
-          "reason": "消费积分",
-          "date": "2026-05-13 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 23,
-          "reason": "新用户奖励",
-          "date": "2026-04-21 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0104",
-      "balance": 22,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 45,
-          "reason": "签到奖励",
-          "date": "2026-04-13 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 11,
-          "reason": "新用户奖励",
-          "date": "2026-04-13 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 15,
-          "reason": "新用户奖励",
-          "date": "2026-05-11 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 185,
-          "reason": "积分抵现",
-          "date": "2026-05-23 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 56,
-          "reason": "积分兑换商品",
-          "date": "2026-05-14 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0105",
-      "balance": 143,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 14,
-          "reason": "消费积分",
-          "date": "2026-05-23 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 38,
-          "reason": "分享奖励",
-          "date": "2026-05-08 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 36,
-          "reason": "活动赠送",
-          "date": "2026-05-10 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 15,
-          "reason": "消费积分",
-          "date": "2026-05-18 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 14,
-          "reason": "新用户奖励",
-          "date": "2026-05-17 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 153,
-          "reason": "兑换优惠券",
-          "date": "2026-05-09 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0106",
-      "balance": 368,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 39,
-          "reason": "新用户奖励",
-          "date": "2026-04-17 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 12,
-          "reason": "活动赠送",
-          "date": "2026-05-02 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 9,
-          "reason": "消费积分",
-          "date": "2026-04-09 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 13,
-          "reason": "消费积分",
-          "date": "2026-05-01 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 27,
-          "reason": "分享奖励",
-          "date": "2026-04-17 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 28,
-          "reason": "签到奖励",
-          "date": "2026-04-09 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 33,
-          "reason": "新用户奖励",
-          "date": "2026-04-28 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 26,
-          "reason": "签到奖励",
-          "date": "2026-04-16 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 17,
-          "reason": "兑换优惠券",
-          "date": "2026-05-05 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 40,
-          "reason": "积分兑换商品",
-          "date": "2026-05-27 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0107",
-      "balance": 438,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 49,
-          "reason": "签到奖励",
-          "date": "2026-05-12 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 13,
-          "reason": "签到奖励",
-          "date": "2026-05-23 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0108",
-      "balance": 57,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 9,
-          "reason": "消费积分",
-          "date": "2026-04-12 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 120,
-          "reason": "积分兑换商品",
-          "date": "2026-05-25 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 23,
-          "reason": "积分兑换商品",
-          "date": "2026-05-06 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 17,
-          "reason": "积分抵现",
-          "date": "2026-05-28 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0109",
-      "balance": 408,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 7,
-          "reason": "消费积分",
-          "date": "2026-05-12 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 47,
-          "reason": "消费积分",
-          "date": "2026-04-13 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 11,
-          "reason": "消费积分",
-          "date": "2026-04-03 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 43,
-          "reason": "签到奖励",
-          "date": "2026-04-24 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 57,
-          "reason": "兑换优惠券",
-          "date": "2026-05-20 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0110",
-      "balance": -8,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 14,
-          "reason": "分享奖励",
-          "date": "2026-04-24 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 12,
-          "reason": "积分兑换商品",
-          "date": "2026-05-04 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 10,
-          "reason": "兑换优惠券",
-          "date": "2026-05-13 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0111",
+    "1368250194": {
       "balance": 2,
       "history": [
         {
-          "type": "earn",
-          "amount": 42,
-          "reason": "消费积分",
-          "date": "2026-04-28 00:00:00"
+          "type": "消费赠送",
+          "points": 41,
+          "date": "2026-06-18T00:00:00"
         },
         {
-          "type": "spend",
-          "amount": 32,
-          "reason": "积分兑换商品",
-          "date": "2026-05-22 00:00:00"
+          "type": "每日打卡",
+          "points": 7,
+          "date": "2026-05-19T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 23,
+          "date": "2026-06-25T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 11,
+          "date": "2026-06-06T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 34,
+          "date": "2026-05-21T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -51,
+          "date": "2026-06-19T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -63,
+          "date": "2026-06-22T00:00:00"
         }
       ]
     },
-    {
-      "userId": "U0112",
-      "balance": 19,
+    "1360608353": {
+      "balance": 146,
       "history": [
         {
-          "type": "earn",
-          "amount": 5,
-          "reason": "消费积分",
-          "date": "2026-04-02 00:00:00"
+          "type": "分享店铺",
+          "points": 34,
+          "date": "2026-06-06T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 18,
-          "reason": "新用户奖励",
-          "date": "2026-04-07 00:00:00"
+          "type": "消费赠送",
+          "points": 45,
+          "date": "2026-05-17T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 50,
-          "reason": "活动赠送",
-          "date": "2026-05-08 00:00:00"
+          "type": "分享店铺",
+          "points": 48,
+          "date": "2026-06-10T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 49,
-          "reason": "新用户奖励",
-          "date": "2026-05-20 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 33,
-          "reason": "消费积分",
-          "date": "2026-05-20 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 27,
-          "reason": "活动赠送",
-          "date": "2026-05-04 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 18,
-          "reason": "新用户奖励",
-          "date": "2026-05-17 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 31,
-          "reason": "消费积分",
-          "date": "2026-04-13 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 25,
-          "reason": "积分抵现",
-          "date": "2026-05-28 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 43,
-          "reason": "积分兑换商品",
-          "date": "2026-05-16 00:00:00"
+          "type": "每日打卡",
+          "points": 19,
+          "date": "2026-05-09T00:00:00"
         }
       ]
     },
-    {
-      "userId": "U0113",
-      "balance": 175,
+    "1947306891": {
+      "balance": 148,
       "history": [
         {
-          "type": "earn",
-          "amount": 50,
-          "reason": "分享奖励",
-          "date": "2026-04-26 00:00:00"
+          "type": "分享店铺",
+          "points": 46,
+          "date": "2026-05-30T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 7,
-          "reason": "消费积分",
-          "date": "2026-05-11 00:00:00"
+          "type": "活动赠送",
+          "points": 46,
+          "date": "2026-06-01T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 36,
-          "reason": "消费积分",
-          "date": "2026-05-07 00:00:00"
+          "type": "分享店铺",
+          "points": 21,
+          "date": "2026-06-22T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 23,
-          "reason": "活动赠送",
-          "date": "2026-04-23 00:00:00"
+          "type": "分享店铺",
+          "points": 40,
+          "date": "2026-05-27T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 24,
-          "reason": "活动赠送",
-          "date": "2026-05-17 00:00:00"
+          "type": "消费赠送",
+          "points": 42,
+          "date": "2026-06-03T00:00:00"
         },
         {
-          "type": "spend",
-          "amount": 84,
-          "reason": "积分抵现",
-          "date": "2026-05-25 00:00:00"
+          "type": "活动赠送",
+          "points": 28,
+          "date": "2026-06-16T00:00:00"
         },
         {
-          "type": "spend",
-          "amount": 27,
-          "reason": "积分抵现",
-          "date": "2026-05-10 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 104,
-          "reason": "积分兑换商品",
-          "date": "2026-05-31 00:00:00"
+          "type": "积分抵现",
+          "points": -75,
+          "date": "2026-06-28T00:00:00"
         }
       ]
     },
-    {
-      "userId": "U0114",
-      "balance": 105,
+    "1853402016": {
+      "balance": 110,
       "history": [
         {
-          "type": "earn",
-          "amount": 48,
-          "reason": "消费积分",
-          "date": "2026-05-06 00:00:00"
+          "type": "活动赠送",
+          "points": 43,
+          "date": "2026-06-26T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 33,
-          "reason": "新用户奖励",
-          "date": "2026-04-19 00:00:00"
+          "type": "活动赠送",
+          "points": 29,
+          "date": "2026-05-23T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 48,
-          "reason": "消费积分",
-          "date": "2026-05-24 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 14,
-          "reason": "活动赠送",
-          "date": "2026-05-06 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 49,
-          "reason": "新用户奖励",
-          "date": "2026-05-25 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 15,
-          "reason": "消费积分",
-          "date": "2026-05-08 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 17,
-          "reason": "分享奖励",
-          "date": "2026-05-19 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 41,
-          "reason": "积分兑换商品",
-          "date": "2026-05-05 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 118,
-          "reason": "兑换优惠券",
-          "date": "2026-05-16 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 81,
-          "reason": "兑换优惠券",
-          "date": "2026-05-07 00:00:00"
+          "type": "活动赠送",
+          "points": 38,
+          "date": "2026-06-14T00:00:00"
         }
       ]
     },
-    {
-      "userId": "U0115",
-      "balance": 15,
+    "1724580865": {
+      "balance": 81,
       "history": [
         {
-          "type": "earn",
-          "amount": 22,
-          "reason": "活动赠送",
-          "date": "2026-05-09 00:00:00"
+          "type": "消费赠送",
+          "points": 12,
+          "date": "2026-06-12T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 35,
-          "reason": "新用户奖励",
-          "date": "2026-05-06 00:00:00"
+          "type": "活动赠送",
+          "points": 15,
+          "date": "2026-06-01T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 36,
-          "reason": "新用户奖励",
-          "date": "2026-05-14 00:00:00"
+          "type": "每日打卡",
+          "points": 21,
+          "date": "2026-05-29T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 14,
-          "reason": "活动赠送",
-          "date": "2026-05-25 00:00:00"
+          "type": "分享店铺",
+          "points": 37,
+          "date": "2026-05-03T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 12,
-          "reason": "分享奖励",
-          "date": "2026-04-30 00:00:00"
+          "type": "每日打卡",
+          "points": 45,
+          "date": "2026-06-11T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 36,
-          "reason": "签到奖励",
-          "date": "2026-04-21 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 13,
-          "reason": "消费积分",
-          "date": "2026-05-25 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 8,
-          "reason": "消费积分",
-          "date": "2026-04-30 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 48,
-          "reason": "消费积分",
-          "date": "2026-05-20 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 164,
-          "reason": "兑换优惠券",
-          "date": "2026-05-21 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 29,
-          "reason": "积分抵现",
-          "date": "2026-05-12 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 89,
-          "reason": "积分兑换商品",
-          "date": "2026-05-07 00:00:00"
+          "type": "积分抵现",
+          "points": -49,
+          "date": "2026-06-06T00:00:00"
         }
       ]
     },
-    {
-      "userId": "U0116",
-      "balance": -9,
+    "1910631072": {
+      "balance": 0,
       "history": [
         {
-          "type": "earn",
-          "amount": 38,
-          "reason": "活动赠送",
-          "date": "2026-04-11 00:00:00"
+          "type": "每日打卡",
+          "points": 28,
+          "date": "2026-05-05T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 34,
-          "reason": "签到奖励",
-          "date": "2026-05-13 00:00:00"
+          "type": "积分兑换",
+          "points": -71,
+          "date": "2026-06-23T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 47,
-          "reason": "活动赠送",
-          "date": "2026-04-30 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 37,
-          "reason": "分享奖励",
-          "date": "2026-04-27 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 26,
-          "reason": "新用户奖励",
-          "date": "2026-04-27 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 6,
-          "reason": "消费积分",
-          "date": "2026-05-04 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 12,
-          "reason": "活动赠送",
-          "date": "2026-05-03 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 25,
-          "reason": "活动赠送",
-          "date": "2026-05-03 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 34,
-          "reason": "消费积分",
-          "date": "2026-05-29 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 16,
-          "reason": "新用户奖励",
-          "date": "2026-04-19 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 38,
-          "reason": "兑换优惠券",
-          "date": "2026-05-26 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 10,
-          "reason": "积分抵现",
-          "date": "2026-05-27 00:00:00"
+          "type": "积分兑换",
+          "points": -155,
+          "date": "2026-06-28T00:00:00"
         }
       ]
     },
-    {
-      "userId": "U0117",
-      "balance": 34,
+    "1583727439": {
+      "balance": 0,
       "history": [
         {
-          "type": "earn",
-          "amount": 36,
-          "reason": "消费积分",
-          "date": "2026-04-25 00:00:00"
+          "type": "分享店铺",
+          "points": 47,
+          "date": "2026-05-31T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 48,
-          "reason": "活动赠送",
-          "date": "2026-04-19 00:00:00"
+          "type": "分享店铺",
+          "points": 21,
+          "date": "2026-05-28T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 40,
-          "reason": "新用户奖励",
-          "date": "2026-04-25 00:00:00"
+          "type": "活动赠送",
+          "points": 18,
+          "date": "2026-05-02T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 35,
-          "reason": "活动赠送",
-          "date": "2026-04-26 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 15,
-          "reason": "新用户奖励",
-          "date": "2026-05-28 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 30,
-          "reason": "分享奖励",
-          "date": "2026-04-30 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 100,
-          "reason": "积分抵现",
-          "date": "2026-05-21 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 13,
-          "reason": "积分兑换商品",
-          "date": "2026-05-13 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 12,
-          "reason": "积分兑换商品",
-          "date": "2026-05-05 00:00:00"
+          "type": "积分抵现",
+          "points": -192,
+          "date": "2026-06-18T00:00:00"
         }
       ]
     },
-    {
-      "userId": "U0118",
-      "balance": 12,
+    "1989143087": {
+      "balance": 0,
       "history": [
         {
-          "type": "earn",
-          "amount": 42,
-          "reason": "消费积分",
-          "date": "2026-04-13 00:00:00"
+          "type": "每日打卡",
+          "points": 20,
+          "date": "2026-06-16T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 45,
-          "reason": "分享奖励",
-          "date": "2026-05-07 00:00:00"
+          "type": "每日打卡",
+          "points": 26,
+          "date": "2026-06-29T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 11,
-          "reason": "活动赠送",
-          "date": "2026-05-09 00:00:00"
+          "type": "分享店铺",
+          "points": 42,
+          "date": "2026-06-16T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 27,
-          "reason": "活动赠送",
-          "date": "2026-05-09 00:00:00"
+          "type": "每日打卡",
+          "points": 9,
+          "date": "2026-05-16T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 8,
-          "reason": "签到奖励",
-          "date": "2026-05-16 00:00:00"
+          "type": "每日打卡",
+          "points": 19,
+          "date": "2026-06-26T00:00:00"
         },
         {
-          "type": "spend",
-          "amount": 175,
-          "reason": "积分抵现",
-          "date": "2026-05-13 00:00:00"
+          "type": "每日打卡",
+          "points": 26,
+          "date": "2026-06-26T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 22,
+          "date": "2026-05-19T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 18,
+          "date": "2026-05-27T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -195,
+          "date": "2026-06-12T00:00:00"
         }
       ]
     },
-    {
-      "userId": "U0119",
+    "1887937924": {
+      "balance": 0,
+      "history": [
+        {
+          "type": "每日打卡",
+          "points": 47,
+          "date": "2026-06-03T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 32,
+          "date": "2026-06-04T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -16,
+          "date": "2026-06-10T00:00:00"
+        },
+        {
+          "type": "积分兑换",
+          "points": -22,
+          "date": "2026-06-18T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -56,
+          "date": "2026-06-05T00:00:00"
+        }
+      ]
+    },
+    "1316985611": {
+      "balance": 0,
+      "history": [
+        {
+          "type": "分享店铺",
+          "points": 32,
+          "date": "2026-06-19T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 34,
+          "date": "2026-06-15T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 33,
+          "date": "2026-05-10T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 8,
+          "date": "2026-05-20T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 10,
+          "date": "2026-05-02T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 15,
+          "date": "2026-06-04T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 35,
+          "date": "2026-06-17T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 8,
+          "date": "2026-06-20T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -10,
+          "date": "2026-06-22T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -126,
+          "date": "2026-06-17T00:00:00"
+        },
+        {
+          "type": "积分兑换",
+          "points": -134,
+          "date": "2026-06-24T00:00:00"
+        }
+      ]
+    },
+    "1591529130": {
+      "balance": 119,
+      "history": [
+        {
+          "type": "每日打卡",
+          "points": 8,
+          "date": "2026-05-24T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 37,
+          "date": "2026-05-03T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 8,
+          "date": "2026-05-29T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 16,
+          "date": "2026-06-26T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 48,
+          "date": "2026-05-06T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 30,
+          "date": "2026-06-23T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -28,
+          "date": "2026-06-29T00:00:00"
+        }
+      ]
+    },
+    "1787533315": {
+      "balance": 119,
+      "history": [
+        {
+          "type": "分享店铺",
+          "points": 47,
+          "date": "2026-05-16T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 20,
+          "date": "2026-06-14T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 13,
+          "date": "2026-05-19T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 34,
+          "date": "2026-06-10T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 5,
+          "date": "2026-06-01T00:00:00"
+        }
+      ]
+    },
+    "1726671818": {
+      "balance": 0,
+      "history": [
+        {
+          "type": "消费赠送",
+          "points": 9,
+          "date": "2026-05-05T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 28,
+          "date": "2026-06-12T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 33,
+          "date": "2026-05-08T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -88,
+          "date": "2026-06-14T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -10,
+          "date": "2026-06-04T00:00:00"
+        }
+      ]
+    },
+    "1321969137": {
+      "balance": 0,
+      "history": [
+        {
+          "type": "每日打卡",
+          "points": 40,
+          "date": "2026-06-21T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 23,
+          "date": "2026-05-23T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -101,
+          "date": "2026-06-24T00:00:00"
+        }
+      ]
+    },
+    "1719247988": {
+      "balance": 0,
+      "history": [
+        {
+          "type": "每日打卡",
+          "points": 10,
+          "date": "2026-05-21T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 22,
+          "date": "2026-06-28T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 26,
+          "date": "2026-05-12T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 45,
+          "date": "2026-06-14T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 33,
+          "date": "2026-05-26T00:00:00"
+        },
+        {
+          "type": "积分兑换",
+          "points": -153,
+          "date": "2026-06-27T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -19,
+          "date": "2026-06-02T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -29,
+          "date": "2026-06-29T00:00:00"
+        }
+      ]
+    },
+    "1540384780": {
+      "balance": 28,
+      "history": [
+        {
+          "type": "消费赠送",
+          "points": 28,
+          "date": "2026-05-04T00:00:00"
+        }
+      ]
+    },
+    "1865387826": {
       "balance": 32,
       "history": [
         {
-          "type": "earn",
-          "amount": 24,
-          "reason": "消费积分",
-          "date": "2026-05-10 00:00:00"
+          "type": "分享店铺",
+          "points": 20,
+          "date": "2026-05-06T00:00:00"
         },
         {
-          "type": "spend",
-          "amount": 11,
-          "reason": "兑换优惠券",
-          "date": "2026-05-21 00:00:00"
+          "type": "分享店铺",
+          "points": 16,
+          "date": "2026-05-05T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 6,
+          "date": "2026-06-19T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 31,
+          "date": "2026-05-10T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 22,
+          "date": "2026-06-20T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 29,
+          "date": "2026-05-06T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 35,
+          "date": "2026-06-16T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -127,
+          "date": "2026-06-21T00:00:00"
         }
       ]
     },
-    {
-      "userId": "U0120",
-      "balance": 4,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 47,
-          "reason": "活动赠送",
-          "date": "2026-04-25 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 37,
-          "reason": "活动赠送",
-          "date": "2026-05-14 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 6,
-          "reason": "活动赠送",
-          "date": "2026-04-24 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 6,
-          "reason": "分享奖励",
-          "date": "2026-05-07 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 41,
-          "reason": "活动赠送",
-          "date": "2026-05-11 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 41,
-          "reason": "消费积分",
-          "date": "2026-04-10 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 36,
-          "reason": "消费积分",
-          "date": "2026-04-17 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 15,
-          "reason": "积分抵现",
-          "date": "2026-05-15 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0121",
-      "balance": 180,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 26,
-          "reason": "签到奖励",
-          "date": "2026-04-22 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 24,
-          "reason": "分享奖励",
-          "date": "2026-05-04 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 17,
-          "reason": "活动赠送",
-          "date": "2026-04-21 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 9,
-          "reason": "新用户奖励",
-          "date": "2026-05-18 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 23,
-          "reason": "分享奖励",
-          "date": "2026-05-28 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 24,
-          "reason": "新用户奖励",
-          "date": "2026-05-06 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 19,
-          "reason": "新用户奖励",
-          "date": "2026-04-14 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 10,
-          "reason": "新用户奖励",
-          "date": "2026-05-25 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 42,
-          "reason": "分享奖励",
-          "date": "2026-05-14 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 9,
-          "reason": "新用户奖励",
-          "date": "2026-04-10 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 119,
-          "reason": "积分兑换商品",
-          "date": "2026-05-20 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 29,
-          "reason": "兑换优惠券",
-          "date": "2026-05-05 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 87,
-          "reason": "兑换优惠券",
-          "date": "2026-05-06 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0122",
-      "balance": 24,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 47,
-          "reason": "新用户奖励",
-          "date": "2026-05-11 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 17,
-          "reason": "活动赠送",
-          "date": "2026-05-06 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 21,
-          "reason": "新用户奖励",
-          "date": "2026-04-29 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 34,
-          "reason": "新用户奖励",
-          "date": "2026-05-20 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 6,
-          "reason": "新用户奖励",
-          "date": "2026-04-06 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 16,
-          "reason": "新用户奖励",
-          "date": "2026-04-30 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 129,
-          "reason": "积分抵现",
-          "date": "2026-05-02 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0123",
-      "balance": 81,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 44,
-          "reason": "活动赠送",
-          "date": "2026-04-02 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 41,
-          "reason": "消费积分",
-          "date": "2026-04-28 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 17,
-          "reason": "分享奖励",
-          "date": "2026-05-02 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 14,
-          "reason": "签到奖励",
-          "date": "2026-05-22 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 48,
-          "reason": "分享奖励",
-          "date": "2026-04-07 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 32,
-          "reason": "活动赠送",
-          "date": "2026-05-11 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 9,
-          "reason": "签到奖励",
-          "date": "2026-04-07 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 31,
-          "reason": "分享奖励",
-          "date": "2026-04-09 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 175,
-          "reason": "积分兑换商品",
-          "date": "2026-05-23 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 70,
-          "reason": "积分抵现",
-          "date": "2026-05-24 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0124",
+    "1320896218": {
       "balance": 0,
       "history": [
         {
-          "type": "earn",
-          "amount": 17,
-          "reason": "消费积分",
-          "date": "2026-05-16 00:00:00"
+          "type": "消费赠送",
+          "points": 9,
+          "date": "2026-05-12T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 24,
-          "reason": "活动赠送",
-          "date": "2026-04-30 00:00:00"
+          "type": "消费赠送",
+          "points": 27,
+          "date": "2026-05-20T00:00:00"
         },
         {
-          "type": "spend",
-          "amount": 37,
-          "reason": "兑换优惠券",
-          "date": "2026-05-03 00:00:00"
+          "type": "活动赠送",
+          "points": 48,
+          "date": "2026-05-08T00:00:00"
         },
         {
-          "type": "spend",
-          "amount": 10,
-          "reason": "积分兑换商品",
-          "date": "2026-05-26 00:00:00"
+          "type": "消费赠送",
+          "points": 6,
+          "date": "2026-06-23T00:00:00"
         },
         {
-          "type": "spend",
-          "amount": 11,
-          "reason": "积分兑换商品",
-          "date": "2026-05-31 00:00:00"
+          "type": "消费赠送",
+          "points": 16,
+          "date": "2026-05-24T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 7,
+          "date": "2026-06-24T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -98,
+          "date": "2026-06-05T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -50,
+          "date": "2026-06-11T00:00:00"
+        },
+        {
+          "type": "积分兑换",
+          "points": -42,
+          "date": "2026-06-18T00:00:00"
         }
       ]
     },
-    {
-      "userId": "U0125",
-      "balance": 1,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 47,
-          "reason": "新用户奖励",
-          "date": "2026-05-20 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 46,
-          "reason": "消费积分",
-          "date": "2026-04-15 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 36,
-          "reason": "消费积分",
-          "date": "2026-05-28 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 10,
-          "reason": "分享奖励",
-          "date": "2026-04-23 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 120,
-          "reason": "积分兑换商品",
-          "date": "2026-05-03 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 11,
-          "reason": "积分抵现",
-          "date": "2026-05-10 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0126",
-      "balance": 336,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 30,
-          "reason": "签到奖励",
-          "date": "2026-05-16 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0127",
-      "balance": 212,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 12,
-          "reason": "新用户奖励",
-          "date": "2026-04-19 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 42,
-          "reason": "新用户奖励",
-          "date": "2026-05-15 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 36,
-          "reason": "消费积分",
-          "date": "2026-05-16 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 43,
-          "reason": "消费积分",
-          "date": "2026-04-12 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 25,
-          "reason": "分享奖励",
-          "date": "2026-04-08 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 42,
-          "reason": "活动赠送",
-          "date": "2026-04-10 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 20,
-          "reason": "活动赠送",
-          "date": "2026-05-18 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 14,
-          "reason": "消费积分",
-          "date": "2026-05-20 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 80,
-          "reason": "积分抵现",
-          "date": "2026-05-18 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0128",
-      "balance": 88,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 8,
-          "reason": "活动赠送",
-          "date": "2026-04-27 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 28,
-          "reason": "消费积分",
-          "date": "2026-05-11 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 39,
-          "reason": "活动赠送",
-          "date": "2026-05-01 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 48,
-          "reason": "签到奖励",
-          "date": "2026-05-14 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 14,
-          "reason": "分享奖励",
-          "date": "2026-05-01 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 50,
-          "reason": "分享奖励",
-          "date": "2026-04-09 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 24,
-          "reason": "消费积分",
-          "date": "2026-04-20 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 43,
-          "reason": "消费积分",
-          "date": "2026-04-08 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 47,
-          "reason": "消费积分",
-          "date": "2026-04-17 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 42,
-          "reason": "兑换优惠券",
-          "date": "2026-05-19 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0129",
-      "balance": -9,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 49,
-          "reason": "分享奖励",
-          "date": "2026-04-04 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 48,
-          "reason": "消费积分",
-          "date": "2026-04-27 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 20,
-          "reason": "活动赠送",
-          "date": "2026-05-07 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 5,
-          "reason": "活动赠送",
-          "date": "2026-04-02 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 21,
-          "reason": "分享奖励",
-          "date": "2026-05-26 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 20,
-          "reason": "分享奖励",
-          "date": "2026-05-18 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 15,
-          "reason": "活动赠送",
-          "date": "2026-04-21 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 25,
-          "reason": "活动赠送",
-          "date": "2026-04-11 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 7,
-          "reason": "分享奖励",
-          "date": "2026-04-06 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 10,
-          "reason": "活动赠送",
-          "date": "2026-05-01 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 95,
-          "reason": "兑换优惠券",
-          "date": "2026-05-18 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 62,
-          "reason": "积分兑换商品",
-          "date": "2026-05-05 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 10,
-          "reason": "兑换优惠券",
-          "date": "2026-05-23 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0130",
-      "balance": 26,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 27,
-          "reason": "活动赠送",
-          "date": "2026-04-23 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 126,
-          "reason": "兑换优惠券",
-          "date": "2026-05-31 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 107,
-          "reason": "积分兑换商品",
-          "date": "2026-05-11 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0131",
-      "balance": 139,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 45,
-          "reason": "活动赠送",
-          "date": "2026-04-11 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 46,
-          "reason": "签到奖励",
-          "date": "2026-05-31 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 61,
-          "reason": "兑换优惠券",
-          "date": "2026-05-22 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 90,
-          "reason": "兑换优惠券",
-          "date": "2026-05-29 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 38,
-          "reason": "积分兑换商品",
-          "date": "2026-05-24 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0132",
-      "balance": 232,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 13,
-          "reason": "新用户奖励",
-          "date": "2026-04-18 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 31,
-          "reason": "分享奖励",
-          "date": "2026-05-03 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 35,
-          "reason": "签到奖励",
-          "date": "2026-05-15 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 16,
-          "reason": "新用户奖励",
-          "date": "2026-04-09 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 25,
-          "reason": "分享奖励",
-          "date": "2026-05-19 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 10,
-          "reason": "活动赠送",
-          "date": "2026-05-08 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 16,
-          "reason": "活动赠送",
-          "date": "2026-04-05 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 29,
-          "reason": "新用户奖励",
-          "date": "2026-05-17 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 6,
-          "reason": "消费积分",
-          "date": "2026-04-02 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 40,
-          "reason": "新用户奖励",
-          "date": "2026-04-21 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 32,
-          "reason": "积分抵现",
-          "date": "2026-05-25 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0133",
-      "balance": 113,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 8,
-          "reason": "活动赠送",
-          "date": "2026-04-22 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 32,
-          "reason": "新用户奖励",
-          "date": "2026-05-15 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 21,
-          "reason": "积分抵现",
-          "date": "2026-05-26 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0134",
-      "balance": 370,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 12,
-          "reason": "消费积分",
-          "date": "2026-04-16 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 38,
-          "reason": "活动赠送",
-          "date": "2026-04-12 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 34,
-          "reason": "活动赠送",
-          "date": "2026-05-24 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 19,
-          "reason": "签到奖励",
-          "date": "2026-05-19 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 22,
-          "reason": "分享奖励",
-          "date": "2026-04-14 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 36,
-          "reason": "活动赠送",
-          "date": "2026-05-23 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 32,
-          "reason": "签到奖励",
-          "date": "2026-04-23 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 18,
-          "reason": "分享奖励",
-          "date": "2026-04-15 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 48,
-          "reason": "签到奖励",
-          "date": "2026-05-05 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 114,
-          "reason": "积分兑换商品",
-          "date": "2026-05-31 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0135",
-      "balance": 5,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 20,
-          "reason": "新用户奖励",
-          "date": "2026-05-03 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 20,
-          "reason": "分享奖励",
-          "date": "2026-04-24 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 48,
-          "reason": "活动赠送",
-          "date": "2026-05-26 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 5,
-          "reason": "活动赠送",
-          "date": "2026-05-23 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 111,
-          "reason": "兑换优惠券",
-          "date": "2026-05-25 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 32,
-          "reason": "积分抵现",
-          "date": "2026-05-09 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0136",
-      "balance": 140,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 21,
-          "reason": "消费积分",
-          "date": "2026-05-25 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 40,
-          "reason": "消费积分",
-          "date": "2026-05-28 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 26,
-          "reason": "签到奖励",
-          "date": "2026-05-01 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 27,
-          "reason": "新用户奖励",
-          "date": "2026-04-19 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 43,
-          "reason": "消费积分",
-          "date": "2026-05-31 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 21,
-          "reason": "新用户奖励",
-          "date": "2026-04-22 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 29,
-          "reason": "分享奖励",
-          "date": "2026-05-06 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 47,
-          "reason": "分享奖励",
-          "date": "2026-05-23 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 40,
-          "reason": "消费积分",
-          "date": "2026-04-24 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 76,
-          "reason": "积分兑换商品",
-          "date": "2026-05-15 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0137",
-      "balance": 10,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 34,
-          "reason": "签到奖励",
-          "date": "2026-05-26 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 25,
-          "reason": "新用户奖励",
-          "date": "2026-05-04 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 14,
-          "reason": "分享奖励",
-          "date": "2026-05-24 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 25,
-          "reason": "消费积分",
-          "date": "2026-05-23 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 36,
-          "reason": "分享奖励",
-          "date": "2026-04-14 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 120,
-          "reason": "积分抵现",
-          "date": "2026-05-03 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 122,
-          "reason": "积分抵现",
-          "date": "2026-05-12 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0138",
-      "balance": 376,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 38,
-          "reason": "分享奖励",
-          "date": "2026-05-04 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 15,
-          "reason": "分享奖励",
-          "date": "2026-04-14 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 36,
-          "reason": "签到奖励",
-          "date": "2026-04-26 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 47,
-          "reason": "活动赠送",
-          "date": "2026-05-28 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 48,
-          "reason": "积分兑换商品",
-          "date": "2026-05-24 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0139",
+    "1738426228": {
       "balance": 0,
       "history": [
         {
-          "type": "spend",
-          "amount": 43,
-          "reason": "积分兑换商品",
-          "date": "2026-05-09 00:00:00"
+          "type": "每日打卡",
+          "points": 38,
+          "date": "2026-05-02T00:00:00"
         },
         {
-          "type": "spend",
-          "amount": 39,
-          "reason": "积分抵现",
-          "date": "2026-05-28 00:00:00"
+          "type": "分享店铺",
+          "points": 28,
+          "date": "2026-06-03T00:00:00"
         },
         {
-          "type": "spend",
-          "amount": 11,
-          "reason": "积分兑换商品",
-          "date": "2026-05-17 00:00:00"
+          "type": "每日打卡",
+          "points": 47,
+          "date": "2026-05-03T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 44,
+          "date": "2026-06-10T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 24,
+          "date": "2026-05-29T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 47,
+          "date": "2026-06-04T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 30,
+          "date": "2026-05-17T00:00:00"
+        },
+        {
+          "type": "积分兑换",
+          "points": -151,
+          "date": "2026-06-24T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -117,
+          "date": "2026-06-18T00:00:00"
         }
       ]
     },
-    {
-      "userId": "U0140",
-      "balance": 66,
+    "1377848611": {
+      "balance": 0,
       "history": [
         {
-          "type": "earn",
-          "amount": 36,
-          "reason": "活动赠送",
-          "date": "2026-04-30 00:00:00"
+          "type": "消费赠送",
+          "points": 23,
+          "date": "2026-06-17T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 12,
-          "reason": "签到奖励",
-          "date": "2026-05-24 00:00:00"
+          "type": "兑换优惠券",
+          "points": -158,
+          "date": "2026-06-10T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 27,
-          "reason": "消费积分",
-          "date": "2026-05-18 00:00:00"
+          "type": "积分抵现",
+          "points": -30,
+          "date": "2026-06-16T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 23,
-          "reason": "签到奖励",
-          "date": "2026-04-08 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 15,
-          "reason": "新用户奖励",
-          "date": "2026-04-09 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 22,
-          "reason": "新用户奖励",
-          "date": "2026-04-04 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 47,
-          "reason": "新用户奖励",
-          "date": "2026-05-18 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 42,
-          "reason": "消费积分",
-          "date": "2026-04-28 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 116,
-          "reason": "积分兑换商品",
-          "date": "2026-05-24 00:00:00"
+          "type": "兑换优惠券",
+          "points": -17,
+          "date": "2026-06-24T00:00:00"
         }
       ]
     },
-    {
-      "userId": "U0141",
-      "balance": 137,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 48,
-          "reason": "消费积分",
-          "date": "2026-04-05 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 26,
-          "reason": "消费积分",
-          "date": "2026-05-13 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 48,
-          "reason": "消费积分",
-          "date": "2026-05-06 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 28,
-          "reason": "新用户奖励",
-          "date": "2026-04-02 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 11,
-          "reason": "分享奖励",
-          "date": "2026-05-22 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 6,
-          "reason": "消费积分",
-          "date": "2026-05-02 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 50,
-          "reason": "活动赠送",
-          "date": "2026-05-02 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 162,
-          "reason": "兑换优惠券",
-          "date": "2026-05-31 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 94,
-          "reason": "积分兑换商品",
-          "date": "2026-05-11 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0142",
-      "balance": 318,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 25,
-          "reason": "新用户奖励",
-          "date": "2026-05-23 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 18,
-          "reason": "消费积分",
-          "date": "2026-04-10 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 46,
-          "reason": "分享奖励",
-          "date": "2026-05-11 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 8,
-          "reason": "消费积分",
-          "date": "2026-04-26 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 43,
-          "reason": "活动赠送",
-          "date": "2026-05-26 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 30,
-          "reason": "分享奖励",
-          "date": "2026-05-20 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 20,
-          "reason": "活动赠送",
-          "date": "2026-05-26 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0143",
-      "balance": 212,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 15,
-          "reason": "活动赠送",
-          "date": "2026-04-12 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 30,
-          "reason": "分享奖励",
-          "date": "2026-04-20 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 46,
-          "reason": "签到奖励",
-          "date": "2026-05-24 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 135,
-          "reason": "积分抵现",
-          "date": "2026-05-08 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 89,
-          "reason": "兑换优惠券",
-          "date": "2026-05-12 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0144",
-      "balance": 67,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 47,
-          "reason": "消费积分",
-          "date": "2026-04-08 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 28,
-          "reason": "新用户奖励",
-          "date": "2026-05-19 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 36,
-          "reason": "活动赠送",
-          "date": "2026-04-05 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 29,
-          "reason": "活动赠送",
-          "date": "2026-05-14 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 41,
-          "reason": "新用户奖励",
-          "date": "2026-05-04 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0145",
-      "balance": 387,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 28,
-          "reason": "新用户奖励",
-          "date": "2026-05-20 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 32,
-          "reason": "活动赠送",
-          "date": "2026-05-26 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 7,
-          "reason": "新用户奖励",
-          "date": "2026-05-10 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 34,
-          "reason": "签到奖励",
-          "date": "2026-04-20 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 48,
-          "reason": "签到奖励",
-          "date": "2026-04-02 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 36,
-          "reason": "新用户奖励",
-          "date": "2026-04-21 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0146",
-      "balance": -8,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 32,
-          "reason": "消费积分",
-          "date": "2026-04-03 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 35,
-          "reason": "分享奖励",
-          "date": "2026-05-22 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 13,
-          "reason": "分享奖励",
-          "date": "2026-04-08 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 20,
-          "reason": "新用户奖励",
-          "date": "2026-05-04 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 23,
-          "reason": "新用户奖励",
-          "date": "2026-05-28 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 40,
-          "reason": "消费积分",
-          "date": "2026-04-03 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 7,
-          "reason": "新用户奖励",
-          "date": "2026-05-25 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 115,
-          "reason": "积分兑换商品",
-          "date": "2026-05-17 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 31,
-          "reason": "兑换优惠券",
-          "date": "2026-05-13 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 10,
-          "reason": "积分抵现",
-          "date": "2026-05-23 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0147",
-      "balance": 71,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 37,
-          "reason": "消费积分",
-          "date": "2026-05-24 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 55,
-          "reason": "积分兑换商品",
-          "date": "2026-05-05 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 110,
-          "reason": "积分兑换商品",
-          "date": "2026-05-29 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 63,
-          "reason": "兑换优惠券",
-          "date": "2026-05-22 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0148",
+    "1996733346": {
       "balance": 1,
       "history": [
         {
-          "type": "earn",
-          "amount": 34,
-          "reason": "活动赠送",
-          "date": "2026-04-22 00:00:00"
+          "type": "每日打卡",
+          "points": 20,
+          "date": "2026-05-18T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 21,
-          "reason": "分享奖励",
-          "date": "2026-04-03 00:00:00"
+          "type": "消费赠送",
+          "points": 19,
+          "date": "2026-05-10T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 16,
-          "reason": "签到奖励",
-          "date": "2026-05-20 00:00:00"
+          "type": "分享店铺",
+          "points": 14,
+          "date": "2026-06-29T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 10,
-          "reason": "新用户奖励",
-          "date": "2026-05-15 00:00:00"
+          "type": "每日打卡",
+          "points": 20,
+          "date": "2026-05-31T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 48,
-          "reason": "消费积分",
-          "date": "2026-05-04 00:00:00"
+          "type": "每日打卡",
+          "points": 34,
+          "date": "2026-06-04T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 39,
-          "reason": "消费积分",
-          "date": "2026-05-31 00:00:00"
+          "type": "分享店铺",
+          "points": 50,
+          "date": "2026-05-17T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 30,
-          "reason": "消费积分",
-          "date": "2026-05-31 00:00:00"
+          "type": "积分抵现",
+          "points": -136,
+          "date": "2026-06-23T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 15,
-          "reason": "活动赠送",
-          "date": "2026-05-02 00:00:00"
+          "type": "兑换优惠券",
+          "points": -10,
+          "date": "2026-06-08T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 49,
-          "reason": "活动赠送",
-          "date": "2026-04-06 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 87,
-          "reason": "兑换优惠券",
-          "date": "2026-05-05 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 56,
-          "reason": "兑换优惠券",
-          "date": "2026-05-10 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 16,
-          "reason": "积分抵现",
-          "date": "2026-05-29 00:00:00"
+          "type": "积分兑换",
+          "points": -10,
+          "date": "2026-06-06T00:00:00"
         }
       ]
     },
-    {
-      "userId": "U0149",
-      "balance": 64,
+    "1899584480": {
+      "balance": 0,
       "history": [
         {
-          "type": "earn",
-          "amount": 5,
-          "reason": "签到奖励",
-          "date": "2026-05-24 00:00:00"
+          "type": "分享店铺",
+          "points": 12,
+          "date": "2026-06-01T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 6,
-          "reason": "签到奖励",
-          "date": "2026-04-07 00:00:00"
+          "type": "兑换优惠券",
+          "points": -128,
+          "date": "2026-06-14T00:00:00"
         }
       ]
     },
-    {
-      "userId": "U0150",
-      "balance": 1,
+    "1719942340": {
+      "balance": 216,
       "history": [
         {
-          "type": "earn",
-          "amount": 46,
-          "reason": "签到奖励",
-          "date": "2026-04-20 00:00:00"
+          "type": "活动赠送",
+          "points": 15,
+          "date": "2026-05-14T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 20,
-          "reason": "活动赠送",
-          "date": "2026-04-08 00:00:00"
+          "type": "活动赠送",
+          "points": 33,
+          "date": "2026-06-14T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 45,
-          "reason": "新用户奖励",
-          "date": "2026-05-19 00:00:00"
+          "type": "分享店铺",
+          "points": 45,
+          "date": "2026-06-13T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 10,
-          "reason": "分享奖励",
-          "date": "2026-04-12 00:00:00"
+          "type": "活动赠送",
+          "points": 45,
+          "date": "2026-06-15T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 34,
-          "reason": "签到奖励",
-          "date": "2026-05-01 00:00:00"
+          "type": "消费赠送",
+          "points": 33,
+          "date": "2026-06-26T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 32,
-          "reason": "消费积分",
-          "date": "2026-05-24 00:00:00"
+          "type": "消费赠送",
+          "points": 20,
+          "date": "2026-06-13T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 15,
-          "reason": "签到奖励",
-          "date": "2026-04-14 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 72,
-          "reason": "积分抵现",
-          "date": "2026-05-31 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 24,
-          "reason": "兑换优惠券",
-          "date": "2026-05-24 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 10,
-          "reason": "积分抵现",
-          "date": "2026-05-13 00:00:00"
+          "type": "消费赠送",
+          "points": 25,
+          "date": "2026-05-04T00:00:00"
         }
       ]
     },
-    {
-      "userId": "U0151",
-      "balance": 53,
+    "1777922144": {
+      "balance": 0,
       "history": [
         {
-          "type": "earn",
-          "amount": 8,
-          "reason": "分享奖励",
-          "date": "2026-05-31 00:00:00"
+          "type": "分享店铺",
+          "points": 9,
+          "date": "2026-06-04T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 11,
-          "reason": "活动赠送",
-          "date": "2026-05-05 00:00:00"
+          "type": "活动赠送",
+          "points": 26,
+          "date": "2026-05-27T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 36,
-          "reason": "新用户奖励",
-          "date": "2026-04-23 00:00:00"
+          "type": "活动赠送",
+          "points": 31,
+          "date": "2026-06-27T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 40,
-          "reason": "分享奖励",
-          "date": "2026-05-29 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 36,
-          "reason": "活动赠送",
-          "date": "2026-04-30 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 37,
-          "reason": "新用户奖励",
-          "date": "2026-04-15 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 69,
-          "reason": "兑换优惠券",
-          "date": "2026-05-30 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 145,
-          "reason": "积分兑换商品",
-          "date": "2026-05-18 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 157,
-          "reason": "积分抵现",
-          "date": "2026-05-14 00:00:00"
+          "type": "积分抵现",
+          "points": -117,
+          "date": "2026-06-02T00:00:00"
         }
       ]
     },
-    {
-      "userId": "U0152",
-      "balance": 13,
+    "1322484678": {
+      "balance": 0,
       "history": [
         {
-          "type": "earn",
-          "amount": 46,
-          "reason": "活动赠送",
-          "date": "2026-04-05 00:00:00"
+          "type": "消费赠送",
+          "points": 24,
+          "date": "2026-05-13T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 35,
-          "reason": "消费积分",
-          "date": "2026-04-30 00:00:00"
+          "type": "兑换优惠券",
+          "points": -117,
+          "date": "2026-06-07T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 44,
-          "reason": "分享奖励",
-          "date": "2026-05-03 00:00:00"
+          "type": "兑换优惠券",
+          "points": -104,
+          "date": "2026-06-05T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 49,
-          "reason": "活动赠送",
-          "date": "2026-05-30 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 19,
-          "reason": "兑换优惠券",
-          "date": "2026-05-25 00:00:00"
+          "type": "积分兑换",
+          "points": -19,
+          "date": "2026-06-15T00:00:00"
         }
       ]
     },
-    {
-      "userId": "U0153",
-      "balance": 74,
+    "1759786578": {
+      "balance": 121,
       "history": [
         {
-          "type": "earn",
-          "amount": 33,
-          "reason": "签到奖励",
-          "date": "2026-04-29 00:00:00"
+          "type": "消费赠送",
+          "points": 47,
+          "date": "2026-05-18T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 19,
-          "reason": "新用户奖励",
-          "date": "2026-04-03 00:00:00"
+          "type": "活动赠送",
+          "points": 15,
+          "date": "2026-05-08T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 48,
-          "reason": "分享奖励",
-          "date": "2026-04-03 00:00:00"
+          "type": "活动赠送",
+          "points": 13,
+          "date": "2026-05-22T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 43,
-          "reason": "活动赠送",
-          "date": "2026-05-23 00:00:00"
+          "type": "每日打卡",
+          "points": 30,
+          "date": "2026-05-24T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 23,
-          "reason": "活动赠送",
-          "date": "2026-05-05 00:00:00"
+          "type": "每日打卡",
+          "points": 10,
+          "date": "2026-05-20T00:00:00"
         },
         {
-          "type": "spend",
-          "amount": 130,
-          "reason": "积分兑换商品",
-          "date": "2026-05-12 00:00:00"
+          "type": "活动赠送",
+          "points": 13,
+          "date": "2026-05-06T00:00:00"
         },
         {
-          "type": "spend",
-          "amount": 36,
-          "reason": "积分抵现",
-          "date": "2026-05-09 00:00:00"
+          "type": "活动赠送",
+          "points": 16,
+          "date": "2026-06-27T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -13,
+          "date": "2026-06-24T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -10,
+          "date": "2026-06-20T00:00:00"
         }
       ]
     },
-    {
-      "userId": "U0154",
-      "balance": 322,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 47,
-          "reason": "活动赠送",
-          "date": "2026-05-23 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 61,
-          "reason": "积分兑换商品",
-          "date": "2026-05-12 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0155",
-      "balance": 188,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 31,
-          "reason": "活动赠送",
-          "date": "2026-05-12 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 63,
-          "reason": "兑换优惠券",
-          "date": "2026-05-30 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0156",
-      "balance": 9,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 21,
-          "reason": "分享奖励",
-          "date": "2026-04-18 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 15,
-          "reason": "签到奖励",
-          "date": "2026-04-09 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 37,
-          "reason": "消费积分",
-          "date": "2026-04-10 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 9,
-          "reason": "分享奖励",
-          "date": "2026-05-04 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 12,
-          "reason": "新用户奖励",
-          "date": "2026-05-17 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0157",
-      "balance": 101,
-      "history": [
-        {
-          "type": "earn",
-          "amount": 36,
-          "reason": "分享奖励",
-          "date": "2026-05-10 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 27,
-          "reason": "消费积分",
-          "date": "2026-04-12 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 40,
-          "reason": "分享奖励",
-          "date": "2026-04-04 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 186,
-          "reason": "兑换优惠券",
-          "date": "2026-05-12 00:00:00"
-        }
-      ]
-    },
-    {
-      "userId": "U0158",
+    "1893262272": {
       "balance": 33,
       "history": [
         {
-          "type": "earn",
-          "amount": 50,
-          "reason": "消费积分",
-          "date": "2026-04-02 00:00:00"
+          "type": "活动赠送",
+          "points": 6,
+          "date": "2026-05-14T00:00:00"
         },
         {
-          "type": "spend",
-          "amount": 127,
-          "reason": "积分兑换商品",
-          "date": "2026-05-28 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 166,
-          "reason": "兑换优惠券",
-          "date": "2026-05-06 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 16,
-          "reason": "兑换优惠券",
-          "date": "2026-05-30 00:00:00"
+          "type": "每日打卡",
+          "points": 27,
+          "date": "2026-06-16T00:00:00"
         }
       ]
     },
-    {
-      "userId": "U0159",
-      "balance": 157,
+    "1987964764": {
+      "balance": 0,
       "history": [
         {
-          "type": "earn",
-          "amount": 15,
-          "reason": "消费积分",
-          "date": "2026-04-06 00:00:00"
+          "type": "分享店铺",
+          "points": 20,
+          "date": "2026-06-22T00:00:00"
         },
         {
-          "type": "spend",
-          "amount": 102,
-          "reason": "积分兑换商品",
-          "date": "2026-05-08 00:00:00"
+          "type": "积分兑换",
+          "points": -95,
+          "date": "2026-06-12T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -10,
+          "date": "2026-06-08T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -10,
+          "date": "2026-06-25T00:00:00"
         }
       ]
     },
-    {
-      "userId": "U0160",
-      "balance": 118,
+    "1787510213": {
+      "balance": 0,
       "history": [
         {
-          "type": "earn",
-          "amount": 37,
-          "reason": "活动赠送",
-          "date": "2026-04-15 00:00:00"
+          "type": "每日打卡",
+          "points": 42,
+          "date": "2026-06-29T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 11,
-          "reason": "签到奖励",
-          "date": "2026-04-20 00:00:00"
+          "type": "消费赠送",
+          "points": 41,
+          "date": "2026-05-18T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 28,
-          "reason": "分享奖励",
-          "date": "2026-04-09 00:00:00"
+          "type": "活动赠送",
+          "points": 30,
+          "date": "2026-05-16T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 13,
-          "reason": "消费积分",
-          "date": "2026-04-07 00:00:00"
+          "type": "分享店铺",
+          "points": 9,
+          "date": "2026-05-24T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 17,
-          "reason": "活动赠送",
-          "date": "2026-05-05 00:00:00"
+          "type": "分享店铺",
+          "points": 11,
+          "date": "2026-05-17T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 5,
-          "reason": "签到奖励",
-          "date": "2026-04-08 00:00:00"
+          "type": "兑换优惠券",
+          "points": -185,
+          "date": "2026-06-05T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 35,
-          "reason": "分享奖励",
-          "date": "2026-05-13 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 31,
-          "reason": "积分抵现",
-          "date": "2026-05-20 00:00:00"
+          "type": "兑换优惠券",
+          "points": -40,
+          "date": "2026-06-05T00:00:00"
         }
       ]
     },
-    {
-      "userId": "U0161",
-      "balance": 81,
+    "1913745585": {
+      "balance": 152,
       "history": [
         {
-          "type": "earn",
-          "amount": 28,
-          "reason": "签到奖励",
-          "date": "2026-05-22 00:00:00"
+          "type": "每日打卡",
+          "points": 31,
+          "date": "2026-05-09T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 38,
-          "reason": "活动赠送",
-          "date": "2026-04-11 00:00:00"
+          "type": "活动赠送",
+          "points": 11,
+          "date": "2026-06-03T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 19,
-          "reason": "签到奖励",
-          "date": "2026-04-10 00:00:00"
+          "type": "消费赠送",
+          "points": 45,
+          "date": "2026-05-04T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 32,
-          "reason": "活动赠送",
-          "date": "2026-04-03 00:00:00"
+          "type": "活动赠送",
+          "points": 50,
+          "date": "2026-06-21T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 31,
-          "reason": "活动赠送",
-          "date": "2026-04-07 00:00:00"
+          "type": "活动赠送",
+          "points": 16,
+          "date": "2026-05-15T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 38,
-          "reason": "分享奖励",
-          "date": "2026-05-30 00:00:00"
+          "type": "消费赠送",
+          "points": 44,
+          "date": "2026-05-10T00:00:00"
         },
         {
-          "type": "spend",
-          "amount": 47,
-          "reason": "积分兑换商品",
-          "date": "2026-05-09 00:00:00"
+          "type": "积分抵现",
+          "points": -24,
+          "date": "2026-06-04T00:00:00"
         },
         {
-          "type": "spend",
-          "amount": 142,
-          "reason": "积分兑换商品",
-          "date": "2026-05-29 00:00:00"
+          "type": "积分抵现",
+          "points": -11,
+          "date": "2026-06-03T00:00:00"
         },
         {
-          "type": "spend",
-          "amount": 96,
-          "reason": "积分抵现",
-          "date": "2026-05-19 00:00:00"
+          "type": "积分兑换",
+          "points": -10,
+          "date": "2026-06-22T00:00:00"
         }
       ]
     },
-    {
-      "userId": "U0162",
-      "balance": 395,
+    "1869813685": {
+      "balance": 0,
       "history": [
         {
-          "type": "earn",
-          "amount": 32,
-          "reason": "消费积分",
-          "date": "2026-05-06 00:00:00"
+          "type": "活动赠送",
+          "points": 25,
+          "date": "2026-06-19T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 7,
-          "reason": "签到奖励",
-          "date": "2026-04-04 00:00:00"
+          "type": "积分抵现",
+          "points": -64,
+          "date": "2026-06-05T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -43,
+          "date": "2026-06-22T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -48,
+          "date": "2026-06-02T00:00:00"
         }
       ]
     },
-    {
-      "userId": "U0163",
-      "balance": 264,
+    "1547472756": {
+      "balance": 138,
       "history": [
         {
-          "type": "earn",
-          "amount": 50,
-          "reason": "新用户奖励",
-          "date": "2026-05-13 00:00:00"
+          "type": "每日打卡",
+          "points": 20,
+          "date": "2026-05-15T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 31,
-          "reason": "活动赠送",
-          "date": "2026-04-05 00:00:00"
+          "type": "活动赠送",
+          "points": 36,
+          "date": "2026-05-26T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 48,
-          "reason": "新用户奖励",
-          "date": "2026-04-06 00:00:00"
+          "type": "分享店铺",
+          "points": 49,
+          "date": "2026-05-31T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 24,
-          "reason": "分享奖励",
-          "date": "2026-04-03 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 27,
-          "reason": "消费积分",
-          "date": "2026-04-09 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 22,
-          "reason": "新用户奖励",
-          "date": "2026-04-22 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 14,
-          "reason": "活动赠送",
-          "date": "2026-05-03 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 46,
-          "reason": "签到奖励",
-          "date": "2026-04-05 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 39,
-          "reason": "新用户奖励",
-          "date": "2026-04-11 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 44,
-          "reason": "活动赠送",
-          "date": "2026-04-17 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 176,
-          "reason": "积分抵现",
-          "date": "2026-05-07 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 60,
-          "reason": "积分抵现",
-          "date": "2026-05-29 00:00:00"
+          "type": "活动赠送",
+          "points": 33,
+          "date": "2026-05-11T00:00:00"
         }
       ]
     },
-    {
-      "userId": "U0164",
-      "balance": -8,
+    "1387380378": {
+      "balance": 0,
       "history": [
         {
-          "type": "earn",
-          "amount": 26,
-          "reason": "活动赠送",
-          "date": "2026-04-15 00:00:00"
+          "type": "消费赠送",
+          "points": 47,
+          "date": "2026-05-24T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 13,
-          "reason": "新用户奖励",
-          "date": "2026-04-27 00:00:00"
+          "type": "消费赠送",
+          "points": 35,
+          "date": "2026-05-26T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 23,
-          "reason": "签到奖励",
-          "date": "2026-05-26 00:00:00"
+          "type": "消费赠送",
+          "points": 32,
+          "date": "2026-05-14T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 37,
-          "reason": "新用户奖励",
-          "date": "2026-05-12 00:00:00"
+          "type": "消费赠送",
+          "points": 27,
+          "date": "2026-05-17T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 38,
-          "reason": "分享奖励",
-          "date": "2026-04-13 00:00:00"
+          "type": "积分抵现",
+          "points": -79,
+          "date": "2026-06-22T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 45,
-          "reason": "签到奖励",
-          "date": "2026-05-30 00:00:00"
+          "type": "积分兑换",
+          "points": -69,
+          "date": "2026-06-07T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 6,
-          "reason": "新用户奖励",
-          "date": "2026-04-24 00:00:00"
-        },
-        {
-          "type": "earn",
-          "amount": 21,
-          "reason": "签到奖励",
-          "date": "2026-04-08 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 16,
-          "reason": "兑换优惠券",
-          "date": "2026-05-28 00:00:00"
-        },
-        {
-          "type": "spend",
-          "amount": 10,
-          "reason": "积分抵现",
-          "date": "2026-05-23 00:00:00"
+          "type": "积分抵现",
+          "points": -59,
+          "date": "2026-06-27T00:00:00"
         }
       ]
     },
-    {
-      "userId": "U0165",
-      "balance": 129,
+    "1882720953": {
+      "balance": 142,
       "history": [
         {
-          "type": "earn",
-          "amount": 27,
-          "reason": "消费积分",
-          "date": "2026-05-28 00:00:00"
+          "type": "消费赠送",
+          "points": 42,
+          "date": "2026-05-13T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 46,
-          "reason": "消费积分",
-          "date": "2026-05-03 00:00:00"
+          "type": "消费赠送",
+          "points": 11,
+          "date": "2026-05-08T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 24,
-          "reason": "新用户奖励",
-          "date": "2026-04-14 00:00:00"
+          "type": "分享店铺",
+          "points": 23,
+          "date": "2026-06-16T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 5,
-          "reason": "活动赠送",
-          "date": "2026-05-10 00:00:00"
+          "type": "消费赠送",
+          "points": 16,
+          "date": "2026-06-11T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 20,
-          "reason": "新用户奖励",
-          "date": "2026-04-25 00:00:00"
+          "type": "每日打卡",
+          "points": 50,
+          "date": "2026-05-27T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 50,
-          "reason": "新用户奖励",
-          "date": "2026-04-07 00:00:00"
+          "type": "分享店铺",
+          "points": 22,
+          "date": "2026-06-28T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 43,
-          "reason": "签到奖励",
-          "date": "2026-05-09 00:00:00"
+          "type": "每日打卡",
+          "points": 40,
+          "date": "2026-06-12T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 24,
-          "reason": "分享奖励",
-          "date": "2026-04-19 00:00:00"
+          "type": "分享店铺",
+          "points": 45,
+          "date": "2026-05-06T00:00:00"
         },
         {
-          "type": "spend",
-          "amount": 192,
-          "reason": "积分抵现",
-          "date": "2026-05-15 00:00:00"
+          "type": "积分兑换",
+          "points": -23,
+          "date": "2026-06-12T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -46,
+          "date": "2026-06-15T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -38,
+          "date": "2026-06-25T00:00:00"
         }
       ]
     },
-    {
-      "userId": "U0166",
-      "balance": 185,
+    "1899595193": {
+      "balance": 0,
       "history": [
         {
-          "type": "earn",
-          "amount": 11,
-          "reason": "分享奖励",
-          "date": "2026-04-28 00:00:00"
+          "type": "活动赠送",
+          "points": 36,
+          "date": "2026-06-26T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 42,
-          "reason": "签到奖励",
-          "date": "2026-04-09 00:00:00"
+          "type": "每日打卡",
+          "points": 14,
+          "date": "2026-06-21T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 28,
-          "reason": "活动赠送",
-          "date": "2026-05-25 00:00:00"
+          "type": "积分兑换",
+          "points": -31,
+          "date": "2026-06-27T00:00:00"
         },
         {
-          "type": "spend",
-          "amount": 192,
-          "reason": "积分抵现",
-          "date": "2026-05-05 00:00:00"
+          "type": "积分抵现",
+          "points": -152,
+          "date": "2026-06-11T00:00:00"
         }
       ]
     },
-    {
-      "userId": "U0167",
-      "balance": 79,
+    "1387913846": {
+      "balance": 0,
       "history": [
         {
-          "type": "earn",
-          "amount": 10,
-          "reason": "消费积分",
-          "date": "2026-05-04 00:00:00"
+          "type": "活动赠送",
+          "points": 24,
+          "date": "2026-05-06T00:00:00"
         },
         {
-          "type": "spend",
-          "amount": 131,
-          "reason": "积分兑换商品",
-          "date": "2026-05-17 00:00:00"
+          "type": "活动赠送",
+          "points": 24,
+          "date": "2026-05-25T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 44,
+          "date": "2026-05-14T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 18,
+          "date": "2026-05-21T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 21,
+          "date": "2026-05-19T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 15,
+          "date": "2026-06-15T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 40,
+          "date": "2026-06-26T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 5,
+          "date": "2026-06-04T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -186,
+          "date": "2026-06-15T00:00:00"
+        },
+        {
+          "type": "积分兑换",
+          "points": -10,
+          "date": "2026-06-23T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -10,
+          "date": "2026-06-21T00:00:00"
         }
       ]
     },
-    {
-      "userId": "U0168",
-      "balance": -17,
+    "1854143663": {
+      "balance": 137,
       "history": [
         {
-          "type": "earn",
-          "amount": 48,
-          "reason": "新用户奖励",
-          "date": "2026-05-06 00:00:00"
+          "type": "消费赠送",
+          "points": 45,
+          "date": "2026-05-24T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 42,
-          "reason": "新用户奖励",
-          "date": "2026-04-28 00:00:00"
+          "type": "分享店铺",
+          "points": 32,
+          "date": "2026-06-23T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 30,
-          "reason": "分享奖励",
-          "date": "2026-04-24 00:00:00"
+          "type": "分享店铺",
+          "points": 46,
+          "date": "2026-06-21T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 36,
-          "reason": "活动赠送",
-          "date": "2026-05-03 00:00:00"
+          "type": "消费赠送",
+          "points": 14,
+          "date": "2026-06-26T00:00:00"
+        }
+      ]
+    },
+    "1549277184": {
+      "balance": 0,
+      "history": [
+        {
+          "type": "活动赠送",
+          "points": 49,
+          "date": "2026-06-11T00:00:00"
         },
         {
-          "type": "earn",
-          "amount": 49,
-          "reason": "活动赠送",
-          "date": "2026-04-15 00:00:00"
+          "type": "活动赠送",
+          "points": 22,
+          "date": "2026-05-29T00:00:00"
         },
         {
-          "type": "spend",
-          "amount": 36,
-          "reason": "积分兑换商品",
-          "date": "2026-05-27 00:00:00"
+          "type": "积分兑换",
+          "points": -122,
+          "date": "2026-06-11T00:00:00"
         },
         {
-          "type": "spend",
-          "amount": 10,
-          "reason": "积分抵现",
-          "date": "2026-05-09 00:00:00"
+          "type": "积分抵现",
+          "points": -15,
+          "date": "2026-06-07T00:00:00"
         },
         {
-          "type": "spend",
-          "amount": 10,
-          "reason": "积分兑换商品",
-          "date": "2026-05-09 00:00:00"
+          "type": "兑换优惠券",
+          "points": -51,
+          "date": "2026-06-22T00:00:00"
+        }
+      ]
+    },
+    "1990187829": {
+      "balance": 0,
+      "history": [
+        {
+          "type": "每日打卡",
+          "points": 16,
+          "date": "2026-05-31T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 22,
+          "date": "2026-06-19T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 45,
+          "date": "2026-05-09T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 10,
+          "date": "2026-05-31T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 31,
+          "date": "2026-06-09T00:00:00"
+        },
+        {
+          "type": "积分兑换",
+          "points": -181,
+          "date": "2026-06-03T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -51,
+          "date": "2026-06-17T00:00:00"
+        }
+      ]
+    },
+    "1535854154": {
+      "balance": 0,
+      "history": [
+        {
+          "type": "活动赠送",
+          "points": 10,
+          "date": "2026-06-10T00:00:00"
+        },
+        {
+          "type": "积分兑换",
+          "points": -92,
+          "date": "2026-06-06T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -113,
+          "date": "2026-06-04T00:00:00"
+        }
+      ]
+    },
+    "1585460810": {
+      "balance": 93,
+      "history": [
+        {
+          "type": "消费赠送",
+          "points": 44,
+          "date": "2026-05-13T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 45,
+          "date": "2026-06-02T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 18,
+          "date": "2026-06-13T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 23,
+          "date": "2026-06-02T00:00:00"
+        },
+        {
+          "type": "积分兑换",
+          "points": -13,
+          "date": "2026-06-10T00:00:00"
+        },
+        {
+          "type": "积分兑换",
+          "points": -14,
+          "date": "2026-06-08T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -10,
+          "date": "2026-06-13T00:00:00"
+        }
+      ]
+    },
+    "1313505135": {
+      "balance": 0,
+      "history": [
+        {
+          "type": "活动赠送",
+          "points": 12,
+          "date": "2026-05-20T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 36,
+          "date": "2026-05-02T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -75,
+          "date": "2026-06-22T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -23,
+          "date": "2026-06-15T00:00:00"
+        }
+      ]
+    },
+    "1763513320": {
+      "balance": 0,
+      "history": [
+        {
+          "type": "每日打卡",
+          "points": 22,
+          "date": "2026-05-12T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 26,
+          "date": "2026-05-02T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 5,
+          "date": "2026-06-12T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -85,
+          "date": "2026-06-09T00:00:00"
+        },
+        {
+          "type": "积分兑换",
+          "points": -11,
+          "date": "2026-06-16T00:00:00"
+        }
+      ]
+    },
+    "1789614394": {
+      "balance": 77,
+      "history": [
+        {
+          "type": "活动赠送",
+          "points": 25,
+          "date": "2026-05-06T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 49,
+          "date": "2026-06-15T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 19,
+          "date": "2026-05-07T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 7,
+          "date": "2026-06-10T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 50,
+          "date": "2026-05-03T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 29,
+          "date": "2026-05-19T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 36,
+          "date": "2026-06-28T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -138,
+          "date": "2026-06-20T00:00:00"
+        }
+      ]
+    },
+    "1566566867": {
+      "balance": 38,
+      "history": [
+        {
+          "type": "每日打卡",
+          "points": 14,
+          "date": "2026-06-04T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 9,
+          "date": "2026-05-31T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 26,
+          "date": "2026-05-22T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 46,
+          "date": "2026-06-25T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 48,
+          "date": "2026-05-07T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 25,
+          "date": "2026-05-21T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 39,
+          "date": "2026-06-28T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 20,
+          "date": "2026-05-21T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -68,
+          "date": "2026-06-28T00:00:00"
+        },
+        {
+          "type": "积分兑换",
+          "points": -121,
+          "date": "2026-06-06T00:00:00"
+        }
+      ]
+    },
+    "1825352273": {
+      "balance": 115,
+      "history": [
+        {
+          "type": "每日打卡",
+          "points": 7,
+          "date": "2026-06-10T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 23,
+          "date": "2026-06-08T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 32,
+          "date": "2026-06-21T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 38,
+          "date": "2026-06-04T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 15,
+          "date": "2026-06-19T00:00:00"
+        }
+      ]
+    },
+    "1568336959": {
+      "balance": 0,
+      "history": [
+        {
+          "type": "分享店铺",
+          "points": 34,
+          "date": "2026-05-21T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 34,
+          "date": "2026-06-14T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 34,
+          "date": "2026-05-04T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -183,
+          "date": "2026-06-25T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -14,
+          "date": "2026-06-19T00:00:00"
+        }
+      ]
+    },
+    "1813737153": {
+      "balance": 0,
+      "history": [
+        {
+          "type": "分享店铺",
+          "points": 29,
+          "date": "2026-05-07T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 11,
+          "date": "2026-06-15T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 41,
+          "date": "2026-06-08T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 49,
+          "date": "2026-06-12T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 47,
+          "date": "2026-06-05T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -12,
+          "date": "2026-06-03T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -185,
+          "date": "2026-06-29T00:00:00"
+        }
+      ]
+    },
+    "1973248916": {
+      "balance": 0,
+      "history": [
+        {
+          "type": "消费赠送",
+          "points": 19,
+          "date": "2026-05-21T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 44,
+          "date": "2026-06-14T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 45,
+          "date": "2026-06-24T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 24,
+          "date": "2026-05-11T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -18,
+          "date": "2026-06-19T00:00:00"
+        },
+        {
+          "type": "积分兑换",
+          "points": -197,
+          "date": "2026-06-28T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -85,
+          "date": "2026-06-07T00:00:00"
+        }
+      ]
+    },
+    "1816571286": {
+      "balance": 152,
+      "history": [
+        {
+          "type": "消费赠送",
+          "points": 15,
+          "date": "2026-06-14T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 23,
+          "date": "2026-05-14T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 12,
+          "date": "2026-06-01T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 14,
+          "date": "2026-05-13T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 48,
+          "date": "2026-05-15T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 40,
+          "date": "2026-06-07T00:00:00"
+        }
+      ]
+    },
+    "1579159057": {
+      "balance": 286,
+      "history": [
+        {
+          "type": "消费赠送",
+          "points": 48,
+          "date": "2026-05-14T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 42,
+          "date": "2026-06-06T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 11,
+          "date": "2026-05-18T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 35,
+          "date": "2026-06-29T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 44,
+          "date": "2026-06-16T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 45,
+          "date": "2026-05-09T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 49,
+          "date": "2026-06-11T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 12,
+          "date": "2026-06-22T00:00:00"
+        }
+      ]
+    },
+    "1796324090": {
+      "balance": 149,
+      "history": [
+        {
+          "type": "分享店铺",
+          "points": 29,
+          "date": "2026-06-01T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 47,
+          "date": "2026-05-14T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 42,
+          "date": "2026-05-14T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 31,
+          "date": "2026-05-20T00:00:00"
+        }
+      ]
+    },
+    "1745213745": {
+      "balance": 120,
+      "history": [
+        {
+          "type": "分享店铺",
+          "points": 33,
+          "date": "2026-06-02T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 28,
+          "date": "2026-06-24T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 39,
+          "date": "2026-05-04T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 8,
+          "date": "2026-06-05T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 17,
+          "date": "2026-06-23T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 10,
+          "date": "2026-05-19T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -15,
+          "date": "2026-06-11T00:00:00"
+        }
+      ]
+    },
+    "1914845121": {
+      "balance": 45,
+      "history": [
+        {
+          "type": "每日打卡",
+          "points": 40,
+          "date": "2026-06-17T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 19,
+          "date": "2026-06-09T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 43,
+          "date": "2026-06-30T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 14,
+          "date": "2026-06-22T00:00:00"
+        },
+        {
+          "type": "积分兑换",
+          "points": -61,
+          "date": "2026-06-27T00:00:00"
+        },
+        {
+          "type": "积分兑换",
+          "points": -10,
+          "date": "2026-06-30T00:00:00"
+        }
+      ]
+    },
+    "1745552681": {
+      "balance": 61,
+      "history": [
+        {
+          "type": "消费赠送",
+          "points": 8,
+          "date": "2026-06-22T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 38,
+          "date": "2026-06-23T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 35,
+          "date": "2026-06-02T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -10,
+          "date": "2026-06-14T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -10,
+          "date": "2026-06-29T00:00:00"
+        }
+      ]
+    },
+    "1723483070": {
+      "balance": 0,
+      "history": [
+        {
+          "type": "每日打卡",
+          "points": 35,
+          "date": "2026-05-07T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -119,
+          "date": "2026-06-27T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -135,
+          "date": "2026-06-01T00:00:00"
+        },
+        {
+          "type": "积分兑换",
+          "points": -66,
+          "date": "2026-06-02T00:00:00"
+        }
+      ]
+    },
+    "1886866877": {
+      "balance": 116,
+      "history": [
+        {
+          "type": "消费赠送",
+          "points": 29,
+          "date": "2026-05-23T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 34,
+          "date": "2026-05-29T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 11,
+          "date": "2026-05-11T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 46,
+          "date": "2026-05-20T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 32,
+          "date": "2026-06-02T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -36,
+          "date": "2026-06-04T00:00:00"
+        }
+      ]
+    },
+    "1956129856": {
+      "balance": 44,
+      "history": [
+        {
+          "type": "消费赠送",
+          "points": 47,
+          "date": "2026-06-14T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 14,
+          "date": "2026-05-18T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 9,
+          "date": "2026-06-25T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 10,
+          "date": "2026-06-03T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 28,
+          "date": "2026-05-10T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 40,
+          "date": "2026-06-27T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 47,
+          "date": "2026-06-23T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -100,
+          "date": "2026-06-06T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -37,
+          "date": "2026-06-29T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -14,
+          "date": "2026-06-21T00:00:00"
+        }
+      ]
+    },
+    "1766226946": {
+      "balance": 228,
+      "history": [
+        {
+          "type": "分享店铺",
+          "points": 11,
+          "date": "2026-06-08T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 12,
+          "date": "2026-05-13T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 41,
+          "date": "2026-06-16T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 40,
+          "date": "2026-05-12T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 43,
+          "date": "2026-05-02T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 6,
+          "date": "2026-06-19T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 49,
+          "date": "2026-05-13T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 26,
+          "date": "2026-06-08T00:00:00"
+        }
+      ]
+    },
+    "1355444197": {
+      "balance": 30,
+      "history": [
+        {
+          "type": "每日打卡",
+          "points": 10,
+          "date": "2026-05-14T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 29,
+          "date": "2026-06-04T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 26,
+          "date": "2026-06-20T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -19,
+          "date": "2026-06-20T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -16,
+          "date": "2026-06-11T00:00:00"
+        }
+      ]
+    },
+    "1816261217": {
+      "balance": 0,
+      "history": [
+        {
+          "type": "每日打卡",
+          "points": 22,
+          "date": "2026-06-02T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -72,
+          "date": "2026-06-16T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -10,
+          "date": "2026-06-24T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -10,
+          "date": "2026-06-17T00:00:00"
+        }
+      ]
+    },
+    "1993966611": {
+      "balance": 0,
+      "history": [
+        {
+          "type": "每日打卡",
+          "points": 19,
+          "date": "2026-06-05T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 5,
+          "date": "2026-06-17T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 18,
+          "date": "2026-05-12T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 21,
+          "date": "2026-06-12T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 12,
+          "date": "2026-06-30T00:00:00"
+        },
+        {
+          "type": "积分兑换",
+          "points": -120,
+          "date": "2026-06-26T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -107,
+          "date": "2026-06-08T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -39,
+          "date": "2026-06-13T00:00:00"
+        }
+      ]
+    },
+    "1963469776": {
+      "balance": 6,
+      "history": [
+        {
+          "type": "活动赠送",
+          "points": 6,
+          "date": "2026-06-01T00:00:00"
+        }
+      ]
+    },
+    "1328469696": {
+      "balance": 59,
+      "history": [
+        {
+          "type": "消费赠送",
+          "points": 12,
+          "date": "2026-06-05T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 25,
+          "date": "2026-06-20T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 49,
+          "date": "2026-05-03T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 10,
+          "date": "2026-06-03T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 20,
+          "date": "2026-06-03T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 38,
+          "date": "2026-06-25T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 24,
+          "date": "2026-05-14T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -66,
+          "date": "2026-06-06T00:00:00"
+        },
+        {
+          "type": "积分兑换",
+          "points": -53,
+          "date": "2026-06-14T00:00:00"
+        }
+      ]
+    },
+    "1994424164": {
+      "balance": 0,
+      "history": [
+        {
+          "type": "分享店铺",
+          "points": 11,
+          "date": "2026-06-21T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 17,
+          "date": "2026-06-19T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 46,
+          "date": "2026-06-26T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -170,
+          "date": "2026-06-16T00:00:00"
+        }
+      ]
+    },
+    "1940359449": {
+      "balance": 30,
+      "history": [
+        {
+          "type": "分享店铺",
+          "points": 33,
+          "date": "2026-06-26T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 33,
+          "date": "2026-05-21T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 22,
+          "date": "2026-05-24T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 27,
+          "date": "2026-05-29T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 24,
+          "date": "2026-06-01T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 7,
+          "date": "2026-06-27T00:00:00"
+        },
+        {
+          "type": "积分兑换",
+          "points": -83,
+          "date": "2026-06-10T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -33,
+          "date": "2026-06-11T00:00:00"
+        }
+      ]
+    },
+    "1789751293": {
+      "balance": 0,
+      "history": [
+        {
+          "type": "活动赠送",
+          "points": 41,
+          "date": "2026-05-20T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -92,
+          "date": "2026-06-15T00:00:00"
+        }
+      ]
+    },
+    "1714479246": {
+      "balance": 182,
+      "history": [
+        {
+          "type": "每日打卡",
+          "points": 37,
+          "date": "2026-05-20T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 7,
+          "date": "2026-06-15T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 33,
+          "date": "2026-05-28T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 28,
+          "date": "2026-06-07T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 29,
+          "date": "2026-06-04T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 48,
+          "date": "2026-05-23T00:00:00"
+        }
+      ]
+    },
+    "1853931844": {
+      "balance": 0,
+      "history": [
+        {
+          "type": "活动赠送",
+          "points": 23,
+          "date": "2026-06-14T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 26,
+          "date": "2026-06-25T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -99,
+          "date": "2026-06-10T00:00:00"
+        }
+      ]
+    },
+    "1376982197": {
+      "balance": 53,
+      "history": [
+        {
+          "type": "消费赠送",
+          "points": 40,
+          "date": "2026-06-06T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 13,
+          "date": "2026-05-19T00:00:00"
+        }
+      ]
+    },
+    "1363956550": {
+      "balance": 0,
+      "history": [
+        {
+          "type": "消费赠送",
+          "points": 24,
+          "date": "2026-06-19T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -97,
+          "date": "2026-06-24T00:00:00"
+        }
+      ]
+    },
+    "1326550589": {
+      "balance": 39,
+      "history": [
+        {
+          "type": "每日打卡",
+          "points": 47,
+          "date": "2026-06-09T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 43,
+          "date": "2026-06-06T00:00:00"
+        },
+        {
+          "type": "积分兑换",
+          "points": -51,
+          "date": "2026-06-04T00:00:00"
+        }
+      ]
+    },
+    "1753675110": {
+      "balance": 186,
+      "history": [
+        {
+          "type": "消费赠送",
+          "points": 48,
+          "date": "2026-05-15T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 33,
+          "date": "2026-05-22T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 33,
+          "date": "2026-06-16T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 24,
+          "date": "2026-05-10T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 17,
+          "date": "2026-06-07T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 34,
+          "date": "2026-05-12T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 29,
+          "date": "2026-05-29T00:00:00"
+        },
+        {
+          "type": "积分兑换",
+          "points": -12,
+          "date": "2026-06-05T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -10,
+          "date": "2026-06-29T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -10,
+          "date": "2026-06-13T00:00:00"
+        }
+      ]
+    },
+    "1549704670": {
+      "balance": 65,
+      "history": [
+        {
+          "type": "消费赠送",
+          "points": 33,
+          "date": "2026-05-04T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 32,
+          "date": "2026-06-25T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 33,
+          "date": "2026-05-05T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -11,
+          "date": "2026-06-29T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -22,
+          "date": "2026-06-19T00:00:00"
+        }
+      ]
+    },
+    "1899327370": {
+      "balance": 0,
+      "history": [
+        {
+          "type": "消费赠送",
+          "points": 11,
+          "date": "2026-05-08T00:00:00"
+        },
+        {
+          "type": "积分兑换",
+          "points": -111,
+          "date": "2026-06-26T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -10,
+          "date": "2026-06-01T00:00:00"
+        }
+      ]
+    },
+    "1518211396": {
+      "balance": 0,
+      "history": [
+        {
+          "type": "每日打卡",
+          "points": 6,
+          "date": "2026-06-14T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -48,
+          "date": "2026-06-07T00:00:00"
+        }
+      ]
+    },
+    "1994897329": {
+      "balance": 0,
+      "history": [
+        {
+          "type": "分享店铺",
+          "points": 24,
+          "date": "2026-06-23T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 20,
+          "date": "2026-06-04T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 9,
+          "date": "2026-06-23T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 43,
+          "date": "2026-05-27T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 45,
+          "date": "2026-05-29T00:00:00"
+        },
+        {
+          "type": "积分兑换",
+          "points": -193,
+          "date": "2026-06-21T00:00:00"
+        }
+      ]
+    },
+    "1898692821": {
+      "balance": 214,
+      "history": [
+        {
+          "type": "分享店铺",
+          "points": 47,
+          "date": "2026-05-19T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 38,
+          "date": "2026-06-07T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 38,
+          "date": "2026-05-27T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 29,
+          "date": "2026-05-06T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 7,
+          "date": "2026-05-21T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 28,
+          "date": "2026-06-14T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 27,
+          "date": "2026-05-11T00:00:00"
+        }
+      ]
+    },
+    "1921791214": {
+      "balance": 0,
+      "history": [
+        {
+          "type": "消费赠送",
+          "points": 39,
+          "date": "2026-06-09T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -63,
+          "date": "2026-06-16T00:00:00"
+        }
+      ]
+    },
+    "1587326742": {
+      "balance": 171,
+      "history": [
+        {
+          "type": "每日打卡",
+          "points": 23,
+          "date": "2026-06-18T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 17,
+          "date": "2026-05-05T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 25,
+          "date": "2026-05-02T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 37,
+          "date": "2026-06-05T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 21,
+          "date": "2026-06-28T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 23,
+          "date": "2026-06-08T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 46,
+          "date": "2026-06-09T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 12,
+          "date": "2026-05-10T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -23,
+          "date": "2026-06-07T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -10,
+          "date": "2026-06-20T00:00:00"
+        }
+      ]
+    },
+    "1523673681": {
+      "balance": 0,
+      "history": [
+        {
+          "type": "每日打卡",
+          "points": 32,
+          "date": "2026-06-25T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 43,
+          "date": "2026-05-09T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 39,
+          "date": "2026-06-12T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 11,
+          "date": "2026-06-25T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 47,
+          "date": "2026-06-12T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -124,
+          "date": "2026-06-08T00:00:00"
+        },
+        {
+          "type": "积分兑换",
+          "points": -119,
+          "date": "2026-06-08T00:00:00"
+        }
+      ]
+    },
+    "1950448393": {
+      "balance": 0,
+      "history": [
+        {
+          "type": "活动赠送",
+          "points": 22,
+          "date": "2026-05-21T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 9,
+          "date": "2026-05-19T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 28,
+          "date": "2026-05-29T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 6,
+          "date": "2026-06-21T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 7,
+          "date": "2026-06-22T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 20,
+          "date": "2026-05-12T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -102,
+          "date": "2026-06-12T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -18,
+          "date": "2026-06-26T00:00:00"
+        }
+      ]
+    },
+    "1516526258": {
+      "balance": 0,
+      "history": [
+        {
+          "type": "分享店铺",
+          "points": 38,
+          "date": "2026-06-07T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 25,
+          "date": "2026-05-20T00:00:00"
+        },
+        {
+          "type": "积分兑换",
+          "points": -73,
+          "date": "2026-06-30T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -57,
+          "date": "2026-06-14T00:00:00"
+        }
+      ]
+    },
+    "1799759444": {
+      "balance": 143,
+      "history": [
+        {
+          "type": "活动赠送",
+          "points": 18,
+          "date": "2026-05-22T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 49,
+          "date": "2026-05-03T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 17,
+          "date": "2026-06-23T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 9,
+          "date": "2026-06-02T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 50,
+          "date": "2026-06-02T00:00:00"
+        }
+      ]
+    },
+    "1796897277": {
+      "balance": 0,
+      "history": [
+        {
+          "type": "消费赠送",
+          "points": 24,
+          "date": "2026-05-07T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 50,
+          "date": "2026-05-16T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -102,
+          "date": "2026-06-23T00:00:00"
+        }
+      ]
+    },
+    "1575875231": {
+      "balance": 269,
+      "history": [
+        {
+          "type": "每日打卡",
+          "points": 28,
+          "date": "2026-05-26T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 34,
+          "date": "2026-05-10T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 44,
+          "date": "2026-05-05T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 9,
+          "date": "2026-06-11T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 50,
+          "date": "2026-05-15T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 38,
+          "date": "2026-06-04T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 41,
+          "date": "2026-06-26T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 25,
+          "date": "2026-05-20T00:00:00"
+        }
+      ]
+    },
+    "1853555229": {
+      "balance": 0,
+      "history": [
+        {
+          "type": "分享店铺",
+          "points": 32,
+          "date": "2026-05-29T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 12,
+          "date": "2026-05-28T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 24,
+          "date": "2026-06-20T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -92,
+          "date": "2026-06-23T00:00:00"
+        }
+      ]
+    },
+    "1940880092": {
+      "balance": 105,
+      "history": [
+        {
+          "type": "消费赠送",
+          "points": 13,
+          "date": "2026-05-21T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 44,
+          "date": "2026-05-27T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 37,
+          "date": "2026-05-20T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 42,
+          "date": "2026-05-24T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -31,
+          "date": "2026-06-11T00:00:00"
+        }
+      ]
+    },
+    "1829831678": {
+      "balance": 0,
+      "history": [
+        {
+          "type": "每日打卡",
+          "points": 7,
+          "date": "2026-05-20T00:00:00"
+        },
+        {
+          "type": "积分兑换",
+          "points": -176,
+          "date": "2026-06-06T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -156,
+          "date": "2026-06-11T00:00:00"
+        }
+      ]
+    },
+    "1785192055": {
+      "balance": 13,
+      "history": [
+        {
+          "type": "活动赠送",
+          "points": 20,
+          "date": "2026-05-10T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 24,
+          "date": "2026-06-01T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 49,
+          "date": "2026-06-27T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 33,
+          "date": "2026-06-04T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 34,
+          "date": "2026-06-17T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -46,
+          "date": "2026-06-03T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -101,
+          "date": "2026-06-07T00:00:00"
+        }
+      ]
+    },
+    "1366372598": {
+      "balance": 0,
+      "history": [
+        {
+          "type": "消费赠送",
+          "points": 20,
+          "date": "2026-06-01T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 22,
+          "date": "2026-06-02T00:00:00"
+        },
+        {
+          "type": "积分兑换",
+          "points": -46,
+          "date": "2026-06-29T00:00:00"
+        }
+      ]
+    },
+    "1895506544": {
+      "balance": 0,
+      "history": [
+        {
+          "type": "消费赠送",
+          "points": 41,
+          "date": "2026-05-15T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 17,
+          "date": "2026-05-13T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 36,
+          "date": "2026-05-29T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -137,
+          "date": "2026-06-15T00:00:00"
+        },
+        {
+          "type": "积分兑换",
+          "points": -15,
+          "date": "2026-06-18T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -139,
+          "date": "2026-06-23T00:00:00"
+        }
+      ]
+    },
+    "1519584622": {
+      "balance": 128,
+      "history": [
+        {
+          "type": "活动赠送",
+          "points": 43,
+          "date": "2026-05-05T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 23,
+          "date": "2026-05-27T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 11,
+          "date": "2026-06-03T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 21,
+          "date": "2026-05-15T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 30,
+          "date": "2026-06-07T00:00:00"
+        }
+      ]
+    },
+    "1914212140": {
+      "balance": 90,
+      "history": [
+        {
+          "type": "每日打卡",
+          "points": 29,
+          "date": "2026-05-29T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 40,
+          "date": "2026-06-13T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 13,
+          "date": "2026-06-24T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 28,
+          "date": "2026-05-11T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 40,
+          "date": "2026-06-07T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -60,
+          "date": "2026-06-14T00:00:00"
+        }
+      ]
+    },
+    "1563738184": {
+      "balance": 52,
+      "history": [
+        {
+          "type": "消费赠送",
+          "points": 35,
+          "date": "2026-05-28T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 14,
+          "date": "2026-05-23T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 25,
+          "date": "2026-05-02T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -12,
+          "date": "2026-06-11T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -10,
+          "date": "2026-06-20T00:00:00"
+        }
+      ]
+    },
+    "1751271330": {
+      "balance": 26,
+      "history": [
+        {
+          "type": "消费赠送",
+          "points": 26,
+          "date": "2026-05-18T00:00:00"
+        }
+      ]
+    },
+    "1599948669": {
+      "balance": 48,
+      "history": [
+        {
+          "type": "消费赠送",
+          "points": 46,
+          "date": "2026-05-11T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 8,
+          "date": "2026-05-24T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 15,
+          "date": "2026-05-28T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 14,
+          "date": "2026-05-09T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 7,
+          "date": "2026-05-25T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 17,
+          "date": "2026-06-29T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 25,
+          "date": "2026-06-04T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 31,
+          "date": "2026-05-17T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -115,
+          "date": "2026-06-06T00:00:00"
+        }
+      ]
+    },
+    "1774900442": {
+      "balance": 0,
+      "history": [
+        {
+          "type": "分享店铺",
+          "points": 40,
+          "date": "2026-06-10T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 38,
+          "date": "2026-06-06T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 16,
+          "date": "2026-06-01T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -149,
+          "date": "2026-06-09T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -194,
+          "date": "2026-06-10T00:00:00"
+        }
+      ]
+    },
+    "1534454571": {
+      "balance": 0,
+      "history": [
+        {
+          "type": "消费赠送",
+          "points": 40,
+          "date": "2026-06-11T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 24,
+          "date": "2026-05-12T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 50,
+          "date": "2026-06-17T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 25,
+          "date": "2026-05-31T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -153,
+          "date": "2026-06-22T00:00:00"
+        },
+        {
+          "type": "积分兑换",
+          "points": -83,
+          "date": "2026-06-12T00:00:00"
+        }
+      ]
+    },
+    "1924204170": {
+      "balance": 121,
+      "history": [
+        {
+          "type": "分享店铺",
+          "points": 23,
+          "date": "2026-06-28T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 50,
+          "date": "2026-06-25T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 33,
+          "date": "2026-05-20T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 35,
+          "date": "2026-06-17T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 39,
+          "date": "2026-06-13T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 13,
+          "date": "2026-06-24T00:00:00"
+        },
+        {
+          "type": "积分兑换",
+          "points": -72,
+          "date": "2026-06-09T00:00:00"
+        }
+      ]
+    },
+    "1586717229": {
+      "balance": 238,
+      "history": [
+        {
+          "type": "消费赠送",
+          "points": 50,
+          "date": "2026-05-31T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 48,
+          "date": "2026-05-12T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 5,
+          "date": "2026-05-26T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 31,
+          "date": "2026-05-20T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 35,
+          "date": "2026-05-20T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 23,
+          "date": "2026-06-10T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 46,
+          "date": "2026-06-27T00:00:00"
+        }
+      ]
+    },
+    "1783584799": {
+      "balance": 12,
+      "history": [
+        {
+          "type": "分享店铺",
+          "points": 31,
+          "date": "2026-05-05T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -19,
+          "date": "2026-06-05T00:00:00"
+        }
+      ]
+    },
+    "1346237430": {
+      "balance": 103,
+      "history": [
+        {
+          "type": "每日打卡",
+          "points": 26,
+          "date": "2026-06-12T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 46,
+          "date": "2026-05-27T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 13,
+          "date": "2026-05-07T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 22,
+          "date": "2026-06-18T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 26,
+          "date": "2026-06-20T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -10,
+          "date": "2026-06-25T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -10,
+          "date": "2026-06-20T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -10,
+          "date": "2026-06-09T00:00:00"
+        }
+      ]
+    },
+    "1889494573": {
+      "balance": 122,
+      "history": [
+        {
+          "type": "每日打卡",
+          "points": 30,
+          "date": "2026-05-19T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 16,
+          "date": "2026-06-22T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 25,
+          "date": "2026-05-02T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 5,
+          "date": "2026-06-14T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 20,
+          "date": "2026-06-02T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 26,
+          "date": "2026-06-11T00:00:00"
+        }
+      ]
+    },
+    "1910554228": {
+      "balance": 45,
+      "history": [
+        {
+          "type": "活动赠送",
+          "points": 24,
+          "date": "2026-06-20T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 48,
+          "date": "2026-05-29T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -13,
+          "date": "2026-06-01T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -14,
+          "date": "2026-06-11T00:00:00"
+        }
+      ]
+    },
+    "1554608293": {
+      "balance": 120,
+      "history": [
+        {
+          "type": "消费赠送",
+          "points": 31,
+          "date": "2026-05-17T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 39,
+          "date": "2026-05-10T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 20,
+          "date": "2026-05-18T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 38,
+          "date": "2026-06-02T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 9,
+          "date": "2026-05-03T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 8,
+          "date": "2026-05-08T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 41,
+          "date": "2026-05-27T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 15,
+          "date": "2026-06-10T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -24,
+          "date": "2026-06-24T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -47,
+          "date": "2026-06-28T00:00:00"
+        },
+        {
+          "type": "积分兑换",
+          "points": -10,
+          "date": "2026-06-16T00:00:00"
+        }
+      ]
+    },
+    "1898509768": {
+      "balance": 0,
+      "history": [
+        {
+          "type": "活动赠送",
+          "points": 48,
+          "date": "2026-05-10T00:00:00"
+        },
+        {
+          "type": "积分兑换",
+          "points": -195,
+          "date": "2026-06-18T00:00:00"
+        },
+        {
+          "type": "积分兑换",
+          "points": -42,
+          "date": "2026-06-07T00:00:00"
+        }
+      ]
+    },
+    "1336593837": {
+      "balance": 0,
+      "history": [
+        {
+          "type": "每日打卡",
+          "points": 39,
+          "date": "2026-06-27T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 35,
+          "date": "2026-06-28T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 31,
+          "date": "2026-06-19T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 46,
+          "date": "2026-05-15T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 28,
+          "date": "2026-05-04T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 33,
+          "date": "2026-05-06T00:00:00"
+        },
+        {
+          "type": "积分兑换",
+          "points": -106,
+          "date": "2026-06-09T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -94,
+          "date": "2026-06-26T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -15,
+          "date": "2026-06-27T00:00:00"
+        }
+      ]
+    },
+    "1374382715": {
+      "balance": 77,
+      "history": [
+        {
+          "type": "每日打卡",
+          "points": 6,
+          "date": "2026-06-11T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 48,
+          "date": "2026-05-15T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 39,
+          "date": "2026-06-06T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 20,
+          "date": "2026-06-01T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -19,
+          "date": "2026-06-24T00:00:00"
+        },
+        {
+          "type": "积分兑换",
+          "points": -17,
+          "date": "2026-06-05T00:00:00"
+        }
+      ]
+    },
+    "1543964587": {
+      "balance": 86,
+      "history": [
+        {
+          "type": "每日打卡",
+          "points": 43,
+          "date": "2026-06-28T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 43,
+          "date": "2026-05-18T00:00:00"
+        }
+      ]
+    },
+    "1780314646": {
+      "balance": 0,
+      "history": [
+        {
+          "type": "分享店铺",
+          "points": 8,
+          "date": "2026-06-22T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 19,
+          "date": "2026-05-09T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 41,
+          "date": "2026-05-23T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 20,
+          "date": "2026-06-11T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -179,
+          "date": "2026-06-23T00:00:00"
+        }
+      ]
+    },
+    "1891848918": {
+      "balance": 0,
+      "history": [
+        {
+          "type": "活动赠送",
+          "points": 40,
+          "date": "2026-05-30T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 27,
+          "date": "2026-05-20T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 38,
+          "date": "2026-06-10T00:00:00"
+        },
+        {
+          "type": "积分兑换",
+          "points": -114,
+          "date": "2026-06-21T00:00:00"
+        },
+        {
+          "type": "积分兑换",
+          "points": -106,
+          "date": "2026-06-06T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -44,
+          "date": "2026-06-23T00:00:00"
+        }
+      ]
+    },
+    "1937861999": {
+      "balance": 0,
+      "history": [
+        {
+          "type": "活动赠送",
+          "points": 31,
+          "date": "2026-05-26T00:00:00"
+        },
+        {
+          "type": "积分兑换",
+          "points": -109,
+          "date": "2026-06-22T00:00:00"
+        }
+      ]
+    },
+    "1369571296": {
+      "balance": 163,
+      "history": [
+        {
+          "type": "每日打卡",
+          "points": 39,
+          "date": "2026-05-15T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 8,
+          "date": "2026-06-13T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 48,
+          "date": "2026-05-23T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 9,
+          "date": "2026-06-18T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 35,
+          "date": "2026-06-17T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 24,
+          "date": "2026-05-03T00:00:00"
+        }
+      ]
+    },
+    "1956315321": {
+      "balance": 164,
+      "history": [
+        {
+          "type": "分享店铺",
+          "points": 49,
+          "date": "2026-05-23T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 30,
+          "date": "2026-05-03T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 40,
+          "date": "2026-06-10T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 29,
+          "date": "2026-06-01T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 24,
+          "date": "2026-06-14T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 37,
+          "date": "2026-05-05T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 34,
+          "date": "2026-06-24T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 25,
+          "date": "2026-05-03T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -104,
+          "date": "2026-06-17T00:00:00"
+        }
+      ]
+    },
+    "1738146150": {
+      "balance": 117,
+      "history": [
+        {
+          "type": "活动赠送",
+          "points": 23,
+          "date": "2026-06-21T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 26,
+          "date": "2026-06-16T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 41,
+          "date": "2026-05-08T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 36,
+          "date": "2026-05-26T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 21,
+          "date": "2026-05-13T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -10,
+          "date": "2026-06-25T00:00:00"
+        },
+        {
+          "type": "积分兑换",
+          "points": -10,
+          "date": "2026-06-26T00:00:00"
+        },
+        {
+          "type": "积分兑换",
+          "points": -10,
+          "date": "2026-06-01T00:00:00"
+        }
+      ]
+    },
+    "1872824263": {
+      "balance": 50,
+      "history": [
+        {
+          "type": "每日打卡",
+          "points": 5,
+          "date": "2026-06-04T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 45,
+          "date": "2026-06-16T00:00:00"
+        }
+      ]
+    },
+    "1757563459": {
+      "balance": 136,
+      "history": [
+        {
+          "type": "消费赠送",
+          "points": 8,
+          "date": "2026-05-22T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 47,
+          "date": "2026-05-30T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 5,
+          "date": "2026-05-27T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 5,
+          "date": "2026-06-29T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 39,
+          "date": "2026-06-12T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 37,
+          "date": "2026-05-09T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 16,
+          "date": "2026-06-24T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 38,
+          "date": "2026-06-21T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -59,
+          "date": "2026-06-14T00:00:00"
+        }
+      ]
+    },
+    "1781717192": {
+      "balance": 186,
+      "history": [
+        {
+          "type": "每日打卡",
+          "points": 28,
+          "date": "2026-06-05T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 41,
+          "date": "2026-06-15T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 24,
+          "date": "2026-05-18T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 46,
+          "date": "2026-05-07T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 10,
+          "date": "2026-06-05T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 29,
+          "date": "2026-05-26T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 8,
+          "date": "2026-05-21T00:00:00"
+        }
+      ]
+    },
+    "1856853229": {
+      "balance": 163,
+      "history": [
+        {
+          "type": "消费赠送",
+          "points": 41,
+          "date": "2026-05-07T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 38,
+          "date": "2026-05-03T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 19,
+          "date": "2026-06-17T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 22,
+          "date": "2026-06-28T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 48,
+          "date": "2026-05-02T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 39,
+          "date": "2026-05-25T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 16,
+          "date": "2026-05-02T00:00:00"
+        },
+        {
+          "type": "积分兑换",
+          "points": -14,
+          "date": "2026-06-12T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -46,
+          "date": "2026-06-04T00:00:00"
+        }
+      ]
+    },
+    "1390588991": {
+      "balance": 123,
+      "history": [
+        {
+          "type": "活动赠送",
+          "points": 48,
+          "date": "2026-05-04T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 29,
+          "date": "2026-05-13T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 49,
+          "date": "2026-05-15T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 37,
+          "date": "2026-05-14T00:00:00"
+        },
+        {
+          "type": "积分兑换",
+          "points": -16,
+          "date": "2026-06-17T00:00:00"
+        },
+        {
+          "type": "积分兑换",
+          "points": -24,
+          "date": "2026-06-20T00:00:00"
+        }
+      ]
+    },
+    "1764102588": {
+      "balance": 122,
+      "history": [
+        {
+          "type": "活动赠送",
+          "points": 36,
+          "date": "2026-06-16T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 40,
+          "date": "2026-06-06T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 16,
+          "date": "2026-05-18T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 10,
+          "date": "2026-05-12T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 20,
+          "date": "2026-05-16T00:00:00"
+        }
+      ]
+    },
+    "1719750515": {
+      "balance": 0,
+      "history": [
+        {
+          "type": "活动赠送",
+          "points": 25,
+          "date": "2026-06-07T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 10,
+          "date": "2026-06-30T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 33,
+          "date": "2026-06-07T00:00:00"
+        },
+        {
+          "type": "积分兑换",
+          "points": -36,
+          "date": "2026-06-28T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -57,
+          "date": "2026-06-16T00:00:00"
+        }
+      ]
+    },
+    "1331603986": {
+      "balance": 46,
+      "history": [
+        {
+          "type": "消费赠送",
+          "points": 40,
+          "date": "2026-06-25T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 29,
+          "date": "2026-06-30T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -13,
+          "date": "2026-06-06T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -10,
+          "date": "2026-06-02T00:00:00"
+        }
+      ]
+    },
+    "1768618019": {
+      "balance": 106,
+      "history": [
+        {
+          "type": "分享店铺",
+          "points": 13,
+          "date": "2026-06-13T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 22,
+          "date": "2026-05-30T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 9,
+          "date": "2026-06-20T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 22,
+          "date": "2026-06-04T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 35,
+          "date": "2026-05-11T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 28,
+          "date": "2026-06-14T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 45,
+          "date": "2026-05-30T00:00:00"
+        },
+        {
+          "type": "积分兑换",
+          "points": -68,
+          "date": "2026-06-26T00:00:00"
+        }
+      ]
+    },
+    "1532350493": {
+      "balance": 165,
+      "history": [
+        {
+          "type": "消费赠送",
+          "points": 33,
+          "date": "2026-06-09T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 46,
+          "date": "2026-05-23T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 24,
+          "date": "2026-06-10T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 35,
+          "date": "2026-06-10T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 30,
+          "date": "2026-06-10T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 49,
+          "date": "2026-05-21T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 41,
+          "date": "2026-05-11T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -93,
+          "date": "2026-06-22T00:00:00"
+        }
+      ]
+    },
+    "1970498170": {
+      "balance": 0,
+      "history": [
+        {
+          "type": "每日打卡",
+          "points": 34,
+          "date": "2026-05-16T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 33,
+          "date": "2026-05-10T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 49,
+          "date": "2026-06-26T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -182,
+          "date": "2026-06-26T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -91,
+          "date": "2026-06-23T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -18,
+          "date": "2026-06-26T00:00:00"
+        }
+      ]
+    },
+    "1850517657": {
+      "balance": 49,
+      "history": [
+        {
+          "type": "活动赠送",
+          "points": 39,
+          "date": "2026-05-29T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 39,
+          "date": "2026-06-28T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 49,
+          "date": "2026-05-04T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 11,
+          "date": "2026-05-12T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 47,
+          "date": "2026-05-19T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 15,
+          "date": "2026-05-20T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 41,
+          "date": "2026-05-20T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 26,
+          "date": "2026-05-11T00:00:00"
+        },
+        {
+          "type": "积分兑换",
+          "points": -37,
+          "date": "2026-06-27T00:00:00"
+        },
+        {
+          "type": "积分兑换",
+          "points": -76,
+          "date": "2026-06-14T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -105,
+          "date": "2026-06-13T00:00:00"
+        }
+      ]
+    },
+    "1969777016": {
+      "balance": 8,
+      "history": [
+        {
+          "type": "活动赠送",
+          "points": 48,
+          "date": "2026-05-24T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 27,
+          "date": "2026-06-29T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 11,
+          "date": "2026-06-12T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 10,
+          "date": "2026-06-23T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 27,
+          "date": "2026-06-11T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 34,
+          "date": "2026-05-11T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 38,
+          "date": "2026-05-31T00:00:00"
+        },
+        {
+          "type": "积分兑换",
+          "points": -131,
+          "date": "2026-06-16T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -56,
+          "date": "2026-06-16T00:00:00"
+        }
+      ]
+    },
+    "1559350337": {
+      "balance": 0,
+      "history": [
+        {
+          "type": "每日打卡",
+          "points": 26,
+          "date": "2026-05-20T00:00:00"
+        },
+        {
+          "type": "每日打卡",
+          "points": 48,
+          "date": "2026-05-10T00:00:00"
+        },
+        {
+          "type": "积分兑换",
+          "points": -199,
+          "date": "2026-06-14T00:00:00"
+        }
+      ]
+    },
+    "1385497823": {
+      "balance": 219,
+      "history": [
+        {
+          "type": "活动赠送",
+          "points": 19,
+          "date": "2026-05-10T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 45,
+          "date": "2026-06-19T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 45,
+          "date": "2026-05-19T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 30,
+          "date": "2026-06-29T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 33,
+          "date": "2026-05-24T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 29,
+          "date": "2026-06-30T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 18,
+          "date": "2026-06-13T00:00:00"
+        }
+      ]
+    },
+    "1894349273": {
+      "balance": 14,
+      "history": [
+        {
+          "type": "活动赠送",
+          "points": 12,
+          "date": "2026-06-14T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 38,
+          "date": "2026-05-21T00:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 43,
+          "date": "2026-06-06T00:00:00"
+        },
+        {
+          "type": "活动赠送",
+          "points": 42,
+          "date": "2026-06-23T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -100,
+          "date": "2026-06-11T00:00:00"
+        },
+        {
+          "type": "兑换优惠券",
+          "points": -21,
+          "date": "2026-06-08T00:00:00"
+        }
+      ]
+    },
+    "1561196031": {
+      "balance": 0,
+      "history": [
+        {
+          "type": "分享店铺",
+          "points": 24,
+          "date": "2026-06-23T00:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 28,
+          "date": "2026-05-17T00:00:00"
+        },
+        {
+          "type": "积分抵现",
+          "points": -140,
+          "date": "2026-06-17T00:00:00"
+        }
+      ]
+    },
+    "16866886688": {
+      "balance": 156,
+      "history": [
+        {
+          "type": "每日打卡",
+          "points": 10,
+          "date": "2026-06-30T10:00:00"
+        },
+        {
+          "type": "分享店铺",
+          "points": 5,
+          "date": "2026-06-29T10:00:00"
+        },
+        {
+          "type": "有人通过你的分享关注",
+          "points": 3,
+          "date": "2026-06-28T10:00:00"
+        },
+        {
+          "type": "有人通过你的分享注册",
+          "points": 5,
+          "date": "2026-06-27T10:00:00"
+        },
+        {
+          "type": "有人通过你的分享下单",
+          "points": 10,
+          "date": "2026-06-26T10:00:00"
+        },
+        {
+          "type": "消费赠送",
+          "points": 123,
+          "date": "2026-06-25T10:00:00"
+        },
+        {
+          "type": "积分兑换",
+          "points": -50,
+          "date": "2026-06-24T10:00:00"
+        },
+        {
+          "type": "积分兑换",
+          "points": -30,
+          "date": "2026-06-23T10:00:00"
+        },
+        {
+          "type": "活动消耗",
+          "points": -20,
+          "date": "2026-06-22T10:00:00"
         }
       ]
     }
-  ],
-  "checkins": [
-    {
-      "userId": "U0001",
-      "totalDays": 33,
-      "currentStreak": 17,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0002",
-      "totalDays": 10,
-      "currentStreak": 4,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0003",
-      "totalDays": 30,
-      "currentStreak": 15,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0004",
-      "totalDays": 7,
-      "currentStreak": 2,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0005",
-      "totalDays": 29,
-      "currentStreak": 18,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0006",
-      "totalDays": 33,
-      "currentStreak": 30,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0007",
-      "totalDays": 33,
-      "currentStreak": 20,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0008",
-      "totalDays": 7,
-      "currentStreak": 4,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0009",
-      "totalDays": 30,
-      "currentStreak": 12,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0010",
-      "totalDays": 11,
-      "currentStreak": 10,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0011",
-      "totalDays": 21,
-      "currentStreak": 17,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0012",
-      "totalDays": 15,
-      "currentStreak": 4,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0013",
-      "totalDays": 21,
-      "currentStreak": 10,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0014",
-      "totalDays": 19,
-      "currentStreak": 10,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0015",
-      "totalDays": 16,
-      "currentStreak": 16,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0016",
-      "totalDays": 30,
-      "currentStreak": 26,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0017",
-      "totalDays": 23,
-      "currentStreak": 5,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0018",
-      "totalDays": 15,
-      "currentStreak": 14,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0019",
-      "totalDays": 39,
-      "currentStreak": 30,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0020",
-      "totalDays": 38,
-      "currentStreak": 29,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0021",
-      "totalDays": 12,
-      "currentStreak": 7,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0022",
-      "totalDays": 42,
-      "currentStreak": 27,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0023",
-      "totalDays": 4,
-      "currentStreak": 1,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0024",
-      "totalDays": 29,
-      "currentStreak": 18,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0025",
-      "totalDays": 4,
-      "currentStreak": 3,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0026",
-      "totalDays": 29,
-      "currentStreak": 14,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0027",
-      "totalDays": 28,
-      "currentStreak": 19,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0028",
-      "totalDays": 33,
-      "currentStreak": 19,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0029",
-      "totalDays": 39,
-      "currentStreak": 29,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0030",
-      "totalDays": 38,
-      "currentStreak": 26,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0031",
-      "totalDays": 35,
-      "currentStreak": 16,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0032",
-      "totalDays": 9,
-      "currentStreak": 5,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0033",
-      "totalDays": 37,
-      "currentStreak": 17,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0034",
-      "totalDays": 29,
-      "currentStreak": 15,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0035",
-      "totalDays": 36,
-      "currentStreak": 22,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0036",
-      "totalDays": 15,
-      "currentStreak": 5,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0037",
-      "totalDays": 22,
-      "currentStreak": 3,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0038",
-      "totalDays": 41,
-      "currentStreak": 22,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0039",
-      "totalDays": 26,
-      "currentStreak": 14,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0040",
-      "totalDays": 20,
-      "currentStreak": 8,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0041",
-      "totalDays": 28,
-      "currentStreak": 11,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0042",
-      "totalDays": 16,
-      "currentStreak": 2,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0043",
-      "totalDays": 32,
-      "currentStreak": 24,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0044",
-      "totalDays": 23,
-      "currentStreak": 21,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0045",
-      "totalDays": 33,
-      "currentStreak": 28,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0046",
-      "totalDays": 23,
-      "currentStreak": 23,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0047",
-      "totalDays": 39,
-      "currentStreak": 19,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0048",
-      "totalDays": 35,
-      "currentStreak": 26,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0049",
-      "totalDays": 38,
-      "currentStreak": 18,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0050",
-      "totalDays": 24,
-      "currentStreak": 4,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0051",
-      "totalDays": 20,
-      "currentStreak": 18,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0052",
-      "totalDays": 26,
-      "currentStreak": 7,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0053",
-      "totalDays": 36,
-      "currentStreak": 18,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0054",
-      "totalDays": 26,
-      "currentStreak": 25,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0055",
-      "totalDays": 35,
-      "currentStreak": 19,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0056",
-      "totalDays": 22,
-      "currentStreak": 7,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0057",
-      "totalDays": 17,
-      "currentStreak": 17,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0058",
-      "totalDays": 21,
-      "currentStreak": 4,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0059",
-      "totalDays": 6,
-      "currentStreak": 6,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0060",
-      "totalDays": 15,
-      "currentStreak": 9,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0061",
-      "totalDays": 26,
-      "currentStreak": 8,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0062",
-      "totalDays": 17,
-      "currentStreak": 15,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0063",
-      "totalDays": 43,
-      "currentStreak": 26,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0064",
-      "totalDays": 30,
-      "currentStreak": 20,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0065",
-      "totalDays": 31,
-      "currentStreak": 13,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0066",
-      "totalDays": 17,
-      "currentStreak": 2,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0067",
-      "totalDays": 28,
-      "currentStreak": 28,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0068",
-      "totalDays": 24,
-      "currentStreak": 11,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0069",
-      "totalDays": 19,
-      "currentStreak": 6,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0070",
-      "totalDays": 17,
-      "currentStreak": 1,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0071",
-      "totalDays": 23,
-      "currentStreak": 11,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0072",
-      "totalDays": 11,
-      "currentStreak": 9,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0073",
-      "totalDays": 7,
-      "currentStreak": 4,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0074",
-      "totalDays": 23,
-      "currentStreak": 18,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0075",
-      "totalDays": 14,
-      "currentStreak": 10,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0076",
-      "totalDays": 14,
-      "currentStreak": 6,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0077",
-      "totalDays": 27,
-      "currentStreak": 25,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0078",
-      "totalDays": 14,
-      "currentStreak": 5,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0079",
-      "totalDays": 19,
-      "currentStreak": 14,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0080",
-      "totalDays": 21,
-      "currentStreak": 2,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0081",
-      "totalDays": 16,
-      "currentStreak": 11,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0082",
-      "totalDays": 2,
-      "currentStreak": 1,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0083",
-      "totalDays": 22,
-      "currentStreak": 10,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0084",
-      "totalDays": 14,
-      "currentStreak": 4,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0085",
-      "totalDays": 18,
-      "currentStreak": 5,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0086",
-      "totalDays": 39,
-      "currentStreak": 29,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0087",
-      "totalDays": 21,
-      "currentStreak": 9,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0088",
-      "totalDays": 30,
-      "currentStreak": 27,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0089",
-      "totalDays": 8,
-      "currentStreak": 2,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0090",
-      "totalDays": 27,
-      "currentStreak": 8,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0091",
-      "totalDays": 26,
-      "currentStreak": 19,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0092",
-      "totalDays": 32,
-      "currentStreak": 16,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0093",
-      "totalDays": 41,
-      "currentStreak": 25,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0094",
-      "totalDays": 16,
-      "currentStreak": 13,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0095",
-      "totalDays": 10,
-      "currentStreak": 9,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0096",
-      "totalDays": 25,
-      "currentStreak": 11,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0097",
-      "totalDays": 31,
-      "currentStreak": 18,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0098",
-      "totalDays": 18,
-      "currentStreak": 3,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0099",
-      "totalDays": 14,
-      "currentStreak": 1,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0100",
-      "totalDays": 28,
-      "currentStreak": 21,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0101",
-      "totalDays": 30,
-      "currentStreak": 30,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0102",
-      "totalDays": 26,
-      "currentStreak": 9,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0103",
-      "totalDays": 22,
-      "currentStreak": 19,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0104",
-      "totalDays": 25,
-      "currentStreak": 8,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0105",
-      "totalDays": 25,
-      "currentStreak": 21,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0106",
-      "totalDays": 28,
-      "currentStreak": 10,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0107",
-      "totalDays": 28,
-      "currentStreak": 14,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0108",
-      "totalDays": 23,
-      "currentStreak": 3,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0109",
-      "totalDays": 23,
-      "currentStreak": 17,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0110",
-      "totalDays": 30,
-      "currentStreak": 26,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0111",
-      "totalDays": 29,
-      "currentStreak": 12,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0112",
-      "totalDays": 13,
-      "currentStreak": 6,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0113",
-      "totalDays": 31,
-      "currentStreak": 18,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0114",
-      "totalDays": 47,
-      "currentStreak": 30,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0115",
-      "totalDays": 16,
-      "currentStreak": 15,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0116",
-      "totalDays": 15,
-      "currentStreak": 1,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0117",
-      "totalDays": 46,
-      "currentStreak": 27,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0118",
-      "totalDays": 30,
-      "currentStreak": 10,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0119",
-      "totalDays": 6,
-      "currentStreak": 6,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0120",
-      "totalDays": 17,
-      "currentStreak": 2,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0121",
-      "totalDays": 28,
-      "currentStreak": 9,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0122",
-      "totalDays": 21,
-      "currentStreak": 9,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0123",
-      "totalDays": 32,
-      "currentStreak": 12,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0124",
-      "totalDays": 25,
-      "currentStreak": 7,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0125",
-      "totalDays": 43,
-      "currentStreak": 27,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0126",
-      "totalDays": 11,
-      "currentStreak": 10,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0127",
-      "totalDays": 23,
-      "currentStreak": 6,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0128",
-      "totalDays": 21,
-      "currentStreak": 19,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0129",
-      "totalDays": 12,
-      "currentStreak": 10,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0130",
-      "totalDays": 16,
-      "currentStreak": 13,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0131",
-      "totalDays": 31,
-      "currentStreak": 27,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0132",
-      "totalDays": 41,
-      "currentStreak": 24,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0133",
-      "totalDays": 22,
-      "currentStreak": 9,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0134",
-      "totalDays": 26,
-      "currentStreak": 7,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0135",
-      "totalDays": 27,
-      "currentStreak": 17,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0136",
-      "totalDays": 39,
-      "currentStreak": 29,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0137",
-      "totalDays": 29,
-      "currentStreak": 21,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0138",
-      "totalDays": 39,
-      "currentStreak": 25,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0139",
-      "totalDays": 16,
-      "currentStreak": 9,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0140",
-      "totalDays": 32,
-      "currentStreak": 22,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0141",
-      "totalDays": 17,
-      "currentStreak": 11,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0142",
-      "totalDays": 34,
-      "currentStreak": 15,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0143",
-      "totalDays": 11,
-      "currentStreak": 11,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0144",
-      "totalDays": 34,
-      "currentStreak": 30,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0145",
-      "totalDays": 21,
-      "currentStreak": 21,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0146",
-      "totalDays": 35,
-      "currentStreak": 20,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0147",
-      "totalDays": 1,
-      "currentStreak": 1,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0148",
-      "totalDays": 27,
-      "currentStreak": 22,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0149",
-      "totalDays": 31,
-      "currentStreak": 14,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0150",
-      "totalDays": 44,
-      "currentStreak": 29,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0151",
-      "totalDays": 37,
-      "currentStreak": 25,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0152",
-      "totalDays": 20,
-      "currentStreak": 18,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0153",
-      "totalDays": 46,
-      "currentStreak": 26,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0154",
-      "totalDays": 23,
-      "currentStreak": 21,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0155",
-      "totalDays": 18,
-      "currentStreak": 18,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0156",
-      "totalDays": 43,
-      "currentStreak": 29,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0157",
-      "totalDays": 25,
-      "currentStreak": 22,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0158",
-      "totalDays": 24,
-      "currentStreak": 12,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0159",
-      "totalDays": 46,
-      "currentStreak": 27,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0160",
-      "totalDays": 24,
-      "currentStreak": 12,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0161",
-      "totalDays": 6,
-      "currentStreak": 6,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0162",
-      "totalDays": 18,
-      "currentStreak": 4,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0163",
-      "totalDays": 18,
-      "currentStreak": 12,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0164",
-      "totalDays": 15,
-      "currentStreak": 15,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0165",
-      "totalDays": 8,
-      "currentStreak": 8,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0166",
-      "totalDays": 33,
-      "currentStreak": 25,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0167",
-      "totalDays": 33,
-      "currentStreak": 22,
-      "lastCheckin": "2026-06-30"
-    },
-    {
-      "userId": "U0168",
-      "totalDays": 9,
-      "currentStreak": 7,
-      "lastCheckin": "2026-06-30"
-    }
-  ],
-  "referrals": [
-    {
-      "userId": "U0001",
-      "views": 2533,
-      "follows": 123,
-      "registrations": 34,
-      "orders": 32
-    },
-    {
-      "userId": "U0002",
-      "views": 3023,
-      "follows": 28,
-      "registrations": 40,
-      "orders": 32
-    },
-    {
-      "userId": "U0003",
-      "views": 1762,
-      "follows": 13,
-      "registrations": 30,
-      "orders": 26
-    },
-    {
-      "userId": "U0004",
-      "views": 958,
-      "follows": 152,
-      "registrations": 77,
-      "orders": 33
-    },
-    {
-      "userId": "U0005",
-      "views": 4096,
-      "follows": 97,
-      "registrations": 75,
-      "orders": 13
-    },
-    {
-      "userId": "U0006",
-      "views": 4684,
-      "follows": 299,
-      "registrations": 27,
-      "orders": 5
-    },
-    {
-      "userId": "U0007",
-      "views": 4868,
-      "follows": 75,
-      "registrations": 13,
-      "orders": 9
-    },
-    {
-      "userId": "U0008",
-      "views": 2176,
-      "follows": 126,
-      "registrations": 71,
-      "orders": 18
-    },
-    {
-      "userId": "U0009",
-      "views": 1621,
-      "follows": 21,
-      "registrations": 73,
-      "orders": 40
-    },
-    {
-      "userId": "U0010",
-      "views": 2121,
-      "follows": 296,
-      "registrations": 63,
-      "orders": 1
-    },
-    {
-      "userId": "U0011",
-      "views": 3548,
-      "follows": 36,
-      "registrations": 46,
-      "orders": 28
-    },
-    {
-      "userId": "U0012",
-      "views": 3383,
-      "follows": 150,
-      "registrations": 20,
-      "orders": 34
-    },
-    {
-      "userId": "U0013",
-      "views": 3872,
-      "follows": 263,
-      "registrations": 51,
-      "orders": 34
-    },
-    {
-      "userId": "U0014",
-      "views": 406,
-      "follows": 124,
-      "registrations": 11,
-      "orders": 18
-    },
-    {
-      "userId": "U0015",
-      "views": 3491,
-      "follows": 282,
-      "registrations": 62,
-      "orders": 21
-    },
-    {
-      "userId": "U0016",
-      "views": 92,
-      "follows": 210,
-      "registrations": 29,
-      "orders": 22
-    },
-    {
-      "userId": "U0017",
-      "views": 720,
-      "follows": 22,
-      "registrations": 33,
-      "orders": 28
-    },
-    {
-      "userId": "U0018",
-      "views": 659,
-      "follows": 137,
-      "registrations": 30,
-      "orders": 11
-    },
-    {
-      "userId": "U0019",
-      "views": 2747,
-      "follows": 169,
-      "registrations": 13,
-      "orders": 7
-    },
-    {
-      "userId": "U0020",
-      "views": 278,
-      "follows": 255,
-      "registrations": 60,
-      "orders": 2
-    },
-    {
-      "userId": "U0021",
-      "views": 4904,
-      "follows": 181,
-      "registrations": 37,
-      "orders": 16
-    },
-    {
-      "userId": "U0022",
-      "views": 933,
-      "follows": 252,
-      "registrations": 35,
-      "orders": 22
-    },
-    {
-      "userId": "U0023",
-      "views": 495,
-      "follows": 180,
-      "registrations": 71,
-      "orders": 16
-    },
-    {
-      "userId": "U0024",
-      "views": 647,
-      "follows": 234,
-      "registrations": 17,
-      "orders": 29
-    },
-    {
-      "userId": "U0025",
-      "views": 4792,
-      "follows": 73,
-      "registrations": 15,
-      "orders": 4
-    },
-    {
-      "userId": "U0026",
-      "views": 323,
-      "follows": 203,
-      "registrations": 45,
-      "orders": 5
-    },
-    {
-      "userId": "U0027",
-      "views": 1094,
-      "follows": 41,
-      "registrations": 61,
-      "orders": 4
-    },
-    {
-      "userId": "U0028",
-      "views": 2519,
-      "follows": 231,
-      "registrations": 13,
-      "orders": 7
-    },
-    {
-      "userId": "U0029",
-      "views": 507,
-      "follows": 296,
-      "registrations": 11,
-      "orders": 19
-    },
-    {
-      "userId": "U0030",
-      "views": 3174,
-      "follows": 215,
-      "registrations": 17,
-      "orders": 40
-    },
-    {
-      "userId": "U0031",
-      "views": 3417,
-      "follows": 129,
-      "registrations": 6,
-      "orders": 30
-    },
-    {
-      "userId": "U0032",
-      "views": 3195,
-      "follows": 247,
-      "registrations": 59,
-      "orders": 40
-    },
-    {
-      "userId": "U0033",
-      "views": 879,
-      "follows": 183,
-      "registrations": 8,
-      "orders": 30
-    },
-    {
-      "userId": "U0034",
-      "views": 4287,
-      "follows": 178,
-      "registrations": 80,
-      "orders": 13
-    },
-    {
-      "userId": "U0035",
-      "views": 934,
-      "follows": 62,
-      "registrations": 6,
-      "orders": 39
-    },
-    {
-      "userId": "U0036",
-      "views": 603,
-      "follows": 109,
-      "registrations": 78,
-      "orders": 9
-    },
-    {
-      "userId": "U0037",
-      "views": 4218,
-      "follows": 141,
-      "registrations": 50,
-      "orders": 27
-    },
-    {
-      "userId": "U0038",
-      "views": 3993,
-      "follows": 237,
-      "registrations": 28,
-      "orders": 16
-    },
-    {
-      "userId": "U0039",
-      "views": 1177,
-      "follows": 32,
-      "registrations": 12,
-      "orders": 9
-    },
-    {
-      "userId": "U0040",
-      "views": 2603,
-      "follows": 233,
-      "registrations": 70,
-      "orders": 23
-    },
-    {
-      "userId": "U0041",
-      "views": 2599,
-      "follows": 287,
-      "registrations": 23,
-      "orders": 10
-    },
-    {
-      "userId": "U0042",
-      "views": 3896,
-      "follows": 168,
-      "registrations": 48,
-      "orders": 19
-    },
-    {
-      "userId": "U0043",
-      "views": 3071,
-      "follows": 14,
-      "registrations": 71,
-      "orders": 38
-    },
-    {
-      "userId": "U0044",
-      "views": 1234,
-      "follows": 39,
-      "registrations": 35,
-      "orders": 33
-    },
-    {
-      "userId": "U0045",
-      "views": 4633,
-      "follows": 37,
-      "registrations": 59,
-      "orders": 23
-    },
-    {
-      "userId": "U0046",
-      "views": 1650,
-      "follows": 112,
-      "registrations": 30,
-      "orders": 5
-    },
-    {
-      "userId": "U0047",
-      "views": 2847,
-      "follows": 106,
-      "registrations": 65,
-      "orders": 30
-    },
-    {
-      "userId": "U0048",
-      "views": 4963,
-      "follows": 179,
-      "registrations": 79,
-      "orders": 37
-    },
-    {
-      "userId": "U0049",
-      "views": 2799,
-      "follows": 163,
-      "registrations": 58,
-      "orders": 22
-    },
-    {
-      "userId": "U0050",
-      "views": 1379,
-      "follows": 63,
-      "registrations": 63,
-      "orders": 3
-    },
-    {
-      "userId": "U0051",
-      "views": 4112,
-      "follows": 122,
-      "registrations": 5,
-      "orders": 15
-    },
-    {
-      "userId": "U0052",
-      "views": 1936,
-      "follows": 248,
-      "registrations": 32,
-      "orders": 16
-    },
-    {
-      "userId": "U0053",
-      "views": 3988,
-      "follows": 179,
-      "registrations": 53,
-      "orders": 14
-    },
-    {
-      "userId": "U0054",
-      "views": 3329,
-      "follows": 104,
-      "registrations": 5,
-      "orders": 24
-    },
-    {
-      "userId": "U0055",
-      "views": 131,
-      "follows": 47,
-      "registrations": 50,
-      "orders": 2
-    },
-    {
-      "userId": "U0056",
-      "views": 4594,
-      "follows": 68,
-      "registrations": 23,
-      "orders": 19
-    },
-    {
-      "userId": "U0057",
-      "views": 3657,
-      "follows": 109,
-      "registrations": 79,
-      "orders": 24
-    },
-    {
-      "userId": "U0058",
-      "views": 409,
-      "follows": 25,
-      "registrations": 30,
-      "orders": 13
-    },
-    {
-      "userId": "U0059",
-      "views": 2377,
-      "follows": 99,
-      "registrations": 33,
-      "orders": 17
-    },
-    {
-      "userId": "U0060",
-      "views": 1477,
-      "follows": 183,
-      "registrations": 75,
-      "orders": 16
-    },
-    {
-      "userId": "U0061",
-      "views": 1512,
-      "follows": 110,
-      "registrations": 7,
-      "orders": 12
-    },
-    {
-      "userId": "U0062",
-      "views": 2194,
-      "follows": 61,
-      "registrations": 7,
-      "orders": 9
-    },
-    {
-      "userId": "U0063",
-      "views": 3154,
-      "follows": 66,
-      "registrations": 48,
-      "orders": 14
-    },
-    {
-      "userId": "U0064",
-      "views": 2549,
-      "follows": 243,
-      "registrations": 35,
-      "orders": 24
-    },
-    {
-      "userId": "U0065",
-      "views": 3100,
-      "follows": 97,
-      "registrations": 72,
-      "orders": 40
-    },
-    {
-      "userId": "U0066",
-      "views": 3603,
-      "follows": 43,
-      "registrations": 20,
-      "orders": 10
-    },
-    {
-      "userId": "U0067",
-      "views": 1121,
-      "follows": 107,
-      "registrations": 29,
-      "orders": 35
-    },
-    {
-      "userId": "U0068",
-      "views": 3148,
-      "follows": 201,
-      "registrations": 45,
-      "orders": 39
-    },
-    {
-      "userId": "U0069",
-      "views": 3568,
-      "follows": 135,
-      "registrations": 10,
-      "orders": 40
-    },
-    {
-      "userId": "U0070",
-      "views": 4861,
-      "follows": 106,
-      "registrations": 73,
-      "orders": 19
-    },
-    {
-      "userId": "U0071",
-      "views": 1267,
-      "follows": 177,
-      "registrations": 36,
-      "orders": 4
-    },
-    {
-      "userId": "U0072",
-      "views": 2344,
-      "follows": 74,
-      "registrations": 70,
-      "orders": 38
-    },
-    {
-      "userId": "U0073",
-      "views": 4055,
-      "follows": 117,
-      "registrations": 15,
-      "orders": 31
-    },
-    {
-      "userId": "U0074",
-      "views": 581,
-      "follows": 95,
-      "registrations": 70,
-      "orders": 25
-    },
-    {
-      "userId": "U0075",
-      "views": 4221,
-      "follows": 201,
-      "registrations": 68,
-      "orders": 34
-    },
-    {
-      "userId": "U0076",
-      "views": 3853,
-      "follows": 101,
-      "registrations": 46,
-      "orders": 24
-    },
-    {
-      "userId": "U0077",
-      "views": 4354,
-      "follows": 257,
-      "registrations": 68,
-      "orders": 31
-    },
-    {
-      "userId": "U0078",
-      "views": 2248,
-      "follows": 215,
-      "registrations": 79,
-      "orders": 3
-    },
-    {
-      "userId": "U0079",
-      "views": 1747,
-      "follows": 122,
-      "registrations": 30,
-      "orders": 29
-    },
-    {
-      "userId": "U0080",
-      "views": 1970,
-      "follows": 212,
-      "registrations": 32,
-      "orders": 20
-    },
-    {
-      "userId": "U0081",
-      "views": 3531,
-      "follows": 203,
-      "registrations": 78,
-      "orders": 11
-    },
-    {
-      "userId": "U0082",
-      "views": 3114,
-      "follows": 140,
-      "registrations": 75,
+  },
+  "checkins": {
+    "1934729173": "2026-06-30",
+    "1768928287": "2026-06-30",
+    "1593992863": "2026-06-30",
+    "1368250194": "2026-06-30",
+    "1360608353": "2026-06-30",
+    "1947306891": "2026-06-30",
+    "1853402016": "2026-06-30",
+    "1724580865": "2026-06-30",
+    "1910631072": "2026-06-30",
+    "1583727439": "2026-06-30",
+    "1989143087": "2026-06-30",
+    "1887937924": "2026-06-30",
+    "1316985611": "2026-06-30",
+    "1591529130": "2026-06-30",
+    "1787533315": "2026-06-30",
+    "1726671818": "2026-06-30",
+    "1321969137": "2026-06-30",
+    "1719247988": "2026-06-30",
+    "1540384780": "2026-06-30",
+    "1865387826": "2026-06-30",
+    "1320896218": "2026-06-30",
+    "1738426228": "2026-06-30",
+    "1377848611": "2026-06-30",
+    "1996733346": "2026-06-30",
+    "1899584480": "2026-06-30",
+    "1719942340": "2026-06-30",
+    "1777922144": "2026-06-30",
+    "1322484678": "2026-06-30",
+    "1759786578": "2026-06-30",
+    "1893262272": "2026-06-30",
+    "1987964764": "2026-06-30",
+    "1787510213": "2026-06-30",
+    "1913745585": "2026-06-30",
+    "1869813685": "2026-06-30",
+    "1547472756": "2026-06-30",
+    "1387380378": "2026-06-30",
+    "1882720953": "2026-06-30",
+    "1899595193": "2026-06-30",
+    "1387913846": "2026-06-30",
+    "1854143663": "2026-06-30",
+    "1549277184": "2026-06-30",
+    "1990187829": "2026-06-30",
+    "1535854154": "2026-06-30",
+    "1585460810": "2026-06-30",
+    "1313505135": "2026-06-30",
+    "1763513320": "2026-06-30",
+    "1789614394": "2026-06-30",
+    "1566566867": "2026-06-30",
+    "1825352273": "2026-06-30",
+    "1568336959": "2026-06-30",
+    "1813737153": "2026-06-30",
+    "1973248916": "2026-06-30",
+    "1816571286": "2026-06-30",
+    "1579159057": "2026-06-30",
+    "1796324090": "2026-06-30",
+    "1745213745": "2026-06-30",
+    "1914845121": "2026-06-30",
+    "1745552681": "2026-06-30",
+    "1723483070": "2026-06-30",
+    "1886866877": "2026-06-30",
+    "1956129856": "2026-06-30",
+    "1766226946": "2026-06-30",
+    "1355444197": "2026-06-30",
+    "1816261217": "2026-06-30",
+    "1993966611": "2026-06-30",
+    "1963469776": "2026-06-30",
+    "1328469696": "2026-06-30",
+    "1994424164": "2026-06-30",
+    "1940359449": "2026-06-30",
+    "1789751293": "2026-06-30",
+    "1714479246": "2026-06-30",
+    "1853931844": "2026-06-30",
+    "1376982197": "2026-06-30",
+    "1363956550": "2026-06-30",
+    "1326550589": "2026-06-30",
+    "1753675110": "2026-06-30",
+    "1549704670": "2026-06-30",
+    "1899327370": "2026-06-30",
+    "1518211396": "2026-06-30",
+    "1994897329": "2026-06-30",
+    "1898692821": "2026-06-30",
+    "1921791214": "2026-06-30",
+    "1587326742": "2026-06-30",
+    "1523673681": "2026-06-30",
+    "1950448393": "2026-06-30",
+    "1516526258": "2026-06-30",
+    "1799759444": "2026-06-30",
+    "1796897277": "2026-06-30",
+    "1575875231": "2026-06-30",
+    "1853555229": "2026-06-30",
+    "1940880092": "2026-06-30",
+    "1829831678": "2026-06-30",
+    "1785192055": "2026-06-30",
+    "1366372598": "2026-06-30",
+    "1895506544": "2026-06-30",
+    "1519584622": "2026-06-30",
+    "1914212140": "2026-06-30",
+    "1563738184": "2026-06-30",
+    "1751271330": "2026-06-30",
+    "1599948669": "2026-06-30",
+    "1774900442": "2026-06-30",
+    "1534454571": "2026-06-30",
+    "1924204170": "2026-06-30",
+    "1586717229": "2026-06-30",
+    "1783584799": "2026-06-30",
+    "1346237430": "2026-06-30",
+    "1889494573": "2026-06-30",
+    "1910554228": "2026-06-30",
+    "1554608293": "2026-06-30",
+    "1898509768": "2026-06-30",
+    "1336593837": "2026-06-30",
+    "1374382715": "2026-06-30",
+    "1543964587": "2026-06-30",
+    "1780314646": "2026-06-30",
+    "1891848918": "2026-06-30",
+    "1937861999": "2026-06-30",
+    "1369571296": "2026-06-30",
+    "1956315321": "2026-06-30",
+    "1738146150": "2026-06-30",
+    "1872824263": "2026-06-30",
+    "1757563459": "2026-06-30",
+    "1781717192": "2026-06-30",
+    "1856853229": "2026-06-30",
+    "1390588991": "2026-06-30",
+    "1764102588": "2026-06-30",
+    "1719750515": "2026-06-30",
+    "1331603986": "2026-06-30",
+    "1768618019": "2026-06-30",
+    "1532350493": "2026-06-30",
+    "1970498170": "2026-06-30",
+    "1850517657": "2026-06-30",
+    "1969777016": "2026-06-30",
+    "1559350337": "2026-06-30",
+    "1385497823": "2026-06-30",
+    "1894349273": "2026-06-30",
+    "1561196031": "2026-06-30",
+    "16866886688": "2026-06-30"
+  },
+  "referrals": {
+    "1934729173": {
+      "views": 183,
+      "follows": 24,
+      "registrations": 2,
       "orders": 6
     },
-    {
-      "userId": "U0083",
-      "views": 1150,
-      "follows": 53,
-      "registrations": 42,
-      "orders": 29
+    "1768928287": {
+      "views": 153,
+      "follows": 7,
+      "registrations": 13,
+      "orders": 3
     },
-    {
-      "userId": "U0084",
-      "views": 4300,
-      "follows": 190,
-      "registrations": 34,
-      "orders": 38
+    "1593992863": {
+      "views": 147,
+      "follows": 4,
+      "registrations": 12,
+      "orders": 1
     },
-    {
-      "userId": "U0085",
-      "views": 387,
-      "follows": 248,
-      "registrations": 70,
-      "orders": 40
+    "1368250194": {
+      "views": 189,
+      "follows": 30,
+      "registrations": 2,
+      "orders": 2
+    },
+    "1360608353": {
+      "views": 90,
+      "follows": 13,
+      "registrations": 8,
+      "orders": 1
+    },
+    "1947306891": {
+      "views": 22,
+      "follows": 28,
+      "registrations": 3,
+      "orders": 2
+    },
+    "1853402016": {
+      "views": 184,
+      "follows": 24,
+      "registrations": 3,
+      "orders": 8
+    },
+    "1724580865": {
+      "views": 51,
+      "follows": 18,
+      "registrations": 0,
+      "orders": 5
+    },
+    "1910631072": {
+      "views": 197,
+      "follows": 16,
+      "registrations": 2,
+      "orders": 8
+    },
+    "1583727439": {
+      "views": 181,
+      "follows": 21,
+      "registrations": 11,
+      "orders": 7
+    },
+    "1989143087": {
+      "views": 131,
+      "follows": 8,
+      "registrations": 15,
+      "orders": 6
+    },
+    "1887937924": {
+      "views": 37,
+      "follows": 8,
+      "registrations": 6,
+      "orders": 3
+    },
+    "1316985611": {
+      "views": 85,
+      "follows": 7,
+      "registrations": 1,
+      "orders": 8
+    },
+    "1591529130": {
+      "views": 168,
+      "follows": 3,
+      "registrations": 13,
+      "orders": 8
+    },
+    "1787533315": {
+      "views": 28,
+      "follows": 18,
+      "registrations": 6,
+      "orders": 8
+    },
+    "1726671818": {
+      "views": 151,
+      "follows": 10,
+      "registrations": 3,
+      "orders": 2
+    },
+    "1321969137": {
+      "views": 185,
+      "follows": 21,
+      "registrations": 8,
+      "orders": 8
+    },
+    "1719247988": {
+      "views": 104,
+      "follows": 19,
+      "registrations": 4,
+      "orders": 6
+    },
+    "1540384780": {
+      "views": 101,
+      "follows": 7,
+      "registrations": 7,
+      "orders": 1
+    },
+    "1865387826": {
+      "views": 68,
+      "follows": 8,
+      "registrations": 0,
+      "orders": 3
+    },
+    "1320896218": {
+      "views": 157,
+      "follows": 7,
+      "registrations": 8,
+      "orders": 0
+    },
+    "1738426228": {
+      "views": 183,
+      "follows": 24,
+      "registrations": 5,
+      "orders": 4
+    },
+    "1377848611": {
+      "views": 140,
+      "follows": 16,
+      "registrations": 5,
+      "orders": 1
+    },
+    "1996733346": {
+      "views": 118,
+      "follows": 8,
+      "registrations": 5,
+      "orders": 8
+    },
+    "1899584480": {
+      "views": 153,
+      "follows": 20,
+      "registrations": 10,
+      "orders": 7
+    },
+    "1719942340": {
+      "views": 45,
+      "follows": 5,
+      "registrations": 7,
+      "orders": 6
+    },
+    "1777922144": {
+      "views": 159,
+      "follows": 23,
+      "registrations": 0,
+      "orders": 6
+    },
+    "1322484678": {
+      "views": 66,
+      "follows": 9,
+      "registrations": 13,
+      "orders": 7
+    },
+    "1759786578": {
+      "views": 107,
+      "follows": 9,
+      "registrations": 13,
+      "orders": 4
+    },
+    "1893262272": {
+      "views": 176,
+      "follows": 2,
+      "registrations": 0,
+      "orders": 3
+    },
+    "1987964764": {
+      "views": 165,
+      "follows": 20,
+      "registrations": 3,
+      "orders": 2
+    },
+    "1787510213": {
+      "views": 20,
+      "follows": 12,
+      "registrations": 13,
+      "orders": 5
+    },
+    "1913745585": {
+      "views": 125,
+      "follows": 8,
+      "registrations": 14,
+      "orders": 6
+    },
+    "1869813685": {
+      "views": 80,
+      "follows": 18,
+      "registrations": 0,
+      "orders": 8
+    },
+    "1547472756": {
+      "views": 33,
+      "follows": 10,
+      "registrations": 7,
+      "orders": 6
+    },
+    "1387380378": {
+      "views": 200,
+      "follows": 18,
+      "registrations": 5,
+      "orders": 3
+    },
+    "1882720953": {
+      "views": 23,
+      "follows": 9,
+      "registrations": 15,
+      "orders": 1
+    },
+    "1899595193": {
+      "views": 162,
+      "follows": 26,
+      "registrations": 7,
+      "orders": 8
+    },
+    "1387913846": {
+      "views": 189,
+      "follows": 28,
+      "registrations": 14,
+      "orders": 1
+    },
+    "1854143663": {
+      "views": 52,
+      "follows": 26,
+      "registrations": 9,
+      "orders": 4
+    },
+    "1549277184": {
+      "views": 16,
+      "follows": 3,
+      "registrations": 7,
+      "orders": 0
+    },
+    "1990187829": {
+      "views": 187,
+      "follows": 16,
+      "registrations": 9,
+      "orders": 6
+    },
+    "1535854154": {
+      "views": 10,
+      "follows": 22,
+      "registrations": 14,
+      "orders": 6
+    },
+    "1585460810": {
+      "views": 13,
+      "follows": 18,
+      "registrations": 13,
+      "orders": 1
+    },
+    "1313505135": {
+      "views": 72,
+      "follows": 15,
+      "registrations": 4,
+      "orders": 6
+    },
+    "1763513320": {
+      "views": 147,
+      "follows": 16,
+      "registrations": 11,
+      "orders": 5
+    },
+    "1789614394": {
+      "views": 35,
+      "follows": 28,
+      "registrations": 14,
+      "orders": 1
+    },
+    "1566566867": {
+      "views": 172,
+      "follows": 23,
+      "registrations": 3,
+      "orders": 7
+    },
+    "1825352273": {
+      "views": 166,
+      "follows": 28,
+      "registrations": 12,
+      "orders": 3
+    },
+    "1568336959": {
+      "views": 160,
+      "follows": 10,
+      "registrations": 13,
+      "orders": 4
+    },
+    "1813737153": {
+      "views": 165,
+      "follows": 24,
+      "registrations": 15,
+      "orders": 4
+    },
+    "1973248916": {
+      "views": 116,
+      "follows": 6,
+      "registrations": 6,
+      "orders": 2
+    },
+    "1816571286": {
+      "views": 111,
+      "follows": 1,
+      "registrations": 8,
+      "orders": 8
+    },
+    "1579159057": {
+      "views": 19,
+      "follows": 10,
+      "registrations": 15,
+      "orders": 1
+    },
+    "1796324090": {
+      "views": 135,
+      "follows": 20,
+      "registrations": 13,
+      "orders": 4
+    },
+    "1745213745": {
+      "views": 15,
+      "follows": 2,
+      "registrations": 10,
+      "orders": 3
+    },
+    "1914845121": {
+      "views": 101,
+      "follows": 26,
+      "registrations": 7,
+      "orders": 5
+    },
+    "1745552681": {
+      "views": 196,
+      "follows": 26,
+      "registrations": 9,
+      "orders": 7
+    },
+    "1723483070": {
+      "views": 30,
+      "follows": 11,
+      "registrations": 4,
+      "orders": 1
+    },
+    "1886866877": {
+      "views": 126,
+      "follows": 13,
+      "registrations": 13,
+      "orders": 1
+    },
+    "1956129856": {
+      "views": 100,
+      "follows": 4,
+      "registrations": 6,
+      "orders": 2
+    },
+    "1766226946": {
+      "views": 56,
+      "follows": 28,
+      "registrations": 4,
+      "orders": 6
+    },
+    "1355444197": {
+      "views": 31,
+      "follows": 29,
+      "registrations": 1,
+      "orders": 2
+    },
+    "1816261217": {
+      "views": 38,
+      "follows": 10,
+      "registrations": 15,
+      "orders": 8
+    },
+    "1993966611": {
+      "views": 181,
+      "follows": 26,
+      "registrations": 11,
+      "orders": 1
+    },
+    "1963469776": {
+      "views": 90,
+      "follows": 19,
+      "registrations": 13,
+      "orders": 6
+    },
+    "1328469696": {
+      "views": 172,
+      "follows": 4,
+      "registrations": 6,
+      "orders": 5
+    },
+    "1994424164": {
+      "views": 154,
+      "follows": 25,
+      "registrations": 14,
+      "orders": 5
+    },
+    "1940359449": {
+      "views": 139,
+      "follows": 13,
+      "registrations": 14,
+      "orders": 8
+    },
+    "1789751293": {
+      "views": 138,
+      "follows": 5,
+      "registrations": 1,
+      "orders": 7
+    },
+    "1714479246": {
+      "views": 171,
+      "follows": 21,
+      "registrations": 10,
+      "orders": 1
+    },
+    "1853931844": {
+      "views": 188,
+      "follows": 22,
+      "registrations": 12,
+      "orders": 2
+    },
+    "1376982197": {
+      "views": 175,
+      "follows": 22,
+      "registrations": 13,
+      "orders": 8
+    },
+    "1363956550": {
+      "views": 67,
+      "follows": 5,
+      "registrations": 4,
+      "orders": 1
+    },
+    "1326550589": {
+      "views": 187,
+      "follows": 25,
+      "registrations": 5,
+      "orders": 7
+    },
+    "1753675110": {
+      "views": 36,
+      "follows": 23,
+      "registrations": 3,
+      "orders": 4
+    },
+    "1549704670": {
+      "views": 70,
+      "follows": 13,
+      "registrations": 2,
+      "orders": 5
+    },
+    "1899327370": {
+      "views": 130,
+      "follows": 23,
+      "registrations": 4,
+      "orders": 7
+    },
+    "1518211396": {
+      "views": 165,
+      "follows": 17,
+      "registrations": 13,
+      "orders": 1
+    },
+    "1994897329": {
+      "views": 119,
+      "follows": 1,
+      "registrations": 11,
+      "orders": 3
+    },
+    "1898692821": {
+      "views": 98,
+      "follows": 8,
+      "registrations": 3,
+      "orders": 5
+    },
+    "1921791214": {
+      "views": 188,
+      "follows": 16,
+      "registrations": 5,
+      "orders": 2
+    },
+    "1587326742": {
+      "views": 57,
+      "follows": 16,
+      "registrations": 15,
+      "orders": 5
+    },
+    "1523673681": {
+      "views": 123,
+      "follows": 12,
+      "registrations": 14,
+      "orders": 0
+    },
+    "1950448393": {
+      "views": 183,
+      "follows": 15,
+      "registrations": 11,
+      "orders": 5
+    },
+    "1516526258": {
+      "views": 109,
+      "follows": 30,
+      "registrations": 3,
+      "orders": 4
+    },
+    "1799759444": {
+      "views": 184,
+      "follows": 28,
+      "registrations": 10,
+      "orders": 5
+    },
+    "1796897277": {
+      "views": 41,
+      "follows": 7,
+      "registrations": 4,
+      "orders": 3
+    },
+    "1575875231": {
+      "views": 125,
+      "follows": 15,
+      "registrations": 11,
+      "orders": 2
+    },
+    "1853555229": {
+      "views": 98,
+      "follows": 17,
+      "registrations": 9,
+      "orders": 1
+    },
+    "1940880092": {
+      "views": 194,
+      "follows": 29,
+      "registrations": 10,
+      "orders": 0
+    },
+    "1829831678": {
+      "views": 173,
+      "follows": 1,
+      "registrations": 15,
+      "orders": 8
+    },
+    "1785192055": {
+      "views": 98,
+      "follows": 13,
+      "registrations": 4,
+      "orders": 5
+    },
+    "1366372598": {
+      "views": 84,
+      "follows": 13,
+      "registrations": 13,
+      "orders": 3
+    },
+    "1895506544": {
+      "views": 65,
+      "follows": 19,
+      "registrations": 11,
+      "orders": 0
+    },
+    "1519584622": {
+      "views": 112,
+      "follows": 2,
+      "registrations": 6,
+      "orders": 5
+    },
+    "1914212140": {
+      "views": 112,
+      "follows": 17,
+      "registrations": 1,
+      "orders": 0
+    },
+    "1563738184": {
+      "views": 139,
+      "follows": 27,
+      "registrations": 15,
+      "orders": 4
+    },
+    "1751271330": {
+      "views": 116,
+      "follows": 19,
+      "registrations": 9,
+      "orders": 0
+    },
+    "1599948669": {
+      "views": 166,
+      "follows": 30,
+      "registrations": 15,
+      "orders": 0
+    },
+    "1774900442": {
+      "views": 187,
+      "follows": 9,
+      "registrations": 15,
+      "orders": 3
+    },
+    "1534454571": {
+      "views": 183,
+      "follows": 18,
+      "registrations": 12,
+      "orders": 6
+    },
+    "1924204170": {
+      "views": 145,
+      "follows": 8,
+      "registrations": 7,
+      "orders": 0
+    },
+    "1586717229": {
+      "views": 176,
+      "follows": 19,
+      "registrations": 7,
+      "orders": 8
+    },
+    "1783584799": {
+      "views": 136,
+      "follows": 6,
+      "registrations": 9,
+      "orders": 0
+    },
+    "1346237430": {
+      "views": 59,
+      "follows": 6,
+      "registrations": 12,
+      "orders": 6
+    },
+    "1889494573": {
+      "views": 76,
+      "follows": 21,
+      "registrations": 11,
+      "orders": 3
+    },
+    "1910554228": {
+      "views": 66,
+      "follows": 8,
+      "registrations": 4,
+      "orders": 7
+    },
+    "1554608293": {
+      "views": 43,
+      "follows": 17,
+      "registrations": 13,
+      "orders": 7
+    },
+    "1898509768": {
+      "views": 65,
+      "follows": 19,
+      "registrations": 2,
+      "orders": 0
+    },
+    "1336593837": {
+      "views": 55,
+      "follows": 18,
+      "registrations": 12,
+      "orders": 8
+    },
+    "1374382715": {
+      "views": 179,
+      "follows": 14,
+      "registrations": 0,
+      "orders": 3
+    },
+    "1543964587": {
+      "views": 72,
+      "follows": 24,
+      "registrations": 1,
+      "orders": 6
+    },
+    "1780314646": {
+      "views": 115,
+      "follows": 10,
+      "registrations": 8,
+      "orders": 0
+    },
+    "1891848918": {
+      "views": 67,
+      "follows": 10,
+      "registrations": 4,
+      "orders": 7
+    },
+    "1937861999": {
+      "views": 62,
+      "follows": 11,
+      "registrations": 2,
+      "orders": 7
+    },
+    "1369571296": {
+      "views": 64,
+      "follows": 30,
+      "registrations": 6,
+      "orders": 1
+    },
+    "1956315321": {
+      "views": 21,
+      "follows": 19,
+      "registrations": 7,
+      "orders": 2
+    },
+    "1738146150": {
+      "views": 148,
+      "follows": 21,
+      "registrations": 1,
+      "orders": 8
+    },
+    "1872824263": {
+      "views": 191,
+      "follows": 5,
+      "registrations": 0,
+      "orders": 3
+    },
+    "1757563459": {
+      "views": 74,
+      "follows": 27,
+      "registrations": 11,
+      "orders": 4
+    },
+    "1781717192": {
+      "views": 189,
+      "follows": 6,
+      "registrations": 2,
+      "orders": 7
+    },
+    "1856853229": {
+      "views": 111,
+      "follows": 30,
+      "registrations": 2,
+      "orders": 4
+    },
+    "1390588991": {
+      "views": 164,
+      "follows": 25,
+      "registrations": 12,
+      "orders": 5
+    },
+    "1764102588": {
+      "views": 31,
+      "follows": 9,
+      "registrations": 4,
+      "orders": 6
+    },
+    "1719750515": {
+      "views": 152,
+      "follows": 18,
+      "registrations": 13,
+      "orders": 1
+    },
+    "1331603986": {
+      "views": 153,
+      "follows": 29,
+      "registrations": 7,
+      "orders": 8
+    },
+    "1768618019": {
+      "views": 87,
+      "follows": 1,
+      "registrations": 12,
+      "orders": 5
+    },
+    "1532350493": {
+      "views": 110,
+      "follows": 12,
+      "registrations": 3,
+      "orders": 3
+    },
+    "1970498170": {
+      "views": 193,
+      "follows": 14,
+      "registrations": 12,
+      "orders": 1
+    },
+    "1850517657": {
+      "views": 158,
+      "follows": 23,
+      "registrations": 7,
+      "orders": 7
+    },
+    "1969777016": {
+      "views": 91,
+      "follows": 3,
+      "registrations": 9,
+      "orders": 0
+    },
+    "1559350337": {
+      "views": 54,
+      "follows": 18,
+      "registrations": 5,
+      "orders": 5
+    },
+    "1385497823": {
+      "views": 157,
+      "follows": 4,
+      "registrations": 5,
+      "orders": 5
+    },
+    "1894349273": {
+      "views": 86,
+      "follows": 30,
+      "registrations": 2,
+      "orders": 2
+    },
+    "1561196031": {
+      "views": 162,
+      "follows": 5,
+      "registrations": 12,
+      "orders": 6
+    },
+    "16866886688": {
+      "views": 28,
+      "follows": 8,
+      "registrations": 5,
+      "orders": 3
     }
-  ],
-  "users": [
-    {
-      "id": "U0001",
-      "name": "孔华华",
-      "wechatName": "香飘华华",
-      "registeredAt": "2026-06-17 00:00:00",
-      "phone": "1921791214"
-    },
-    {
-      "id": "U0002",
-      "name": "刘国峰",
-      "wechatName": "尝鲜8280",
-      "registeredAt": "2026-04-20 00:00:00",
-      "phone": "1593992863"
-    },
-    {
-      "id": "U0003",
-      "name": "邓飞哲",
-      "wechatName": "香飘107",
-      "registeredAt": "2026-06-10 00:00:00",
-      "phone": "1853555229"
-    },
-    {
-      "id": "U0004",
-      "name": "许盛飞",
-      "wechatName": "肉食者1520",
-      "registeredAt": "2026-05-16 00:00:00",
-      "phone": "1787533315"
-    },
-    {
-      "id": "U0005",
-      "name": "尹涛良",
-      "wechatName": "深夜食堂涛良",
-      "registeredAt": "2026-05-24 00:00:00",
-      "phone": "1956415018"
-    },
-    {
-      "id": "U0006",
-      "name": "杨嘉海",
-      "wechatName": "满桌香1308",
-      "registeredAt": "2026-06-18 00:00:00",
-      "phone": "1845842891"
-    },
-    {
-      "id": "U0007",
-      "name": "杜平志",
-      "wechatName": "卤味达人3433",
-      "registeredAt": "2026-04-02 00:00:00",
-      "phone": "1387380378"
-    },
-    {
-      "id": "U0008",
-      "name": "尹天斌",
-      "wechatName": "好天斌",
-      "registeredAt": "2026-04-10 00:00:00",
-      "phone": "1938631317"
-    },
-    {
-      "id": "U0009",
-      "name": "萧耀明",
-      "wechatName": "厨神耀明",
-      "registeredAt": "2026-06-03 00:00:00",
-      "phone": "1950448393"
-    },
-    {
-      "id": "U0010",
-      "name": "金杰智",
-      "wechatName": "好杰智",
-      "registeredAt": "2026-05-30 00:00:00",
-      "phone": "1978530484"
-    },
-    {
-      "id": "U0011",
-      "name": "卢忠哲",
-      "wechatName": "大忠哲",
-      "registeredAt": "2026-06-13 00:00:00",
-      "phone": "1973248916"
-    },
-    {
-      "id": "U0012",
-      "name": "胡军宁",
-      "wechatName": "馋嘴6917",
-      "registeredAt": "2026-05-12 00:00:00",
-      "phone": "1886866877"
-    },
-    {
-      "id": "U0013",
-      "name": "程龙强",
-      "wechatName": "深夜食堂8798",
-      "registeredAt": "2026-04-09 00:00:00",
-      "phone": "1724580865"
-    },
-    {
-      "id": "U0014",
-      "name": "郑涛强",
-      "wechatName": "味道8202",
-      "registeredAt": "2026-04-27 00:00:00",
-      "phone": "1390588991"
-    },
-    {
-      "id": "U0015",
-      "name": "邱昌涛",
-      "wechatName": "老饕6127",
-      "registeredAt": "2026-04-22 00:00:00",
-      "phone": "1910631072"
-    },
-    {
-      "id": "U0016",
-      "name": "张华志",
-      "wechatName": "家常味华志",
-      "registeredAt": "2026-04-19 00:00:00",
-      "phone": "1320896218"
-    },
-    {
-      "id": "U0017",
-      "name": "洪云庆",
-      "wechatName": "吃遍天下2104",
-      "registeredAt": "2026-04-21 00:00:00",
-      "phone": "1543964587"
-    },
-    {
-      "id": "U0018",
-      "name": "卢俊良",
-      "wechatName": "品味5108",
-      "registeredAt": "2026-04-06 00:00:00",
-      "phone": "1766947967"
-    },
-    {
-      "id": "U0019",
-      "name": "郭天海",
-      "wechatName": "馋猫天海",
-      "registeredAt": "2026-04-21 00:00:00",
-      "phone": "1585460810"
-    },
-    {
-      "id": "U0020",
-      "name": "吴哲宁",
-      "wechatName": "味蕾哲宁",
-      "registeredAt": "2026-06-26 00:00:00",
-      "phone": "1719942340"
-    },
-    {
-      "id": "U0021",
-      "name": "潘嘉博",
-      "wechatName": "寻味嘉博",
-      "registeredAt": "2026-04-18 00:00:00",
-      "phone": "1970498170"
-    },
-    {
-      "id": "U0022",
-      "name": "傅德军",
-      "wechatName": "肉食者7063",
-      "registeredAt": "2026-05-09 00:00:00",
-      "phone": "1816261217"
-    },
-    {
-      "id": "U0023",
-      "name": "江凯飞",
-      "wechatName": "肉食者凯飞",
-      "registeredAt": "2026-04-23 00:00:00",
-      "phone": "1827791233"
-    },
-    {
-      "id": "U0024",
-      "name": "潘涛超",
-      "wechatName": "馋猫7261",
-      "registeredAt": "2026-04-21 00:00:00",
-      "phone": "1316985611"
-    },
-    {
-      "id": "U0025",
-      "name": "孙义盛",
-      "wechatName": "舌尖2725",
-      "registeredAt": "2026-04-30 00:00:00",
-      "phone": "1561196031"
-    },
-    {
-      "id": "U0026",
-      "name": "沈文安",
-      "wechatName": "味道文安",
-      "registeredAt": "2026-04-02 00:00:00",
-      "phone": "1994897329"
-    },
-    {
-      "id": "U0027",
-      "name": "唐晨峰",
-      "wechatName": "味蕾9490",
-      "registeredAt": "2026-06-23 00:00:00",
-      "phone": "1717182184"
-    },
-    {
-      "id": "U0028",
-      "name": "姚亮瑞",
-      "wechatName": "馋嘴932",
-      "registeredAt": "2026-06-20 00:00:00",
-      "phone": "1518211396"
-    },
-    {
-      "id": "U0029",
-      "name": "冯杰勇",
-      "wechatName": "舌尖9486",
-      "registeredAt": "2026-04-12 00:00:00",
-      "phone": "1363956550"
-    },
-    {
-      "id": "U0030",
-      "name": "蔡俊家",
-      "wechatName": "厨神俊家",
-      "registeredAt": "2026-06-14 00:00:00",
-      "phone": "1768618019"
-    },
-    {
-      "id": "U0031",
-      "name": "李涛健",
-      "wechatName": "肉食者1201",
-      "registeredAt": "2026-04-27 00:00:00",
-      "phone": "1726671818"
-    },
-    {
-      "id": "U0032",
-      "name": "曾毅锋",
-      "wechatName": "馋嘴7180",
-      "registeredAt": "2026-05-23 00:00:00",
-      "phone": "1993966611"
-    },
-    {
-      "id": "U0033",
-      "name": "常耀嘉",
-      "wechatName": "家常味1698",
-      "registeredAt": "2026-06-13 00:00:00",
-      "phone": "1724275380"
-    },
-    {
-      "id": "U0034",
-      "name": "罗宇锋",
-      "wechatName": "寻味宇锋",
-      "registeredAt": "2026-04-10 00:00:00",
-      "phone": "1774900442"
-    },
-    {
-      "id": "U0035",
-      "name": "黄国宁",
-      "wechatName": "真国宁",
-      "registeredAt": "2026-05-19 00:00:00",
-      "phone": "1591529130"
-    },
-    {
-      "id": "U0036",
-      "name": "钱飞嘉",
-      "wechatName": "真飞嘉",
-      "registeredAt": "2026-06-21 00:00:00",
-      "phone": "1579159057"
-    },
-    {
-      "id": "U0037",
-      "name": "薛龙辉",
-      "wechatName": "真龙辉",
-      "registeredAt": "2026-05-15 00:00:00",
-      "phone": "1355444197"
-    },
-    {
-      "id": "U0038",
-      "name": "曾嘉军",
-      "wechatName": "卤味达人9174",
-      "registeredAt": "2026-05-09 00:00:00",
-      "phone": "1929487830"
-    },
-    {
-      "id": "U0039",
-      "name": "谢朝天",
-      "wechatName": "美食家2939",
-      "registeredAt": "2026-05-19 00:00:00",
-      "phone": "1895506544"
-    },
-    {
-      "id": "U0040",
-      "name": "郑智义",
-      "wechatName": "肉食者6268",
-      "registeredAt": "2026-05-01 00:00:00",
-      "phone": "1535854154"
-    },
-    {
-      "id": "U0041",
-      "name": "余耀海",
-      "wechatName": "尝鲜388",
-      "registeredAt": "2026-05-10 00:00:00",
-      "phone": "1745213745"
-    },
-    {
-      "id": "U0042",
-      "name": "蒋良元",
-      "wechatName": "大8786",
-      "registeredAt": "2026-06-27 00:00:00",
-      "phone": "1343392584"
-    },
-    {
-      "id": "U0043",
-      "name": "蔡志军",
-      "wechatName": "真5664",
-      "registeredAt": "2026-05-21 00:00:00",
-      "phone": "1887937924"
-    },
-    {
-      "id": "U0044",
-      "name": "姜忠铭",
-      "wechatName": "品味忠铭",
-      "registeredAt": "2026-05-06 00:00:00",
-      "phone": "1376982197"
-    },
-    {
-      "id": "U0045",
-      "name": "严健昌",
-      "wechatName": "品味5968",
-      "registeredAt": "2026-04-06 00:00:00",
-      "phone": "1789614394"
-    },
-    {
-      "id": "U0046",
-      "name": "郭凯亮",
-      "wechatName": "尝5068",
-      "registeredAt": "2026-05-20 00:00:00",
-      "phone": "1899584480"
-    },
-    {
-      "id": "U0047",
-      "name": "何德天",
-      "wechatName": "小2852",
-      "registeredAt": "2026-05-23 00:00:00",
-      "phone": "1880100648"
-    },
-    {
-      "id": "U0048",
-      "name": "袁俊浩",
-      "wechatName": "厨神7619",
-      "registeredAt": "2026-04-05 00:00:00",
-      "phone": "1575875231"
-    },
-    {
-      "id": "U0049",
-      "name": "毛国锋",
-      "wechatName": "尝国锋",
-      "registeredAt": "2026-05-31 00:00:00",
-      "phone": "1738426228"
-    },
-    {
-      "id": "U0050",
+  },
+  "users": {
+    "1934729173": {
       "name": "刘志超",
-      "wechatName": "美1194",
-      "registeredAt": "2026-04-11 00:00:00",
-      "phone": "1934729173"
+      "wechatName": "",
+      "registeredAt": "2026-06-08 22:00:00"
     },
-    {
-      "id": "U0051",
-      "name": "江天辉",
-      "wechatName": "小吃货1747",
-      "registeredAt": "2026-06-02 00:00:00",
-      "phone": "1599948669"
-    },
-    {
-      "id": "U0052",
-      "name": "黄龙超",
-      "wechatName": "深夜食堂龙超",
-      "registeredAt": "2026-05-02 00:00:00",
-      "phone": "1981619866"
-    },
-    {
-      "id": "U0053",
-      "name": "龙耀启",
-      "wechatName": "尝6992",
-      "registeredAt": "2026-04-21 00:00:00",
-      "phone": "1830877767"
-    },
-    {
-      "id": "U0054",
-      "name": "蔡盛超",
-      "wechatName": "香飘8541",
-      "registeredAt": "2026-05-31 00:00:00",
-      "phone": "1766226946"
-    },
-    {
-      "id": "U0055",
-      "name": "冯宇飞",
-      "wechatName": "厨神宇飞",
-      "registeredAt": "2026-06-11 00:00:00",
-      "phone": "1559350337"
-    },
-    {
-      "id": "U0056",
-      "name": "周辉天",
-      "wechatName": "美食猎人8891",
-      "registeredAt": "2026-06-23 00:00:00",
-      "phone": "1563738184"
-    },
-    {
-      "id": "U0057",
-      "name": "武明盛",
-      "wechatName": "小明盛",
-      "registeredAt": "2026-05-16 00:00:00",
-      "phone": "1759786578"
-    },
-    {
-      "id": "U0058",
-      "name": "施健良",
-      "wechatName": "尝鲜健良",
-      "registeredAt": "2026-05-06 00:00:00",
-      "phone": "1813737153"
-    },
-    {
-      "id": "U0059",
-      "name": "常瑞德",
-      "wechatName": "馋嘴7658",
-      "registeredAt": "2026-04-12 00:00:00",
-      "phone": "1913745585"
-    },
-    {
-      "id": "U0060",
-      "name": "秦嘉华",
-      "wechatName": "卤味控嘉华",
-      "registeredAt": "2026-05-02 00:00:00",
-      "phone": "1516526258"
-    },
-    {
-      "id": "U0061",
-      "name": "叶俊晨",
-      "wechatName": "厨神5530",
-      "registeredAt": "2026-05-13 00:00:00",
-      "phone": "1763513320"
-    },
-    {
-      "id": "U0062",
-      "name": "廖明昌",
-      "wechatName": "味蕾明昌",
-      "registeredAt": "2026-06-22 00:00:00",
-      "phone": "1313505135"
-    },
-    {
-      "id": "U0063",
-      "name": "张盛辉",
-      "wechatName": "舌尖2069",
-      "registeredAt": "2026-06-16 00:00:00",
-      "phone": "1937861999"
-    },
-    {
-      "id": "U0064",
-      "name": "程宁志",
-      "wechatName": "馋嘴9927",
-      "registeredAt": "2026-06-16 00:00:00",
-      "phone": "1549277184"
-    },
-    {
-      "id": "U0065",
-      "name": "刘义亮",
-      "wechatName": "小6499",
-      "registeredAt": "2026-06-05 00:00:00",
-      "phone": "1385497823"
-    },
-    {
-      "id": "U0066",
-      "name": "武宁亮",
-      "wechatName": "深夜食堂9273",
-      "registeredAt": "2026-05-17 00:00:00",
-      "phone": "1964707118"
-    },
-    {
-      "id": "U0067",
-      "name": "邱良飞",
-      "wechatName": "小吃货6883",
-      "registeredAt": "2026-06-17 00:00:00",
-      "phone": "1856853229"
-    },
-    {
-      "id": "U0068",
-      "name": "汪安启",
-      "wechatName": "香4426",
-      "registeredAt": "2026-04-23 00:00:00",
-      "phone": "1869813685"
-    },
-    {
-      "id": "U0069",
-      "name": "彭博超",
-      "wechatName": "卤味控4570",
-      "registeredAt": "2026-05-30 00:00:00",
-      "phone": "1882720953"
-    },
-    {
-      "id": "U0070",
-      "name": "刘鹏龙",
-      "wechatName": "知味鹏龙",
-      "registeredAt": "2026-05-28 00:00:00",
-      "phone": "1745552681"
-    },
-    {
-      "id": "U0071",
-      "name": "李宏涛",
-      "wechatName": "卤味控3955",
-      "registeredAt": "2026-04-29 00:00:00",
-      "phone": "1940880092"
-    },
-    {
-      "id": "U0072",
-      "name": "贺鹏宇",
-      "wechatName": "美食家鹏宇",
-      "registeredAt": "2026-05-10 00:00:00",
-      "phone": "1549704670"
-    },
-    {
-      "id": "U0073",
-      "name": "熊宏文",
-      "wechatName": "真9018",
-      "registeredAt": "2026-04-02 00:00:00",
-      "phone": "1844602342"
-    },
-    {
-      "id": "U0074",
-      "name": "萧华启",
-      "wechatName": "品味华启",
-      "registeredAt": "2026-04-23 00:00:00",
-      "phone": "1534454571"
-    },
-    {
-      "id": "U0075",
-      "name": "潘凯哲",
-      "wechatName": "香凯哲",
-      "registeredAt": "2026-06-18 00:00:00",
-      "phone": "1547472756"
-    },
-    {
-      "id": "U0076",
-      "name": "谢阳强",
-      "wechatName": "吃遍天下阳强",
-      "registeredAt": "2026-06-24 00:00:00",
-      "phone": "1947306891"
-    },
-    {
-      "id": "U0077",
-      "name": "牛鹏军",
-      "wechatName": "小吃货鹏军",
-      "registeredAt": "2026-04-30 00:00:00",
-      "phone": "1853402016"
-    },
-    {
-      "id": "U0078",
-      "name": "程尚阳",
-      "wechatName": "深夜食堂1071",
-      "registeredAt": "2026-06-21 00:00:00",
-      "phone": "1990187829"
-    },
-    {
-      "id": "U0079",
-      "name": "罗晖铭",
-      "wechatName": "家常味1396",
-      "registeredAt": "2026-06-15 00:00:00",
-      "phone": "1963469776"
-    },
-    {
-      "id": "U0080",
-      "name": "沈飞宇",
-      "wechatName": "家常味9643",
-      "registeredAt": "2026-05-22 00:00:00",
-      "phone": "1989198688"
-    },
-    {
-      "id": "U0081",
-      "name": "钱伟盛",
-      "wechatName": "寻味伟盛",
-      "registeredAt": "2026-06-20 00:00:00",
-      "phone": "1540384780"
-    },
-    {
-      "id": "U0082",
-      "name": "吴平强",
-      "wechatName": "老7382",
-      "registeredAt": "2026-05-01 00:00:00",
-      "phone": "1714479246"
-    },
-    {
-      "id": "U0083",
-      "name": "康晨义",
-      "wechatName": "好1167",
-      "registeredAt": "2026-05-28 00:00:00",
-      "phone": "1994424164"
-    },
-    {
-      "id": "U0084",
-      "name": "胡云海",
-      "wechatName": "老饕4353",
-      "registeredAt": "2026-06-21 00:00:00",
-      "phone": "1331603986"
-    },
-    {
-      "id": "U0085",
-      "name": "施耀铭",
-      "wechatName": "满桌香耀铭",
-      "registeredAt": "2026-04-03 00:00:00",
-      "phone": "1799759444"
-    },
-    {
-      "id": "U0086",
-      "name": "邱云博",
-      "wechatName": "绝1318",
-      "registeredAt": "2026-05-06 00:00:00",
-      "phone": "1787510213"
-    },
-    {
-      "id": "U0087",
-      "name": "孙海忠",
-      "wechatName": "美食家4416",
-      "registeredAt": "2026-06-08 00:00:00",
-      "phone": "1876824545"
-    },
-    {
-      "id": "U0088",
-      "name": "宋启浩",
-      "wechatName": "品1495",
-      "registeredAt": "2026-05-09 00:00:00",
-      "phone": "1751271330"
-    },
-    {
-      "id": "U0089",
-      "name": "吕辉义",
-      "wechatName": "品4723",
-      "registeredAt": "2026-05-10 00:00:00",
-      "phone": "1914845121"
-    },
-    {
-      "id": "U0090",
-      "name": "苏浩龙",
-      "wechatName": "深夜食堂6623",
-      "registeredAt": "2026-06-30 00:00:00",
-      "phone": "1969777016"
-    },
-    {
-      "id": "U0091",
-      "name": "唐宏志",
-      "wechatName": "品7243",
-      "registeredAt": "2026-06-04 00:00:00",
-      "phone": "1780314646"
-    },
-    {
-      "id": "U0092",
-      "name": "戴朝义",
-      "wechatName": "品朝义",
-      "registeredAt": "2026-04-11 00:00:00",
-      "phone": "1940359449"
-    },
-    {
-      "id": "U0093",
-      "name": "熊文嘉",
-      "wechatName": "老文嘉",
-      "registeredAt": "2026-06-16 00:00:00",
-      "phone": "1825352273"
-    },
-    {
-      "id": "U0094",
-      "name": "贺晨元",
-      "wechatName": "香飘6808",
-      "registeredAt": "2026-05-01 00:00:00",
-      "phone": "1568336959"
-    },
-    {
-      "id": "U0095",
-      "name": "唐正凯",
-      "wechatName": "尝2237",
-      "registeredAt": "2026-05-26 00:00:00",
-      "phone": "1853931844"
-    },
-    {
-      "id": "U0096",
-      "name": "王晨启",
-      "wechatName": "家常味9617",
-      "registeredAt": "2026-04-07 00:00:00",
-      "phone": "1829831678"
-    },
-    {
-      "id": "U0097",
-      "name": "姚勇飞",
-      "wechatName": "小7461",
-      "registeredAt": "2026-06-06 00:00:00",
-      "phone": "1583727439"
-    },
-    {
-      "id": "U0098",
-      "name": "庄辉明",
-      "wechatName": "厨神7750",
-      "registeredAt": "2026-05-13 00:00:00",
-      "phone": "1894349273"
-    },
-    {
-      "id": "U0099",
-      "name": "陈强元",
-      "wechatName": "美食猎人1645",
-      "registeredAt": "2026-05-05 00:00:00",
-      "phone": "1377848611"
-    },
-    {
-      "id": "U0100",
-      "name": "严军天",
-      "wechatName": "老饕1226",
-      "registeredAt": "2026-05-28 00:00:00",
-      "phone": "1789751293"
-    },
-    {
-      "id": "U0101",
-      "name": "徐庆飞",
-      "wechatName": "小5189",
-      "registeredAt": "2026-04-29 00:00:00",
-      "phone": "1914212140"
-    },
-    {
-      "id": "U0102",
-      "name": "郝瑞锋",
-      "wechatName": "尝鲜1481",
-      "registeredAt": "2026-06-18 00:00:00",
-      "phone": "1366372598"
-    },
-    {
-      "id": "U0103",
-      "name": "董忠华",
-      "wechatName": "吃货5315",
-      "registeredAt": "2026-05-24 00:00:00",
-      "phone": "1757805628"
-    },
-    {
-      "id": "U0104",
-      "name": "曾宏天",
-      "wechatName": "知味宏天",
-      "registeredAt": "2026-04-13 00:00:00",
-      "phone": "1889494573"
-    },
-    {
-      "id": "U0105",
-      "name": "薛军海",
-      "wechatName": "好4162",
-      "registeredAt": "2026-04-06 00:00:00",
-      "phone": "1369571296"
-    },
-    {
-      "id": "U0106",
-      "name": "邹平国",
-      "wechatName": "绝5662",
-      "registeredAt": "2026-05-23 00:00:00",
-      "phone": "1898509768"
-    },
-    {
-      "id": "U0107",
-      "name": "董德安",
-      "wechatName": "美德安",
-      "registeredAt": "2026-04-18 00:00:00",
-      "phone": "1783584799"
-    },
-    {
-      "id": "U0108",
-      "name": "于明家",
-      "wechatName": "大明家",
-      "registeredAt": "2026-04-04 00:00:00",
-      "phone": "1387913846"
-    },
-    {
-      "id": "U0109",
-      "name": "庄晖海",
-      "wechatName": "卤味达人3589",
-      "registeredAt": "2026-04-12 00:00:00",
-      "phone": "1796324090"
-    },
-    {
-      "id": "U0110",
-      "name": "马忠宁",
-      "wechatName": "吃货5062",
-      "registeredAt": "2026-06-26 00:00:00",
-      "phone": "1956315321"
-    },
-    {
-      "id": "U0111",
-      "name": "于博昌",
-      "wechatName": "老博昌",
-      "registeredAt": "2026-04-22 00:00:00",
-      "phone": "1777922144"
-    },
-    {
-      "id": "U0112",
-      "name": "梁浩阳",
-      "wechatName": "满桌香5550",
-      "registeredAt": "2026-05-02 00:00:00",
-      "phone": "1328469696"
-    },
-    {
-      "id": "U0113",
-      "name": "严瑞德",
-      "wechatName": "阿1480",
-      "registeredAt": "2026-06-29 00:00:00",
-      "phone": "1778302468"
-    },
-    {
-      "id": "U0114",
-      "name": "丁瑞昌",
-      "wechatName": "味道9578",
-      "registeredAt": "2026-04-10 00:00:00",
-      "phone": "1723483070"
-    },
-    {
-      "id": "U0115",
-      "name": "刘盛嘉",
-      "wechatName": "厨神盛嘉",
-      "registeredAt": "2026-06-22 00:00:00",
-      "phone": "1899595193"
-    },
-    {
-      "id": "U0116",
-      "name": "傅华杰",
-      "wechatName": "吃货610",
-      "registeredAt": "2026-04-28 00:00:00",
-      "phone": "1322484678"
-    },
-    {
-      "id": "U0117",
-      "name": "高锋晨",
-      "wechatName": "阿8851",
-      "registeredAt": "2026-06-11 00:00:00",
-      "phone": "1893262272"
-    },
-    {
-      "id": "U0118",
-      "name": "龙辉毅",
-      "wechatName": "吃货辉毅",
-      "registeredAt": "2026-05-05 00:00:00",
-      "phone": "1556262797"
-    },
-    {
-      "id": "U0119",
-      "name": "丁云智",
-      "wechatName": "卤味达人993",
-      "registeredAt": "2026-06-06 00:00:00",
-      "phone": "1368250194"
-    },
-    {
-      "id": "U0120",
-      "name": "许良宁",
-      "wechatName": "美食家829",
-      "registeredAt": "2026-05-30 00:00:00",
-      "phone": "1582436218"
-    },
-    {
-      "id": "U0121",
-      "name": "洪龙峰",
-      "wechatName": "寻味3818",
-      "registeredAt": "2026-06-12 00:00:00",
-      "phone": "1910554228"
-    },
-    {
-      "id": "U0122",
-      "name": "何云俊",
-      "wechatName": "知味1802",
-      "registeredAt": "2026-06-27 00:00:00",
-      "phone": "1511686940"
-    },
-    {
-      "id": "U0123",
-      "name": "侯博华",
-      "wechatName": "知味博华",
-      "registeredAt": "2026-05-08 00:00:00",
-      "phone": "1924204170"
-    },
-    {
-      "id": "U0124",
-      "name": "崔宁志",
-      "wechatName": "尝宁志",
-      "registeredAt": "2026-04-27 00:00:00",
-      "phone": "1588171094"
-    },
-    {
-      "id": "U0125",
-      "name": "谭阳晨",
-      "wechatName": "美食家997",
-      "registeredAt": "2026-05-10 00:00:00",
-      "phone": "1897276872"
-    },
-    {
-      "id": "U0126",
-      "name": "贺正宇",
-      "wechatName": "馋猫1324",
-      "registeredAt": "2026-06-12 00:00:00",
-      "phone": "1326550589"
-    },
-    {
-      "id": "U0127",
+    "1768928287": {
       "name": "孔启嘉",
-      "wechatName": "厨神6241",
-      "registeredAt": "2026-04-24 00:00:00",
-      "phone": "1768928287"
+      "wechatName": "",
+      "registeredAt": "2026-06-06 13:00:00"
     },
-    {
-      "id": "U0128",
-      "name": "汪伟义",
-      "wechatName": "深夜食堂9034",
-      "registeredAt": "2026-06-03 00:00:00",
-      "phone": "1867474362"
+    "1593992863": {
+      "name": "刘国峰",
+      "wechatName": "",
+      "registeredAt": "2026-06-19 10:00:00"
     },
-    {
-      "id": "U0129",
-      "name": "魏耀晨",
-      "wechatName": "大6816",
-      "registeredAt": "2026-05-21 00:00:00",
-      "phone": "1850517657"
+    "1368250194": {
+      "name": "丁云智",
+      "wechatName": "",
+      "registeredAt": "2026-06-04 16:00:00"
     },
-    {
-      "id": "U0130",
-      "name": "罗瑞阳",
-      "wechatName": "馋猫1495",
-      "registeredAt": "2026-06-19 00:00:00",
-      "phone": "1822710526"
-    },
-    {
-      "id": "U0131",
-      "name": "孟永哲",
-      "wechatName": "美食猎人2003",
-      "registeredAt": "2026-04-06 00:00:00",
-      "phone": "1816571286"
-    },
-    {
-      "id": "U0132",
-      "name": "余勇军",
-      "wechatName": "尝勇军",
-      "registeredAt": "2026-04-30 00:00:00",
-      "phone": "1523673681"
-    },
-    {
-      "id": "U0133",
-      "name": "丁华盛",
-      "wechatName": "香飘华盛",
-      "registeredAt": "2026-05-07 00:00:00",
-      "phone": "1989143087"
-    },
-    {
-      "id": "U0134",
-      "name": "毛家义",
-      "wechatName": "香飘家义",
-      "registeredAt": "2026-04-02 00:00:00",
-      "phone": "1753675110"
-    },
-    {
-      "id": "U0135",
-      "name": "宋尚辉",
-      "wechatName": "大尚辉",
-      "registeredAt": "2026-04-10 00:00:00",
-      "phone": "1321969137"
-    },
-    {
-      "id": "U0136",
-      "name": "沈辉晨",
-      "wechatName": "美食猎人2579",
-      "registeredAt": "2026-05-20 00:00:00",
-      "phone": "1986239116"
-    },
-    {
-      "id": "U0137",
-      "name": "罗平盛",
-      "wechatName": "味蕾平盛",
-      "registeredAt": "2026-04-07 00:00:00",
-      "phone": "1872824263"
-    },
-    {
-      "id": "U0138",
-      "name": "彭俊盛",
-      "wechatName": "尝1865",
-      "registeredAt": "2026-06-16 00:00:00",
-      "phone": "1796897277"
-    },
-    {
-      "id": "U0139",
-      "name": "常阳明",
-      "wechatName": "尝鲜6476",
-      "registeredAt": "2026-06-23 00:00:00",
-      "phone": "1336593837"
-    },
-    {
-      "id": "U0140",
-      "name": "龚强盛",
-      "wechatName": "味道4743",
-      "registeredAt": "2026-06-30 00:00:00",
-      "phone": "1865387826"
-    },
-    {
-      "id": "U0141",
-      "name": "沈云云",
-      "wechatName": "尝鲜8197",
-      "registeredAt": "2026-04-06 00:00:00",
-      "phone": "1719750515"
-    },
-    {
-      "id": "U0142",
-      "name": "汪明晨",
-      "wechatName": "馋猫5130",
-      "registeredAt": "2026-04-18 00:00:00",
-      "phone": "1891784347"
-    },
-    {
-      "id": "U0143",
-      "name": "胡杰华",
-      "wechatName": "厨神2816",
-      "registeredAt": "2026-04-12 00:00:00",
-      "phone": "1898692821"
-    },
-    {
-      "id": "U0144",
+    "1360608353": {
       "name": "汪庆军",
-      "wechatName": "舌尖7139",
-      "registeredAt": "2026-04-24 00:00:00",
-      "phone": "1360608353"
+      "wechatName": "",
+      "registeredAt": "2026-06-13 05:00:00"
     },
-    {
-      "id": "U0145",
-      "name": "邓超庆",
-      "wechatName": "馋嘴1252",
-      "registeredAt": "2026-06-16 00:00:00",
-      "phone": "1975417654"
+    "1947306891": {
+      "name": "谢阳强",
+      "wechatName": "",
+      "registeredAt": "2026-06-14 12:00:00"
     },
-    {
-      "id": "U0146",
-      "name": "蒋凯智",
-      "wechatName": "老饕凯智",
-      "registeredAt": "2026-05-29 00:00:00",
-      "phone": "1532350493"
+    "1853402016": {
+      "name": "牛鹏军",
+      "wechatName": "",
+      "registeredAt": "2026-06-21 07:00:00"
     },
-    {
-      "id": "U0147",
-      "name": "吴安庆",
-      "wechatName": "品7602",
-      "registeredAt": "2026-04-17 00:00:00",
-      "phone": "1897629590"
+    "1724580865": {
+      "name": "程龙强",
+      "wechatName": "",
+      "registeredAt": "2026-06-19 23:00:00"
     },
-    {
-      "id": "U0148",
-      "name": "苏军宇",
-      "wechatName": "馋猫7683",
-      "registeredAt": "2026-05-23 00:00:00",
-      "phone": "1785192055"
+    "1910631072": {
+      "name": "邱昌涛",
+      "wechatName": "",
+      "registeredAt": "2026-06-23 21:00:00"
     },
-    {
-      "id": "U0149",
+    "1583727439": {
+      "name": "姚勇飞",
+      "wechatName": "",
+      "registeredAt": "2026-06-04 13:00:00"
+    },
+    "1989143087": {
+      "name": "丁华盛",
+      "wechatName": "",
+      "registeredAt": "2026-06-04 06:00:00"
+    },
+    "1887937924": {
+      "name": "蔡志军",
+      "wechatName": "",
+      "registeredAt": "2026-06-11 13:00:00"
+    },
+    "1316985611": {
+      "name": "潘涛超",
+      "wechatName": "",
+      "registeredAt": "2026-06-24 12:00:00"
+    },
+    "1591529130": {
+      "name": "黄国宁",
+      "wechatName": "",
+      "registeredAt": "2026-06-27 12:00:00"
+    },
+    "1787533315": {
+      "name": "许盛飞",
+      "wechatName": "",
+      "registeredAt": "2026-06-07 10:00:00"
+    },
+    "1726671818": {
+      "name": "李涛健",
+      "wechatName": "",
+      "registeredAt": "2026-06-30 18:00:00"
+    },
+    "1321969137": {
+      "name": "宋尚辉",
+      "wechatName": "",
+      "registeredAt": "2026-06-29 08:00:00"
+    },
+    "1719247988": {
       "name": "邱建亮",
-      "wechatName": "好建亮",
-      "registeredAt": "2026-05-14 00:00:00",
-      "phone": "1719247988"
+      "wechatName": "",
+      "registeredAt": "2026-06-26 20:00:00"
     },
-    {
-      "id": "U0150",
-      "name": "雷亮安",
-      "wechatName": "好9509",
-      "registeredAt": "2026-06-25 00:00:00",
-      "phone": "1883408451"
+    "1540384780": {
+      "name": "钱伟盛",
+      "wechatName": "",
+      "registeredAt": "2026-06-27 10:00:00"
     },
-    {
-      "id": "U0151",
-      "name": "白斌元",
-      "wechatName": "老饕1014",
-      "registeredAt": "2026-05-18 00:00:00",
-      "phone": "1374382715"
+    "1865387826": {
+      "name": "龚强盛",
+      "wechatName": "",
+      "registeredAt": "2026-06-03 01:00:00"
     },
-    {
-      "id": "U0152",
-      "name": "曾哲宇",
-      "wechatName": "绝8587",
-      "registeredAt": "2026-06-10 00:00:00",
-      "phone": "1757563459"
+    "1320896218": {
+      "name": "张华志",
+      "wechatName": "",
+      "registeredAt": "2026-06-17 02:00:00"
     },
-    {
-      "id": "U0153",
+    "1738426228": {
+      "name": "毛国锋",
+      "wechatName": "",
+      "registeredAt": "2026-06-11 06:00:00"
+    },
+    "1377848611": {
+      "name": "陈强元",
+      "wechatName": "",
+      "registeredAt": "2026-06-28 13:00:00"
+    },
+    "1996733346": {
       "name": "傅宁飞",
-      "wechatName": "味蕾宁飞",
-      "registeredAt": "2026-06-18 00:00:00",
-      "phone": "1996733346"
+      "wechatName": "",
+      "registeredAt": "2026-06-09 02:00:00"
     },
-    {
-      "id": "U0154",
-      "name": "程凯家",
-      "wechatName": "老饕凯家",
-      "registeredAt": "2026-04-07 00:00:00",
-      "phone": "1554608293"
+    "1899584480": {
+      "name": "郭凯亮",
+      "wechatName": "",
+      "registeredAt": "2026-06-04 09:00:00"
     },
-    {
-      "id": "U0155",
-      "name": "武嘉德",
-      "wechatName": "吃遍天下9750",
-      "registeredAt": "2026-06-20 00:00:00",
-      "phone": "1781717192"
+    "1719942340": {
+      "name": "吴哲宁",
+      "wechatName": "",
+      "registeredAt": "2026-06-18 00:00:00"
     },
-    {
-      "id": "U0156",
-      "name": "吕耀杰",
-      "wechatName": "香1532",
-      "registeredAt": "2026-05-07 00:00:00",
-      "phone": "1956129856"
+    "1777922144": {
+      "name": "于博昌",
+      "wechatName": "",
+      "registeredAt": "2026-06-14 02:00:00"
     },
-    {
-      "id": "U0157",
-      "name": "余安峰",
-      "wechatName": "美食猎人安峰",
-      "registeredAt": "2026-06-13 00:00:00",
-      "phone": "1519584622"
+    "1322484678": {
+      "name": "傅华杰",
+      "wechatName": "",
+      "registeredAt": "2026-06-20 07:00:00"
     },
-    {
-      "id": "U0158",
-      "name": "邱宁良",
-      "wechatName": "香619",
-      "registeredAt": "2026-04-12 00:00:00",
-      "phone": "1586717229"
+    "1759786578": {
+      "name": "武明盛",
+      "wechatName": "",
+      "registeredAt": "2026-06-10 08:00:00"
     },
-    {
-      "id": "U0159",
-      "name": "郑安义",
-      "wechatName": "馋嘴安义",
-      "registeredAt": "2026-05-15 00:00:00",
-      "phone": "1566566867"
+    "1893262272": {
+      "name": "高锋晨",
+      "wechatName": "",
+      "registeredAt": "2026-06-24 22:00:00"
     },
-    {
-      "id": "U0160",
-      "name": "萧云超",
-      "wechatName": "家常味7685",
-      "registeredAt": "2026-06-06 00:00:00",
-      "phone": "1796821869"
-    },
-    {
-      "id": "U0161",
-      "name": "龚晨庆",
-      "wechatName": "小8240",
-      "registeredAt": "2026-06-10 00:00:00",
-      "phone": "1587326742"
-    },
-    {
-      "id": "U0162",
-      "name": "黄良阳",
-      "wechatName": "阿9086",
-      "registeredAt": "2026-04-25 00:00:00",
-      "phone": "1346237430"
-    },
-    {
-      "id": "U0163",
-      "name": "彭飞元",
-      "wechatName": "老饕飞元",
-      "registeredAt": "2026-06-02 00:00:00",
-      "phone": "1854143663"
-    },
-    {
-      "id": "U0164",
-      "name": "黄杰元",
-      "wechatName": "阿3863",
-      "registeredAt": "2026-06-20 00:00:00",
-      "phone": "1738146150"
-    },
-    {
-      "id": "U0165",
-      "name": "马家云",
-      "wechatName": "美食猎人家云",
-      "registeredAt": "2026-05-25 00:00:00",
-      "phone": "1899327370"
-    },
-    {
-      "id": "U0166",
+    "1987964764": {
       "name": "崔盛强",
-      "wechatName": "卤味控盛强",
-      "registeredAt": "2026-06-11 00:00:00",
-      "phone": "1987964764"
+      "wechatName": "",
+      "registeredAt": "2026-06-10 00:00:00"
     },
-    {
-      "id": "U0167",
+    "1787510213": {
+      "name": "邱云博",
+      "wechatName": "",
+      "registeredAt": "2026-06-27 04:00:00"
+    },
+    "1913745585": {
+      "name": "常瑞德",
+      "wechatName": "",
+      "registeredAt": "2026-06-17 06:00:00"
+    },
+    "1869813685": {
+      "name": "汪安启",
+      "wechatName": "",
+      "registeredAt": "2026-06-27 04:00:00"
+    },
+    "1547472756": {
+      "name": "潘凯哲",
+      "wechatName": "",
+      "registeredAt": "2026-06-16 01:00:00"
+    },
+    "1387380378": {
+      "name": "杜平志",
+      "wechatName": "",
+      "registeredAt": "2026-06-17 11:00:00"
+    },
+    "1882720953": {
+      "name": "彭博超",
+      "wechatName": "",
+      "registeredAt": "2026-06-25 15:00:00"
+    },
+    "1899595193": {
+      "name": "刘盛嘉",
+      "wechatName": "",
+      "registeredAt": "2026-06-22 20:00:00"
+    },
+    "1387913846": {
+      "name": "于明家",
+      "wechatName": "",
+      "registeredAt": "2026-06-02 11:00:00"
+    },
+    "1854143663": {
+      "name": "彭飞元",
+      "wechatName": "",
+      "registeredAt": "2026-06-23 15:00:00"
+    },
+    "1549277184": {
+      "name": "程宁志",
+      "wechatName": "",
+      "registeredAt": "2026-06-13 22:00:00"
+    },
+    "1990187829": {
+      "name": "程尚阳",
+      "wechatName": "",
+      "registeredAt": "2026-06-06 20:00:00"
+    },
+    "1535854154": {
+      "name": "郑智义",
+      "wechatName": "",
+      "registeredAt": "2026-06-30 13:00:00"
+    },
+    "1585460810": {
+      "name": "郭天海",
+      "wechatName": "",
+      "registeredAt": "2026-06-04 18:00:00"
+    },
+    "1313505135": {
+      "name": "廖明昌",
+      "wechatName": "",
+      "registeredAt": "2026-06-04 09:00:00"
+    },
+    "1763513320": {
+      "name": "叶俊晨",
+      "wechatName": "",
+      "registeredAt": "2026-06-16 20:00:00"
+    },
+    "1789614394": {
+      "name": "严健昌",
+      "wechatName": "",
+      "registeredAt": "2026-06-02 15:00:00"
+    },
+    "1566566867": {
+      "name": "郑安义",
+      "wechatName": "",
+      "registeredAt": "2026-06-26 18:00:00"
+    },
+    "1825352273": {
+      "name": "熊文嘉",
+      "wechatName": "",
+      "registeredAt": "2026-06-19 21:00:00"
+    },
+    "1568336959": {
+      "name": "贺晨元",
+      "wechatName": "",
+      "registeredAt": "2026-06-26 09:00:00"
+    },
+    "1813737153": {
+      "name": "施健良",
+      "wechatName": "",
+      "registeredAt": "2026-06-27 06:00:00"
+    },
+    "1973248916": {
+      "name": "卢忠哲",
+      "wechatName": "",
+      "registeredAt": "2026-06-02 23:00:00"
+    },
+    "1816571286": {
+      "name": "孟永哲",
+      "wechatName": "",
+      "registeredAt": "2026-06-29 17:00:00"
+    },
+    "1579159057": {
+      "name": "钱飞嘉",
+      "wechatName": "",
+      "registeredAt": "2026-06-08 23:00:00"
+    },
+    "1796324090": {
+      "name": "庄晖海",
+      "wechatName": "",
+      "registeredAt": "2026-06-17 23:00:00"
+    },
+    "1745213745": {
+      "name": "余耀海",
+      "wechatName": "",
+      "registeredAt": "2026-06-02 00:00:00"
+    },
+    "1914845121": {
+      "name": "吕辉义",
+      "wechatName": "",
+      "registeredAt": "2026-06-10 00:00:00"
+    },
+    "1745552681": {
+      "name": "刘鹏龙",
+      "wechatName": "",
+      "registeredAt": "2026-06-08 23:00:00"
+    },
+    "1723483070": {
+      "name": "丁瑞昌",
+      "wechatName": "",
+      "registeredAt": "2026-06-19 14:00:00"
+    },
+    "1886866877": {
+      "name": "胡军宁",
+      "wechatName": "",
+      "registeredAt": "2026-06-24 07:00:00"
+    },
+    "1956129856": {
+      "name": "吕耀杰",
+      "wechatName": "",
+      "registeredAt": "2026-06-22 15:00:00"
+    },
+    "1766226946": {
+      "name": "蔡盛超",
+      "wechatName": "",
+      "registeredAt": "2026-06-18 22:00:00"
+    },
+    "1355444197": {
+      "name": "薛龙辉",
+      "wechatName": "",
+      "registeredAt": "2026-06-10 03:00:00"
+    },
+    "1816261217": {
+      "name": "傅德军",
+      "wechatName": "",
+      "registeredAt": "2026-06-13 21:00:00"
+    },
+    "1993966611": {
+      "name": "曾毅锋",
+      "wechatName": "",
+      "registeredAt": "2026-06-08 14:00:00"
+    },
+    "1963469776": {
+      "name": "罗晖铭",
+      "wechatName": "",
+      "registeredAt": "2026-06-07 00:00:00"
+    },
+    "1328469696": {
+      "name": "梁浩阳",
+      "wechatName": "",
+      "registeredAt": "2026-06-08 12:00:00"
+    },
+    "1994424164": {
+      "name": "康晨义",
+      "wechatName": "",
+      "registeredAt": "2026-06-16 22:00:00"
+    },
+    "1940359449": {
+      "name": "戴朝义",
+      "wechatName": "",
+      "registeredAt": "2026-06-22 01:00:00"
+    },
+    "1789751293": {
+      "name": "严军天",
+      "wechatName": "",
+      "registeredAt": "2026-06-27 10:00:00"
+    },
+    "1714479246": {
+      "name": "吴平强",
+      "wechatName": "",
+      "registeredAt": "2026-06-03 04:00:00"
+    },
+    "1853931844": {
+      "name": "唐正凯",
+      "wechatName": "",
+      "registeredAt": "2026-06-23 04:00:00"
+    },
+    "1376982197": {
+      "name": "姜忠铭",
+      "wechatName": "",
+      "registeredAt": "2026-06-24 21:00:00"
+    },
+    "1363956550": {
+      "name": "冯杰勇",
+      "wechatName": "",
+      "registeredAt": "2026-06-26 12:00:00"
+    },
+    "1326550589": {
+      "name": "贺正宇",
+      "wechatName": "",
+      "registeredAt": "2026-06-10 01:00:00"
+    },
+    "1753675110": {
+      "name": "毛家义",
+      "wechatName": "",
+      "registeredAt": "2026-06-17 00:00:00"
+    },
+    "1549704670": {
+      "name": "贺鹏宇",
+      "wechatName": "",
+      "registeredAt": "2026-06-09 21:00:00"
+    },
+    "1899327370": {
+      "name": "马家云",
+      "wechatName": "",
+      "registeredAt": "2026-06-24 08:00:00"
+    },
+    "1518211396": {
+      "name": "姚亮瑞",
+      "wechatName": "",
+      "registeredAt": "2026-06-18 05:00:00"
+    },
+    "1994897329": {
+      "name": "沈文安",
+      "wechatName": "",
+      "registeredAt": "2026-06-19 20:00:00"
+    },
+    "1898692821": {
+      "name": "胡杰华",
+      "wechatName": "",
+      "registeredAt": "2026-06-01 06:00:00"
+    },
+    "1921791214": {
+      "name": "孔华华",
+      "wechatName": "",
+      "registeredAt": "2026-06-03 14:00:00"
+    },
+    "1587326742": {
+      "name": "龚晨庆",
+      "wechatName": "",
+      "registeredAt": "2026-06-28 06:00:00"
+    },
+    "1523673681": {
+      "name": "余勇军",
+      "wechatName": "",
+      "registeredAt": "2026-06-28 05:00:00"
+    },
+    "1950448393": {
+      "name": "萧耀明",
+      "wechatName": "",
+      "registeredAt": "2026-06-01 10:00:00"
+    },
+    "1516526258": {
+      "name": "秦嘉华",
+      "wechatName": "",
+      "registeredAt": "2026-06-14 23:00:00"
+    },
+    "1799759444": {
+      "name": "施耀铭",
+      "wechatName": "",
+      "registeredAt": "2026-06-24 12:00:00"
+    },
+    "1796897277": {
+      "name": "彭俊盛",
+      "wechatName": "",
+      "registeredAt": "2026-06-22 23:00:00"
+    },
+    "1575875231": {
+      "name": "袁俊浩",
+      "wechatName": "",
+      "registeredAt": "2026-06-17 23:00:00"
+    },
+    "1853555229": {
+      "name": "邓飞哲",
+      "wechatName": "",
+      "registeredAt": "2026-06-12 02:00:00"
+    },
+    "1940880092": {
+      "name": "李宏涛",
+      "wechatName": "",
+      "registeredAt": "2026-06-06 13:00:00"
+    },
+    "1829831678": {
+      "name": "王晨启",
+      "wechatName": "",
+      "registeredAt": "2026-06-19 16:00:00"
+    },
+    "1785192055": {
+      "name": "苏军宇",
+      "wechatName": "",
+      "registeredAt": "2026-06-04 14:00:00"
+    },
+    "1366372598": {
+      "name": "郝瑞锋",
+      "wechatName": "",
+      "registeredAt": "2026-06-14 10:00:00"
+    },
+    "1895506544": {
+      "name": "谢朝天",
+      "wechatName": "",
+      "registeredAt": "2026-06-08 14:00:00"
+    },
+    "1519584622": {
+      "name": "余安峰",
+      "wechatName": "",
+      "registeredAt": "2026-06-21 03:00:00"
+    },
+    "1914212140": {
+      "name": "徐庆飞",
+      "wechatName": "",
+      "registeredAt": "2026-06-22 09:00:00"
+    },
+    "1563738184": {
+      "name": "周辉天",
+      "wechatName": "",
+      "registeredAt": "2026-06-28 22:00:00"
+    },
+    "1751271330": {
+      "name": "宋启浩",
+      "wechatName": "",
+      "registeredAt": "2026-06-14 15:00:00"
+    },
+    "1599948669": {
+      "name": "江天辉",
+      "wechatName": "",
+      "registeredAt": "2026-06-24 10:00:00"
+    },
+    "1774900442": {
+      "name": "罗宇锋",
+      "wechatName": "",
+      "registeredAt": "2026-06-14 00:00:00"
+    },
+    "1534454571": {
+      "name": "萧华启",
+      "wechatName": "",
+      "registeredAt": "2026-06-09 15:00:00"
+    },
+    "1924204170": {
+      "name": "侯博华",
+      "wechatName": "",
+      "registeredAt": "2026-06-20 22:00:00"
+    },
+    "1586717229": {
+      "name": "邱宁良",
+      "wechatName": "",
+      "registeredAt": "2026-06-10 16:00:00"
+    },
+    "1783584799": {
+      "name": "董德安",
+      "wechatName": "",
+      "registeredAt": "2026-06-23 00:00:00"
+    },
+    "1346237430": {
+      "name": "黄良阳",
+      "wechatName": "",
+      "registeredAt": "2026-06-09 11:00:00"
+    },
+    "1889494573": {
+      "name": "曾宏天",
+      "wechatName": "",
+      "registeredAt": "2026-06-20 20:00:00"
+    },
+    "1910554228": {
+      "name": "洪龙峰",
+      "wechatName": "",
+      "registeredAt": "2026-06-29 01:00:00"
+    },
+    "1554608293": {
+      "name": "程凯家",
+      "wechatName": "",
+      "registeredAt": "2026-06-29 05:00:00"
+    },
+    "1898509768": {
+      "name": "邹平国",
+      "wechatName": "",
+      "registeredAt": "2026-06-25 23:00:00"
+    },
+    "1336593837": {
+      "name": "常阳明",
+      "wechatName": "",
+      "registeredAt": "2026-06-06 05:00:00"
+    },
+    "1374382715": {
+      "name": "白斌元",
+      "wechatName": "",
+      "registeredAt": "2026-06-25 08:00:00"
+    },
+    "1543964587": {
+      "name": "洪云庆",
+      "wechatName": "",
+      "registeredAt": "2026-06-03 11:00:00"
+    },
+    "1780314646": {
+      "name": "唐宏志",
+      "wechatName": "",
+      "registeredAt": "2026-06-16 10:00:00"
+    },
+    "1891848918": {
       "name": "胡宁锋",
-      "wechatName": "舌尖宁锋",
-      "registeredAt": "2026-05-31 00:00:00",
-      "phone": "1891848918"
+      "wechatName": "",
+      "registeredAt": "2026-06-25 12:00:00"
     },
-    {
-      "id": "U0168",
+    "1937861999": {
+      "name": "张盛辉",
+      "wechatName": "",
+      "registeredAt": "2026-06-28 18:00:00"
+    },
+    "1369571296": {
+      "name": "薛军海",
+      "wechatName": "",
+      "registeredAt": "2026-06-17 08:00:00"
+    },
+    "1956315321": {
+      "name": "马忠宁",
+      "wechatName": "",
+      "registeredAt": "2026-06-08 23:00:00"
+    },
+    "1738146150": {
+      "name": "黄杰元",
+      "wechatName": "",
+      "registeredAt": "2026-06-07 03:00:00"
+    },
+    "1872824263": {
+      "name": "罗平盛",
+      "wechatName": "",
+      "registeredAt": "2026-06-30 14:00:00"
+    },
+    "1757563459": {
+      "name": "曾哲宇",
+      "wechatName": "",
+      "registeredAt": "2026-06-23 09:00:00"
+    },
+    "1781717192": {
+      "name": "武嘉德",
+      "wechatName": "",
+      "registeredAt": "2026-06-15 05:00:00"
+    },
+    "1856853229": {
+      "name": "邱良飞",
+      "wechatName": "",
+      "registeredAt": "2026-06-25 23:00:00"
+    },
+    "1390588991": {
+      "name": "郑涛强",
+      "wechatName": "",
+      "registeredAt": "2026-06-17 06:00:00"
+    },
+    "1764102588": {
       "name": "胡家博",
-      "wechatName": "美食家8444",
-      "registeredAt": "2026-06-12 00:00:00",
-      "phone": "1764102588"
+      "wechatName": "",
+      "registeredAt": "2026-06-04 18:00:00"
+    },
+    "1719750515": {
+      "name": "沈云云",
+      "wechatName": "",
+      "registeredAt": "2026-06-06 23:00:00"
+    },
+    "1331603986": {
+      "name": "胡云海",
+      "wechatName": "",
+      "registeredAt": "2026-06-28 07:00:00"
+    },
+    "1768618019": {
+      "name": "蔡俊家",
+      "wechatName": "",
+      "registeredAt": "2026-06-23 01:00:00"
+    },
+    "1532350493": {
+      "name": "蒋凯智",
+      "wechatName": "",
+      "registeredAt": "2026-06-24 12:00:00"
+    },
+    "1970498170": {
+      "name": "潘嘉博",
+      "wechatName": "",
+      "registeredAt": "2026-06-11 05:00:00"
+    },
+    "1850517657": {
+      "name": "魏耀晨",
+      "wechatName": "",
+      "registeredAt": "2026-06-19 17:00:00"
+    },
+    "1969777016": {
+      "name": "苏浩龙",
+      "wechatName": "",
+      "registeredAt": "2026-06-13 04:00:00"
+    },
+    "1559350337": {
+      "name": "冯宇飞",
+      "wechatName": "",
+      "registeredAt": "2026-06-25 04:00:00"
+    },
+    "1385497823": {
+      "name": "刘义亮",
+      "wechatName": "",
+      "registeredAt": "2026-06-11 19:00:00"
+    },
+    "1894349273": {
+      "name": "庄辉明",
+      "wechatName": "",
+      "registeredAt": "2026-06-12 18:00:00"
+    },
+    "1561196031": {
+      "name": "孙义盛",
+      "wechatName": "",
+      "registeredAt": "2026-06-25 05:00:00"
+    },
+    "16866886688": {
+      "name": "张大姐",
+      "wechatName": "阿花🌸",
+      "registeredAt": "2026-06-01T10:00:00"
     }
-  ],
+  },
   "categories": [
     "牛羊肉",
     "卤货",
