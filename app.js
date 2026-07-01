@@ -1302,7 +1302,7 @@ function renderAnalysisOrderTrend(orders) {
 
   const html = `<div class="analysis-card visible">
     <div class="analysis-card-title">📈 每日订单趋势（近7天）</div>
-    <canvas id="${canvasId}" width="340" height="280" style="display:block;margin:0 auto;width:100%;max-width:340px;height:auto;aspect-ratio:340/280;"></canvas>
+    <canvas id="${canvasId}" width="300" height="260" style="display:block;margin:0 auto;width:100%;max-width:300px;height:auto;aspect-ratio:300/260;"></canvas>
   </div>`;
 
   setTimeout(() => {
@@ -1316,8 +1316,8 @@ function renderAnalysisOrderTrend(orders) {
     const ctx = canvas.getContext('2d');
     ctx.scale(dpr, dpr);
 
-    const W = 340, H = 280;
-    const pad = { top: 30, right: 20, bottom: 50, left: 48 };
+    const W = 300, H = 260;
+    const pad = { top: 26, right: 16, bottom: 46, left: 44 };
     const chartW = W - pad.left - pad.right;
     const chartH = H - pad.top - pad.bottom;
 
@@ -1592,20 +1592,20 @@ function renderAnalysisPointsRank() {
   const canvasId = 'canvasPointsRank';
   const html = `<div class="analysis-card visible">
     <div class="analysis-card-title">⭐ 用户积分排行 Top 10</div>
-    <canvas id="${canvasId}" width="340" height="320" style="display:block;margin:0 auto;width:100%;max-width:340px;height:auto;aspect-ratio:340/320;"></canvas>
+    <canvas id="${canvasId}" width="300" height="280" style="display:block;margin:0 auto;width:100%;max-width:300px;height:auto;aspect-ratio:300/280;"></canvas>
   </div>`;
 
   setTimeout(() => {
     const canvas = document.getElementById(canvasId);
     if (!canvas) return;
     const dpr = window.devicePixelRatio || 1;
-    canvas.width = 340 * dpr;
-    canvas.height = 320 * dpr;
+    canvas.width = 300 * dpr;
+    canvas.height = 280 * dpr;
     const ctx = canvas.getContext('2d');
     ctx.scale(dpr, dpr);
 
-    const W = 340, H = 320;
-    const pad = { top: 8, right: 16, bottom: 8, left: 16 };
+    const W = 300, H = 280;
+    const pad = { top: 8, right: 8, bottom: 8, left: 10 };
     const chartW = W - pad.left - pad.right;
     const rowH = Math.min(26, (H - pad.top - pad.bottom) / pointsRanking.length);
     const barMaxW = chartW - 80; // reserve space for rank + name + value
