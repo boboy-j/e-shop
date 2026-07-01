@@ -1292,37 +1292,175 @@ function renderAnalysisOrderTrend(orders) {
     const dayLabel = `${d.getMonth()+1}/${d.getDate()}`;
     const dayOrders = orders.filter(o => o.createdAt && o.createdAt.startsWith(dayStr));
     const dayRevenue = dayOrders.filter(o => o.status === '已支付' || o.status === '已完成').reduce((s, o) => s + (o.actualPay || o.total || 0), 0);
-    days.push({ label: dayLabel, count: dayOrders.length, revenue: dayRevenue });
+    const dayCount = dayOrders.length;
+    days.push({ label: dayLabel, count: dayCount, revenue: dayRevenue });
   }
-  const maxDayCount = Math.max(...days.map(d => d.count), 1);
-  const maxDayRevenue = Math.max(...days.map(d => d.revenue), 1);
-  return `<div class="analysis-card visible">
+  const maxCount = Math.max(...days.map(d => d.count), 1);
+  const maxRevenue = Math.max(...days.map(d => d.revenue), 1);
+
+  const canvasId = 'lineChartOrderTrend';
+
+  const html = `<div class="analysis-card visible">
     <div class="analysis-card-title">📈 每日订单趋势（近7天）</div>
-    <div style="font-size:13px;color:var(--text-secondary);margin-bottom:8px;">📦 订单数</div>
-    <div class="bar-chart bar-chart-horizontal">
-      ${days.map(d => `
-        <div class="bar-item">
-          <div class="bar-label" style="min-width:44px;">${d.label}</div>
-          <div class="bar-track">
-            <div class="bar-fill" style="width:${(d.count / maxDayCount * 100).toFixed(1)}%;background:var(--blue);"></div>
-          </div>
-          <div class="bar-value">${d.count}单</div>
-        </div>
-      `).join('')}
-    </div>
-    <div style="font-size:13px;color:var(--text-secondary);margin:12px 0 8px;">💰 收入</div>
-    <div class="bar-chart bar-chart-horizontal">
-      ${days.map(d => `
-        <div class="bar-item">
-          <div class="bar-label" style="min-width:44px;">${d.label}</div>
-          <div class="bar-track">
-            <div class="bar-fill" style="width:${(d.revenue / maxDayRevenue * 100).toFixed(1)}%;background:var(--green);"></div>
-          </div>
-          <div class="bar-value">${fmtMoney(d.revenue)}</div>
-        </div>
-      `).join('')}
-    </div>
+    <canvas id="${canvasId}" width="340" height="280" style="display:block;margin:0 auto;width:100%;max-width:340px;height:auto;aspect-ratio:340/280;"></canvas>
   </div>`;
+
+  setTimeout(() => {
+    const canvas = document.getElementById(canvasId);
+    if (!canvas) return;
+    const rect = canvas.getBoundingClientRect();
+    // For HiDPI
+    const dpr = window.devicePixelRatio || 1;
+    canvas.width = 340 * dpr;
+    canvas.height = 280 * dpr;
+    const ctx = canvas.getContext('2d');
+    ctx.scale(dpr, dpr);
+
+    const W = 340, H = 280;
+    const pad = { top: 30, right: 20, bottom: 50, left: 48 };
+    const chartW = W - pad.left - pad.right;
+    const chartH = H - pad.top - pad.bottom;
+
+    const drawGrid = () => {
+      ctx.strokeStyle = '#E5E5EA';
+      ctx.lineWidth = 0.5;
+      ctx.setLineDash([3, 3]);
+      for (let i = 0; i <= 4; i++) {
+        const y = pad.top + (chartH / 4) * i;
+        ctx.beginPath();
+        ctx.moveTo(pad.left, y);
+        ctx.lineTo(W - pad.right, y);
+        ctx.stroke();
+      }
+      ctx.setLineDash([]);
+    };
+
+    const drawLine = (data, maxVal, color, label) => {
+      const points = data.map((d, i) => ({
+        x: pad.left + (chartW / (data.length - 1 || 1)) * i,
+        y: pad.top + chartH - (d / maxVal) * chartH * 0.85 - chartH * 0.075
+      }));
+
+      // Fill area
+      ctx.beginPath();
+      ctx.moveTo(points[0].x, pad.top + chartH);
+      points.forEach(p => ctx.lineTo(p.x, p.y));
+      ctx.lineTo(points[points.length - 1].x, pad.top + chartH);
+      ctx.closePath();
+      const grad = ctx.createLinearGradient(0, pad.top, 0, pad.top + chartH);
+      grad.addColorStop(0, color + '40');
+      grad.addColorStop(1, color + '05');
+      ctx.fillStyle = grad;
+      ctx.fill();
+
+      // Line
+      ctx.beginPath();
+      points.forEach((p, i) => i === 0 ? ctx.moveTo(p.x, p.y) : ctx.lineTo(p.x, p.y));
+      ctx.strokeStyle = color;
+      ctx.lineWidth = 2.5;
+      ctx.lineJoin = 'round';
+      ctx.stroke();
+
+      // Dots
+      points.forEach(p => {
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, 4, 0, Math.PI * 2);
+        ctx.fillStyle = '#fff';
+        ctx.fill();
+        ctx.strokeStyle = color;
+        ctx.lineWidth = 2;
+        ctx.stroke();
+      });
+    };
+
+    const drawBar = (data, maxVal, color, label) => {
+      const barWidth = chartW / data.length * 0.25;
+      data.forEach((d, i) => {
+        const x = pad.left + (chartW / data.length) * i + (chartW / data.length - barWidth) / 2;
+        const bh = (d / maxVal) * chartH * 0.85;
+        const y = pad.top + chartH - bh - chartH * 0.075;
+
+        ctx.fillStyle = color;
+        ctx.beginPath();
+        ctx.roundRect(x, y, barWidth, bh, [3, 3, 0, 0]);
+        ctx.fill();
+      });
+    };
+
+    // Draw axes and labels
+    ctx.clearRect(0, 0, W, H);
+    ctx.fillStyle = '#F2F2F7';
+    ctx.fillRect(0, 0, W, H);
+
+    drawGrid();
+
+    // Draw bars for count (as background bars)
+    drawBar(days.map(d => d.count), maxCount, '#007AFF33', '订单数');
+
+    // Draw line for count
+    drawLine(days.map(d => d.count), maxCount, '#007AFF', '订单数');
+
+    // Draw bars for revenue
+    const barDataRevenue = days.map(d => d.revenue);
+    drawBar(barDataRevenue, maxRevenue, '#34C75933', '收入');
+
+    // Revenue line
+    drawLine(days.map(d => d.revenue), maxRevenue, '#34C759', '收入');
+
+    // X-axis labels
+    ctx.fillStyle = '#8E8E93';
+    ctx.font = '11px -apple-system, "PingFang SC", sans-serif';
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'top';
+    days.forEach((d, i) => {
+      const x = pad.left + (chartW / (days.length - 1 || 1)) * i;
+      ctx.fillText(d.label, x, H - pad.bottom + 8);
+    });
+
+    // Y-axis labels (count)
+    ctx.fillStyle = '#007AFF';
+    ctx.font = '10px -apple-system, "PingFang SC", sans-serif';
+    ctx.textAlign = 'right';
+    ctx.textBaseline = 'middle';
+    for (let i = 0; i <= 4; i++) {
+      const val = Math.round((maxCount / 4) * i);
+      const y = pad.top + (chartH / 4) * i;
+      ctx.fillText(val, pad.left - 8, y);
+    }
+
+    // Y-axis label (revenue) on right
+    ctx.fillStyle = '#34C759';
+    ctx.textAlign = 'left';
+    for (let i = 0; i <= 4; i++) {
+      const val = Math.round((maxRevenue / 4) * i);
+      const y = pad.top + (chartH / 4) * i;
+      ctx.fillText('¥' + val, W - pad.right + 8, y);
+    }
+
+    // Legend
+    ctx.font = '12px -apple-system, "PingFang SC", sans-serif';
+    const legendY = 12;
+    ctx.textBaseline = 'middle';
+
+    ctx.fillStyle = '#007AFF';
+    ctx.beginPath();
+    ctx.arc(pad.left + 8, legendY, 5, 0, Math.PI * 2);
+    ctx.fill();
+
+    ctx.fillStyle = '#000';
+    ctx.textAlign = 'left';
+    ctx.fillText('订单数', pad.left + 18, legendY);
+
+    ctx.fillStyle = '#34C759';
+    ctx.beginPath();
+    ctx.arc(pad.left + 90, legendY, 5, 0, Math.PI * 2);
+    ctx.fill();
+
+    ctx.fillStyle = '#000';
+    ctx.fillText('收入', pad.left + 100, legendY);
+  }, 50);
+
+  return html;
 }
 
 /* ===== 支付方式 ===== */
@@ -1449,23 +1587,89 @@ function renderAnalysisPointsRank() {
   if (pointsRanking.length === 0) {
     return '<div class="analysis-card visible"><div class="analysis-card-title">⭐ 用户积分排行 Top 10</div><div style="text-align:center;padding:20px;color:var(--text-secondary);font-size:13px;">暂无积分数据</div></div>';
   }
-  return `<div class="analysis-card visible">
+
+  const colors = ['#FF3B30', '#FF9500', '#007AFF', '#5856D6', '#5856D6', '#5856D6', '#5856D6', '#5856D6', '#5856D6', '#5856D6'];
+  const canvasId = 'canvasPointsRank';
+  const html = `<div class="analysis-card visible">
     <div class="analysis-card-title">⭐ 用户积分排行 Top 10</div>
-    <div class="bar-chart">
-      ${pointsRanking.map(([phone, pt], i) => {
-        const u = appData.users[phone] || {};
-        return `
-        <div class="bar-item">
-          <div class="bar-rank rank-${Math.min(i + 1, 4)}">${i + 1}</div>
-          <div class="bar-label" style="flex:0.6;">${u.name || phone.slice(0, 7)}</div>
-          <div class="bar-track">
-            <div class="bar-fill" style="width:${(pt.balance / maxPoints * 100).toFixed(1)}%;background:${i === 0 ? '#FF3B30' : i === 1 ? '#FF9500' : i === 2 ? '#007AFF' : '#5856D6'};"></div>
-          </div>
-          <div class="bar-value">${pt.balance}分</div>
-        </div>`;
-      }).join('')}
-    </div>
+    <canvas id="${canvasId}" width="340" height="320" style="display:block;margin:0 auto;width:100%;max-width:340px;height:auto;aspect-ratio:340/320;"></canvas>
   </div>`;
+
+  setTimeout(() => {
+    const canvas = document.getElementById(canvasId);
+    if (!canvas) return;
+    const dpr = window.devicePixelRatio || 1;
+    canvas.width = 340 * dpr;
+    canvas.height = 320 * dpr;
+    const ctx = canvas.getContext('2d');
+    ctx.scale(dpr, dpr);
+
+    const W = 340, H = 320;
+    const pad = { top: 8, right: 16, bottom: 8, left: 16 };
+    const chartW = W - pad.left - pad.right;
+    const rowH = Math.min(26, (H - pad.top - pad.bottom) / pointsRanking.length);
+    const barMaxW = chartW - 80; // reserve space for rank + name + value
+
+    ctx.clearRect(0, 0, W, H);
+    ctx.fillStyle = '#F2F2F7';
+    ctx.fillRect(0, 0, W, H);
+
+    pointsRanking.forEach(([phone, pt], i) => {
+      const y = pad.top + i * rowH + (rowH - 20) / 2;
+      const u = appData.users[phone] || {};
+      const name = u.name || phone.slice(0, 7);
+      const barW = (pt.balance / maxPoints) * barMaxW;
+      const color = colors[i];
+
+      // Rank number
+      ctx.fillStyle = color;
+      ctx.font = 'bold 13px -apple-system, "PingFang SC", sans-serif';
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      ctx.fillText(i + 1, pad.left + 14, y + 10);
+
+      // Name
+      ctx.fillStyle = '#000';
+      ctx.font = '12px -apple-system, "PingFang SC", sans-serif';
+      ctx.textAlign = 'left';
+      ctx.textBaseline = 'middle';
+      const nameMaxW = 70;
+      let displayName = name;
+      if (ctx.measureText(name).width > nameMaxW) {
+        while (ctx.measureText(displayName + '…').width > nameMaxW && displayName.length > 1) {
+          displayName = displayName.slice(0, -1);
+        }
+        displayName += '…';
+      }
+      ctx.fillText(displayName, pad.left + 28, y + 10);
+
+      // Bar background
+      ctx.fillStyle = '#E5E5EA';
+      ctx.beginPath();
+      ctx.roundRect(pad.left + 100, y + 2, barMaxW, 16, [8, 8, 8, 8]);
+      ctx.fill();
+
+      // Bar fill
+      if (barW > 0) {
+        const grad = ctx.createLinearGradient(pad.left + 100, 0, pad.left + 100 + barMaxW, 0);
+        grad.addColorStop(0, color + 'CC');
+        grad.addColorStop(1, color + '88');
+        ctx.fillStyle = grad;
+        ctx.beginPath();
+        ctx.roundRect(pad.left + 100, y + 2, barW, 16, [8, 8, 8, 8]);
+        ctx.fill();
+      }
+
+      // Points value
+      ctx.fillStyle = color;
+      ctx.font = 'bold 12px -apple-system, "PingFang SC", sans-serif';
+      ctx.textAlign = 'right';
+      ctx.textBaseline = 'middle';
+      ctx.fillText(pt.balance + '分', pad.left + 100 + barMaxW + 8, y + 10);
+    });
+  }, 50);
+
+  return html;
 }
 
 function collectAllUsers() {
